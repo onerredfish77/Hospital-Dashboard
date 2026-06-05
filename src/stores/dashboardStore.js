@@ -87,6 +87,7 @@ export const useDashboardStore = defineStore('dashboard', () => {
           unit: u.unitName,
           severity: 'error',
           message: `${u.unitName} occupancy at ${u.occupancyPercent}% — critical`,
+          cta: { label: 'View on Map', tab: 'map' },
         })
       }
     })
@@ -96,6 +97,7 @@ export const useDashboardStore = defineStore('dashboard', () => {
         unit: 'Hospital-Wide',
         severity: 'error',
         message: `EVS turnaround averaging ${ancillaryEvs.value.summary.avgTurnaroundMins} min vs ${ancillaryEvs.value.summary.target} min target`,
+        cta: { label: 'View EVS', tab: 'ancillary' },
       })
     }
     if (ancillaryRadiology.value.summary.status === 'red') {
@@ -104,6 +106,7 @@ export const useDashboardStore = defineStore('dashboard', () => {
         unit: 'Hospital-Wide',
         severity: 'error',
         message: `Radiology read time averaging ${ancillaryRadiology.value.summary.avgReadTimeMins} min vs ${ancillaryRadiology.value.summary.target} min target`,
+        cta: { label: 'View Radiology', tab: 'ancillary' },
       })
     }
     if (ancillaryLab.value.summary.status === 'red') {
@@ -112,6 +115,7 @@ export const useDashboardStore = defineStore('dashboard', () => {
         unit: 'Hospital-Wide',
         severity: 'error',
         message: `Lab turnaround averaging ${ancillaryLab.value.summary.avgTurnaroundMins} min — exceeds target`,
+        cta: { label: 'View Lab', tab: 'ancillary' },
       })
     }
     staffing.value.forEach((s) => {
@@ -121,6 +125,7 @@ export const useDashboardStore = defineStore('dashboard', () => {
           unit: s.unitName,
           severity: 'error',
           message: `${s.unitName} nurse ratio at ${s.nurseToPatientRatio.current} (target ${s.nurseToPatientRatio.target})`,
+          cta: { label: 'Assign float pool', tab: 'staffing' },
         })
       }
     })
@@ -130,6 +135,7 @@ export const useDashboardStore = defineStore('dashboard', () => {
         unit: 'Emergency Department',
         severity: 'error',
         message: `ED in surge — ${edVolume.value.current.patientsInED} patients in department`,
+        cta: { label: 'View ED detail', tab: 'overview' },
       })
     } else if (edVolume.value.current.surgeStatus === 'elevated') {
       alerts.push({
@@ -137,6 +143,7 @@ export const useDashboardStore = defineStore('dashboard', () => {
         unit: 'Emergency Department',
         severity: 'warning',
         message: `ED volume elevated — ${edVolume.value.current.patientsInED} patients`,
+        cta: { label: 'View ED detail', tab: 'overview' },
       })
     }
 
@@ -156,6 +163,7 @@ export const useDashboardStore = defineStore('dashboard', () => {
             severity: 'warning',
             type: 'forecast',
             message: `${u.unitName} projected to hit ${upcoming.predictedOccupancyPercent}% in +${upcoming.hoursFromNow}h`,
+            cta: { label: 'Open forecast', tab: 'forecast' },
           })
         }
       })

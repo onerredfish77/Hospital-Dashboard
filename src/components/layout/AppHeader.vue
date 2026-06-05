@@ -62,7 +62,7 @@ function toggleSidebar() {
       :color="occupancyColor"
       variant="elevated"
       :size="smAndUp ? 'default' : 'small'"
-      class="mr-2 font-weight-bold"
+      class="mr-2 font-weight-bold text-black"
       style="white-space: nowrap; flex: none;"
     >
       <v-icon start icon="mdi-bed" />

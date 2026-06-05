@@ -1,10 +1,11 @@
 <script setup>
-import { ref, watch } from 'vue'
+import { inject, ref, watch } from 'vue'
 
 const props = defineProps({
   alerts: { type: Array, default: () => [] },
 })
 
+const activeTab = inject('activeTab', null)
 const dismissed = ref(new Set())
 
 watch(
@@ -29,6 +30,11 @@ function visibleAlerts() {
     .map((a, idx) => ({ ...a, _key: keyOf(a, idx) }))
     .filter((a) => !dismissed.value.has(a._key))
 }
+
+function handleCta(alert) {
+  if (!alert.cta?.tab || !activeTab) return
+  activeTab.value = alert.cta.tab
+}
 </script>
 
 <template>
@@ -40,21 +46,33 @@ function visibleAlerts() {
       variant="tonal"
       density="compact"
       closable
-      class="mb-2"
+      class="mb-2 alert-with-cta"
       @click:close="dismiss(alert._key)"
     >
-      <div class="d-flex align-center">
-        <strong v-if="alert.source" class="mr-2">{{ alert.source }}:</strong>
+      <div class="d-flex align-center" style="gap: 8px;">
+        <strong v-if="alert.source">{{ alert.source }}:</strong>
         <span>{{ alert.message }}</span>
         <v-chip
           v-if="alert.unit && alert.unit !== 'Hospital-Wide'"
           size="x-small"
           variant="outlined"
-          class="ml-2"
         >
           {{ alert.unit }}
         </v-chip>
       </div>
+
+      <template v-if="alert.cta" #append>
+        <v-btn
+          size="small"
+          variant="tonal"
+          density="comfortable"
+          append-icon="mdi-arrow-right"
+          class="mr-2 alert-cta-btn"
+          @click="handleCta(alert)"
+        >
+          {{ alert.cta.label }}
+        </v-btn>
+      </template>
     </v-alert>
   </div>
 </template>
