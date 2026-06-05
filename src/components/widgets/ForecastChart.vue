@@ -79,7 +79,10 @@ const series = computed(() => {
 })
 
 const option = computed(() => ({
-  textStyle: { color: '#E3E8F2' },
+  textStyle: {
+    color: '#E3E8F2',
+    fontFamily: "'Google Sans', Roboto, 'Helvetica Neue', Arial, sans-serif",
+  },
   title: props.title
     ? { text: props.title, left: 'center', textStyle: { fontSize: 14, color: '#E3E8F2' } }
     : undefined,

@@ -32,7 +32,7 @@ export function ensureChartJs() {
   )
 
   ChartJS.defaults.color = '#E3E8F2'
-  ChartJS.defaults.font.family = 'Roboto, Helvetica Neue, Arial, sans-serif'
+  ChartJS.defaults.font.family = "'Google Sans', Roboto, 'Helvetica Neue', Arial, sans-serif"
   ChartJS.defaults.borderColor = 'rgba(255, 255, 255, 0.08)'
 
   ChartJS.defaults.plugins.tooltip.backgroundColor = '#1A2236'

@@ -29,7 +29,10 @@ const cells = computed(() => {
 })
 
 const option = computed(() => ({
-  textStyle: { color: '#E3E8F2' },
+  textStyle: {
+    color: '#E3E8F2',
+    fontFamily: "'Google Sans', Roboto, 'Helvetica Neue', Arial, sans-serif",
+  },
   tooltip: {
     position: 'top',
     backgroundColor: '#1A2236',

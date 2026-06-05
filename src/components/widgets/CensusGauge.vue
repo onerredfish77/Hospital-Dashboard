@@ -12,6 +12,9 @@ const props = defineProps({
 })
 
 const option = computed(() => ({
+  textStyle: {
+    fontFamily: "'Google Sans', Roboto, 'Helvetica Neue', Arial, sans-serif",
+  },
   series: [
     {
       type: 'gauge',

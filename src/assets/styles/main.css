@@ -11,9 +11,18 @@ body {
   padding: 0;
   background-color: var(--bg-app);
   color: #E3E8F2;
-  font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Google Sans', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.v-application,
+.v-application__wrap {
+  font-family: 'Google Sans', 'Roboto', 'Helvetica Neue', Arial, sans-serif !important;
+}
+
+.v-application *:not(.mdi):not(.v-icon):not([class*="mdi-"]):not(code):not(pre):not(kbd):not(samp) {
+  font-family: 'Google Sans', 'Roboto', 'Helvetica Neue', Arial, sans-serif !important;
 }
 
 #app {
