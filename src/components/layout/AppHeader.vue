@@ -37,7 +37,7 @@ const formattedDate = computed(() => format(clock.value, 'EEEE, MMM d'))
   <v-app-bar color="surface-variant" elevation="2" density="comfortable">
     <template #prepend>
       <div class="ml-2">
-        <div class="text-h6 font-weight-bold">Regional Medical Center</div>
+        <div class="text-h6 font-weight-bold text-grey-lighten-4">Regional Medical Center</div>
         <div class="text-caption text-grey-lighten-1">Operations Dashboard</div>
       </div>
     </template>
