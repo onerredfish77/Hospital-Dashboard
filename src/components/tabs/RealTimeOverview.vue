@@ -25,15 +25,15 @@ const admissionsDatasets = computed(() => [
   {
     label: 'Admissions',
     data: todayHours.value.map((h) => h.admissions),
-    borderColor: '#1565C0',
-    backgroundColor: 'rgba(21, 101, 192, 0.15)',
+    borderColor: '#42A5F5',
+    backgroundColor: 'rgba(66, 165, 245, 0.20)',
     fill: true,
   },
   {
     label: 'Discharges',
     data: todayHours.value.map((h) => h.discharges),
-    borderColor: '#2E7D32',
-    backgroundColor: 'rgba(46, 125, 50, 0.15)',
+    borderColor: '#66BB6A',
+    backgroundColor: 'rgba(102, 187, 106, 0.20)',
     fill: true,
   },
 ])

@@ -34,11 +34,11 @@ const formattedDate = computed(() => format(clock.value, 'EEEE, MMM d'))
 </script>
 
 <template>
-  <v-app-bar color="primary" elevation="2" density="comfortable">
+  <v-app-bar color="surface-variant" elevation="2" density="comfortable">
     <template #prepend>
       <div class="ml-2">
         <div class="text-h6 font-weight-bold">Regional Medical Center</div>
-        <div class="text-caption text-grey-lighten-2">Operations Dashboard</div>
+        <div class="text-caption text-grey-lighten-1">Operations Dashboard</div>
       </div>
     </template>
 
@@ -60,7 +60,7 @@ const formattedDate = computed(() => format(clock.value, 'EEEE, MMM d'))
     <template #append>
       <RoleSwitcher class="mr-3" />
 
-      <div class="d-flex flex-column align-end mr-3 text-grey-lighten-3">
+      <div class="d-flex flex-column align-end mr-3 text-grey-lighten-2">
         <span class="text-body-2 font-weight-medium">{{ formattedTime }}</span>
         <span class="text-caption">{{ formattedDate }}</span>
       </div>

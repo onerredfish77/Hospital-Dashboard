@@ -63,8 +63,8 @@ const tooltip = computed(() => {
   animation: rag-pulse 1.4s infinite;
 }
 @keyframes rag-pulse {
-  0% { box-shadow: 0 0 0 0 rgba(198, 40, 40, 0.65); }
-  70% { box-shadow: 0 0 0 8px rgba(198, 40, 40, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(198, 40, 40, 0); }
+  0% { box-shadow: 0 0 0 0 rgba(239, 83, 80, 0.65); }
+  70% { box-shadow: 0 0 0 8px rgba(239, 83, 80, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(239, 83, 80, 0); }
 }
 </style>

@@ -24,9 +24,9 @@ const option = computed(() => ({
         lineStyle: {
           width: 10,
           color: [
-            [0.8, '#2E7D32'],
-            [0.9, '#F57F17'],
-            [1, '#C62828'],
+            [0.8, '#66BB6A'],
+            [0.9, '#FFB74D'],
+            [1, '#EF5350'],
           ],
         },
       },
@@ -42,7 +42,7 @@ const option = computed(() => ({
         fontSize: 22,
         fontWeight: 600,
         formatter: '{value}%',
-        color: 'auto',
+        color: '#E3E8F2',
       },
       data: [{ value: Math.round(props.occupancyPercent) }],
     },

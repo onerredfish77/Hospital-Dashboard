@@ -238,9 +238,9 @@ function rowClass(item) {
 
 <style scoped>
 :deep(.row-red) {
-  background-color: rgba(198, 40, 40, 0.08);
+  background-color: rgba(239, 83, 80, 0.12);
 }
 :deep(.row-amber) {
-  background-color: rgba(245, 127, 23, 0.08);
+  background-color: rgba(255, 183, 77, 0.12);
 }
 </style>

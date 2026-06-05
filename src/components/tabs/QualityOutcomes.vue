@@ -31,12 +31,12 @@ const hcahpsBarData = computed(() => ({
     {
       label: 'Score',
       data: store.patientSatisfaction.byDomain.map((d) => d.score),
-      backgroundColor: '#1565C0',
+      backgroundColor: '#42A5F5',
     },
     {
       label: 'Benchmark',
       data: store.patientSatisfaction.byDomain.map((d) => d.benchmark),
-      backgroundColor: 'rgba(0,0,0,0.15)',
+      backgroundColor: 'rgba(255,255,255,0.18)',
     },
   ],
 }))
@@ -63,17 +63,19 @@ const radarData = computed(() => ({
         store.workforceHealth.summary.engagementScore,
         72,
       ],
-      backgroundColor: 'rgba(21, 101, 192, 0.25)',
-      borderColor: '#1565C0',
+      backgroundColor: 'rgba(66, 165, 245, 0.30)',
+      borderColor: '#42A5F5',
       borderWidth: 2,
+      pointBackgroundColor: '#42A5F5',
     },
     {
       label: 'Target',
       data: [88, 85, 80, 80],
-      backgroundColor: 'rgba(46, 125, 50, 0.15)',
-      borderColor: '#2E7D32',
+      backgroundColor: 'rgba(102, 187, 106, 0.18)',
+      borderColor: '#66BB6A',
       borderWidth: 2,
       borderDash: [4, 4],
+      pointBackgroundColor: '#66BB6A',
     },
   ],
 }))
@@ -93,8 +95,8 @@ const readmissionTrendDatasets = computed(() => [
   {
     label: 'Readmission Rate',
     data: store.readmissions.trend.map((m) => Number((m.rate * 100).toFixed(1))),
-    borderColor: '#C62828',
-    backgroundColor: 'rgba(198, 40, 40, 0.15)',
+    borderColor: '#EF5350',
+    backgroundColor: 'rgba(239, 83, 80, 0.20)',
     fill: true,
   },
 ])

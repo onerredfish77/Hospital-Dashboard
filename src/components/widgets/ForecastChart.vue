@@ -21,16 +21,16 @@ const series = computed(() => {
         type: 'line',
         smooth: true,
         data: census,
-        lineStyle: { width: 3, color: '#1565C0' },
-        itemStyle: { color: '#1565C0' },
+        lineStyle: { width: 3, color: '#42A5F5' },
+        itemStyle: { color: '#42A5F5' },
         symbolSize: 4,
         areaStyle: {
           color: {
             type: 'linear',
             x: 0, y: 0, x2: 0, y2: 1,
             colorStops: [
-              { offset: 0, color: 'rgba(21, 101, 192, 0.35)' },
-              { offset: 1, color: 'rgba(21, 101, 192, 0.05)' },
+              { offset: 0, color: 'rgba(66, 165, 245, 0.45)' },
+              { offset: 1, color: 'rgba(66, 165, 245, 0.05)' },
             ],
           },
         },
@@ -54,7 +54,7 @@ const series = computed(() => {
       type: 'line',
       data: band,
       lineStyle: { opacity: 0 },
-      areaStyle: { color: 'rgba(21, 101, 192, 0.18)' },
+      areaStyle: { color: 'rgba(66, 165, 245, 0.22)' },
       stack: 'confidence',
       symbol: 'none',
       tooltip: { show: false },
@@ -64,13 +64,14 @@ const series = computed(() => {
       type: 'line',
       smooth: true,
       data: census,
-      lineStyle: { width: 3, color: '#1565C0' },
-      itemStyle: { color: '#1565C0' },
+      lineStyle: { width: 3, color: '#42A5F5' },
+      itemStyle: { color: '#42A5F5' },
       symbolSize: 4,
       markLine: {
         silent: true,
         symbol: 'none',
-        lineStyle: { color: '#C62828', type: 'dashed', width: 2 },
+        lineStyle: { color: '#EF5350', type: 'dashed', width: 2 },
+        label: { color: '#EF5350' },
         data: [{ yAxis: props.capacityThreshold, label: { formatter: 'Capacity threshold' } }],
       },
     },
@@ -78,23 +79,36 @@ const series = computed(() => {
 })
 
 const option = computed(() => ({
-  title: props.title ? { text: props.title, left: 'center', textStyle: { fontSize: 14 } } : undefined,
-  tooltip: { trigger: 'axis' },
+  textStyle: { color: '#E3E8F2' },
+  title: props.title
+    ? { text: props.title, left: 'center', textStyle: { fontSize: 14, color: '#E3E8F2' } }
+    : undefined,
+  tooltip: {
+    trigger: 'axis',
+    backgroundColor: '#1A2236',
+    borderColor: '#243049',
+    textStyle: { color: '#E3E8F2' },
+  },
   legend: {
     bottom: 0,
     data: ['Predicted Census'],
+    textStyle: { color: '#E3E8F2' },
   },
   grid: { left: 50, right: 30, top: 40, bottom: 50 },
   xAxis: {
     type: 'category',
     data: labels.value,
     boundaryGap: false,
-    axisLabel: { fontSize: 10, interval: 1 },
+    axisLabel: { fontSize: 10, interval: 1, color: '#E3E8F2' },
+    axisLine: { lineStyle: { color: 'rgba(255,255,255,0.18)' } },
   },
   yAxis: {
     type: 'value',
     name: 'Patients',
-    nameTextStyle: { fontSize: 11 },
+    nameTextStyle: { fontSize: 11, color: 'rgba(227,232,242,0.7)' },
+    axisLabel: { color: '#E3E8F2' },
+    axisLine: { lineStyle: { color: 'rgba(255,255,255,0.18)' } },
+    splitLine: { lineStyle: { color: 'rgba(255,255,255,0.08)' } },
   },
   series: series.value,
 }))

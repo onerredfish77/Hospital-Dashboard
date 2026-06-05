@@ -21,7 +21,7 @@ const props = defineProps({
 })
 
 const accent = computed(() =>
-  props.status === 'neutral' ? '#1565C0' : getRAGHex(props.status)
+  props.status === 'neutral' ? '#42A5F5' : getRAGHex(props.status)
 )
 
 const iconColor = computed(() =>

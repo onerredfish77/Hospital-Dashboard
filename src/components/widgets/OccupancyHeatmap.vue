@@ -29,8 +29,12 @@ const cells = computed(() => {
 })
 
 const option = computed(() => ({
+  textStyle: { color: '#E3E8F2' },
   tooltip: {
     position: 'top',
+    backgroundColor: '#1A2236',
+    borderColor: '#243049',
+    textStyle: { color: '#E3E8F2' },
     formatter: (params) => {
       const [x, y, val] = params.value
       return `${yLabels.value[y]} • ${xLabels[x]}<br/><strong>${val}% occupancy</strong>`
@@ -40,16 +44,24 @@ const option = computed(() => ({
   xAxis: {
     type: 'category',
     data: xLabels,
-    splitArea: { show: true },
+    splitArea: {
+      show: true,
+      areaStyle: { color: ['rgba(255,255,255,0.02)', 'rgba(255,255,255,0.05)'] },
+    },
     axisLine: { show: false },
     axisTick: { show: false },
+    axisLabel: { color: '#E3E8F2' },
   },
   yAxis: {
     type: 'category',
     data: yLabels.value,
-    splitArea: { show: true },
+    splitArea: {
+      show: true,
+      areaStyle: { color: ['rgba(255,255,255,0.02)', 'rgba(255,255,255,0.05)'] },
+    },
     axisLine: { show: false },
     axisTick: { show: false },
+    axisLabel: { color: '#E3E8F2' },
   },
   visualMap: {
     min: 50,
@@ -58,8 +70,9 @@ const option = computed(() => ({
     orient: 'horizontal',
     left: 'center',
     bottom: 0,
+    textStyle: { color: '#E3E8F2' },
     inRange: {
-      color: ['#A5D6A7', '#FFE082', '#EF9A9A'],
+      color: ['#1B5E20', '#FFB74D', '#EF5350'],
     },
     text: ['100%', '50%'],
   },
@@ -68,9 +81,15 @@ const option = computed(() => ({
       name: 'Occupancy',
       type: 'heatmap',
       data: cells.value,
-      label: { show: true, formatter: '{@[2]}%', fontSize: 11, fontWeight: 600 },
+      label: {
+        show: true,
+        formatter: '{@[2]}%',
+        fontSize: 11,
+        fontWeight: 600,
+        color: '#0F1626',
+      },
       emphasis: {
-        itemStyle: { shadowBlur: 10, shadowColor: 'rgba(0,0,0,0.3)' },
+        itemStyle: { shadowBlur: 10, shadowColor: 'rgba(0,0,0,0.6)' },
       },
     },
   ],

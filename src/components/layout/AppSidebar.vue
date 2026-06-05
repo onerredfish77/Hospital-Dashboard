@@ -59,7 +59,7 @@ function selectTab(id) {
       <v-icon icon="mdi-hospital-building" size="32" color="primary" class="mr-2" />
       <div>
         <div class="text-subtitle-1 font-weight-bold">PVM Dashboard</div>
-        <div class="text-caption text-grey-darken-1">Patient Volume Mgmt</div>
+        <div class="text-caption text-grey-lighten-1">Patient Volume Mgmt</div>
       </div>
     </div>
 
@@ -110,13 +110,13 @@ function selectTab(id) {
 }
 
 .rag-dot--red {
-  background-color: #C62828;
+  background-color: #EF5350;
   animation: dot-pulse 1.5s infinite;
 }
 
 @keyframes dot-pulse {
-  0% { box-shadow: 0 0 0 0 rgba(198, 40, 40, 0.7); }
-  70% { box-shadow: 0 0 0 6px rgba(198, 40, 40, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(198, 40, 40, 0); }
+  0% { box-shadow: 0 0 0 0 rgba(239, 83, 80, 0.7); }
+  70% { box-shadow: 0 0 0 6px rgba(239, 83, 80, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(239, 83, 80, 0); }
 }
 </style>

@@ -6,16 +6,19 @@ import * as directives from 'vuetify/directives'
 import { aliases, mdi } from 'vuetify/iconsets/mdi'
 
 const hospitalTheme = {
-  dark: false,
+  dark: true,
   colors: {
-    primary: '#1565C0',
-    secondary: '#00838F',
-    success: '#2E7D32',
-    warning: '#F57F17',
-    error: '#C62828',
-    info: '#0277BD',
-    background: '#F5F7FA',
-    surface: '#FFFFFF',
+    primary: '#42A5F5',
+    secondary: '#26C6DA',
+    success: '#66BB6A',
+    warning: '#FFB74D',
+    error: '#EF5350',
+    info: '#4FC3F7',
+    background: '#0F1626',
+    surface: '#1A2236',
+    'surface-variant': '#243049',
+    'on-surface': '#E3E8F2',
+    'on-background': '#E3E8F2',
   },
 }
 

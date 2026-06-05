@@ -45,9 +45,9 @@ const RAG_TO_VUETIFY = {
 }
 
 const RAG_TO_HEX = {
-  green: '#2E7D32',
-  amber: '#F57F17',
-  red: '#C62828',
+  green: '#66BB6A',
+  amber: '#FFB74D',
+  red: '#EF5350',
   neutral: '#9E9E9E',
 }
 

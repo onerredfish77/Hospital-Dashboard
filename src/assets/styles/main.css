@@ -1,8 +1,8 @@
 :root {
-  --bg-app: #F5F7FA;
-  --rag-green: #2E7D32;
-  --rag-amber: #F57F17;
-  --rag-red: #C62828;
+  --bg-app: #0F1626;
+  --rag-green: #66BB6A;
+  --rag-amber: #FFB74D;
+  --rag-red: #EF5350;
 }
 
 html,
@@ -10,6 +10,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--bg-app);
+  color: #E3E8F2;
   font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -21,12 +22,12 @@ body {
 
 .rag-green {
   background-color: var(--rag-green);
-  color: #FFFFFF;
+  color: #0F1626;
 }
 
 .rag-amber {
   background-color: var(--rag-amber);
-  color: #FFFFFF;
+  color: #0F1626;
 }
 
 .rag-red {
@@ -43,15 +44,16 @@ body {
   font-size: 1.75rem;
   font-weight: 600;
   line-height: 1.2;
+  color: rgba(255, 255, 255, 0.95);
 }
 
 .kpi-tile .kpi-title {
   font-size: 0.875rem;
   font-weight: 500;
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .kpi-tile .kpi-subtitle {
   font-size: 0.75rem;
-  color: rgba(0, 0, 0, 0.55);
+  color: rgba(255, 255, 255, 0.55);
 }

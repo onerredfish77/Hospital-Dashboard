@@ -25,22 +25,22 @@ function trendDatasetsFor(trendArr, valueKey, color) {
 
 const labLabels = computed(() => store.ancillaryLab.trend.map((d) => d.date.slice(5)))
 const labDatasets = computed(() =>
-  trendDatasetsFor(store.ancillaryLab.trend, 'avgTurnaroundMins', '#1565C0')
+  trendDatasetsFor(store.ancillaryLab.trend, 'avgTurnaroundMins', '#42A5F5')
 )
 
 const radLabels = computed(() => store.ancillaryRadiology.trend.map((d) => d.date.slice(5)))
 const radDatasets = computed(() =>
-  trendDatasetsFor(store.ancillaryRadiology.trend, 'avgReadTimeMins', '#00838F')
+  trendDatasetsFor(store.ancillaryRadiology.trend, 'avgReadTimeMins', '#26C6DA')
 )
 
 const pharmLabels = computed(() => store.ancillaryPharmacy.trend.map((d) => d.date.slice(5)))
 const pharmDatasets = computed(() =>
-  trendDatasetsFor(store.ancillaryPharmacy.trend, 'avgDispenseTimeMins', '#6A1B9A')
+  trendDatasetsFor(store.ancillaryPharmacy.trend, 'avgDispenseTimeMins', '#AB47BC')
 )
 
 const evsLabels = computed(() => store.ancillaryEvs.trend.map((d) => d.date.slice(5)))
 const evsDatasets = computed(() =>
-  trendDatasetsFor(store.ancillaryEvs.trend, 'avgTurnaroundMins', '#C62828')
+  trendDatasetsFor(store.ancillaryEvs.trend, 'avgTurnaroundMins', '#EF5350')
 )
 
 const dispositionChartData = computed(() => ({
@@ -48,7 +48,9 @@ const dispositionChartData = computed(() => ({
   datasets: [
     {
       data: store.dischargeDisposition.byDisposition.map((d) => d.count),
-      backgroundColor: ['#1565C0', '#00838F', '#F57F17', '#6A1B9A', '#2E7D32', '#C62828'],
+      backgroundColor: ['#42A5F5', '#26C6DA', '#FFB74D', '#AB47BC', '#66BB6A', '#EF5350'],
+      borderColor: '#1A2236',
+      borderWidth: 2,
     },
   ],
 }))

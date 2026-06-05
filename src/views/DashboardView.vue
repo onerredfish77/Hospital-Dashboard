@@ -65,6 +65,6 @@ onMounted(() => {
   position: sticky;
   top: 0;
   z-index: 4;
-  background-color: #F5F7FA;
+  background-color: #0F1626;
 }
 </style>

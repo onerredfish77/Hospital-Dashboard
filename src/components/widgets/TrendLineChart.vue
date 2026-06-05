@@ -33,7 +33,7 @@ const chartOptions = computed(() => ({
     },
     y: {
       beginAtZero: true,
-      grid: { color: 'rgba(0,0,0,0.05)' },
+      grid: { color: 'rgba(255,255,255,0.08)' },
       ticks: { font: { size: 11 } },
       min: props.yMin,
       max: props.yMax,
