@@ -393,4 +393,126 @@ patient-volume-dashboard/
 
 ---
 
+Sure! Here are two clean, complete, ready-to-paste sections — one for each file.
+
+---
+
+# 📋 PASTE INTO PROJECT BRIEF
+*Add everything below as a single block at the end of your existing Project Brief, before the closing italicized note.*
+
+---
+
+## 6b. Hospital Map Feature Detail
+
+The **Hospital Map** is a spatial, interactive visualization of the hospital's physical layout rendered as a schematic SVG diagram. It provides a bird's-eye view of capacity conditions across all units simultaneously, with the ability to project those conditions forward in time using a time slider.
+
+#### 🗺️ Map Rendering Approach
+The map is built as an **inline SVG within a Vue component**. Each hospital unit is represented as a labeled rectangular zone positioned to reflect a realistic schematic layout of the facility. The SVG is hand-authored using coordinates defined in `map_layout.json` — no external mapping libraries are required. The map operates in two layers:
+
+- **Layer 1 — Static Structure:** Corridors, unit boundary rectangles, room labels, floor labels, and navigation landmarks. These never change.
+- **Layer 2 — Reactive Heatmap Overlay:** The fill color of each unit zone is Vue-bound to a computed color function driven by occupancy data. As occupancy changes — either through the live simulator or the time slider — fill colors transition smoothly via CSS animation.
+
+#### ⏱️ Time Slider & Forecast Mode
+A **Vuetify `<v-slider>`** below the map header allows the user to scrub forward in time from **Now (0)** through **+72 hours** in 1-hour increments. As the slider moves:
+
+- The heatmap colors update to reflect **forecasted occupancy** from `forecast.json` hourly data
+- A timestamp label updates in real time showing the projected date and time being viewed
+- A visual **"NOW" marker** on the slider distinguishes current state from forecast state
+- Units trending toward capacity show progressively deeper red as the slider advances
+- A **Play/Pause button** auto-advances the slider hour by hour at 800ms intervals, creating a time-lapse animation of how capacity is expected to evolve
+
+#### 🎨 Color & Animation System
+Occupancy percentage is mapped to a **smooth color gradient** using linear interpolation across three color stops:
+
+| **Occupancy** | **Color** | **Meaning** |
+|---|---|---|
+| 0 – 79% | Green → Yellow-Green | Healthy capacity |
+| 80 – 89% | Amber | Approaching capacity |
+| 90 – 100% | Red | At or over capacity |
+
+Color transitions between states are animated via **CSS `transition: fill 0.6s ease`** on each SVG unit zone — no animation library required. The result is a fluid, professional heatmap that visually communicates urgency through color intensity.
+
+#### 💬 Unit Detail Panel
+Clicking any unit zone on the map opens a **side detail panel** (right 4/12 columns) showing:
+- Unit name, type, and current RAG status chip
+- Live or projected occupancy (beds occupied / total beds)
+- Nurse-to-patient ratio at the selected time
+- Pending discharges and pending admissions at the selected time
+- A **Vue-ECharts mini sparkline** showing the unit's occupancy trajectory across the full 72-hour forecast window
+- Alert indicators if the unit is projected to hit red status within the forecast window
+
+#### 🚨 Alert Pulse Indicators
+Units currently at red status display a **pulsing alert circle** overlaid on their zone in the SVG. This uses a CSS keyframe animation and is independent of the time slider — it always reflects the current live state, not the forecast state.
+
+#### ▶️ Play Mode
+A Play button auto-advances the time slider from the current position through 72 hours, allowing the user to watch the heatmap evolve as a time-lapse. The interval clears automatically at hour 72 or when the user clicks Pause.
+
+#### 🔁 Role Behavior
+- **All roles** see the full map
+- **Charge Nurse** role highlights their assigned unit with a blue selection border on load
+- **Director / CMO** roles see the map in full with no pre-selection
+
+---
+
+## Updated Section 6 — Dashboard Feature Summary
+
+| **Feature / Tab** | **Primary User** | **Data Refresh** | **Core Value** |
+|---|---|---|---|
+| Real-Time Operations Overview | Charge Nurse, Ops Lead | Simulated live refresh | Live situational awareness |
+| Capacity & Flow Forecast | Director, Bed Mgmt | Simulated hourly / 24–72 hr | Predictive planning |
+| Staffing & Resource Alignment | Nursing Supervisor, Director | Simulated per shift / daily | Safe staffing assurance |
+| Ancillary Services Performance | Ops Lead, Director | Simulated hourly / daily | Bottleneck identification |
+| Quality, Outcomes & Experience | Director, CMO | Simulated daily / weekly | Performance accountability |
+| 🗺️ Hospital Map | All roles | Simulated live + 72hr forecast | Spatial capacity awareness |
+
+---
+
+## Updated Section 7 — Additional Local Data Files
+
+Add these two rows to the existing Local Data Architecture table:
+
+| **Data Domain** | **Local File** | **Format** |
+|---|---|---|
+| Hospital map layout & SVG coordinates | `src/data/map_layout.json` | JSON |
+| Hourly unit forecast (72hr, per unit) | `src/data/forecast.json` — extended with `hourlyByUnit` key | JSON |
+
+---
+
+## Updated Section 9 — Additional Project Files
+
+Add these entries to the existing file structure tree:
+
+```
+src/
+├── components/
+│   ├── tabs/
+│   │   └── HospitalMap.vue              ← NEW
+│   ├── widgets/
+│   │   ├── UnitDetailPanel.vue          ← NEW
+│   │   └── HeatmapLegend.vue            ← NEW
+├── data/
+│   └── map_layout.json                  ← NEW
+├── utils/
+│   └── colorInterpolator.js             ← NEW
+```
+
+---
+
+## Updated Section 13 — Additional Glossary Terms
+
+Add these rows to the existing glossary table:
+
+| **Term** | **Definition** |
+|---|---|
+| **Schematic SVG Map** | A simplified, diagrammatic floor plan rendered as inline SVG — not an architectural drawing, but a purpose-built spatial layout for data visualization |
+| **Color Interpolation** | The mathematical process of smoothly calculating a color between two or more color stops based on a value — used to create the green → amber → red heatmap gradient |
+| **Time Slider** | A Vuetify `<v-slider>` component that controls which hour of forecast data (0–72) is used to color the hospital map heatmap |
+| **Play Mode** | An auto-advance feature that increments the time slider every 800ms, animating the heatmap as a time-lapse of projected capacity |
+| **map_layout.json** | A local JSON file defining the SVG coordinates, dimensions, and metadata for each hospital unit zone on the schematic map |
+| **colorInterpolator.js** | A local utility that calculates smooth hex color values between green, amber, and red based on an occupancy percentage input |
+
+---
+
+
+
 *This project brief serves as the foundational reference document for all subsequent planning, design, and development work on the Patient Volume Management Dashboard. The application is fully self-contained — no external services, APIs, or live data connections are required at any stage. The next artifact to be produced is the **Build Plan**, which will translate this brief into a structured, step-by-step technical implementation guide for Vue.js, Vuetify, Vue-Chartjs, Vue-ECharts, and Vite.*

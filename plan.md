@@ -830,4 +830,301 @@ Phase 10 → README
 
 ---
 
+
+## Updated Tech Stack Reference
+
+Add this row to the existing Tech Stack table:
+
+| **Layer** | **Technology** |
+|---|---|
+| Hospital Map | Inline SVG + Vue reactive bindings + CSS transitions |
+
+---
+
+## Phase 11: Hospital Map
+
+### 11.1 New Data Files
+
+#### 11.1.1 `src/data/map_layout.json`
+
+Structure:
+- `mapWidth`: `900`
+- `mapHeight`: `580`
+- `units`: array of unit zone objects, each with:
+  - `id` — must exactly match unitId values used across all other data files (`ED`, `ICU`, `MED1`, `MED2`, `SURG1`, `SURG2`, `PEDS`, `OB`)
+  - `label` — display name
+  - `sublabel` — unit type (e.g., `"Emergency"`, `"Critical Care"`)
+  - `x`, `y`, `width`, `height` — SVG rectangle coordinates
+  - `labelX`, `labelY` — coordinates for the unit name text label centered inside the zone
+  - `sublabelX`, `sublabelY` — coordinates for the sublabel text
+  - `floor`: `1`
+- `corridors`: array of corridor rectangles with `x`, `y`, `width`, `height`
+- `structuralElements`: array of nurse stations and landmarks with `type`, `x`, `y`, `width`, `height`, `label`
+- `mapMeta`: object with `facilityName`: `"Regional Medical Center"`, `floorLabel`: `"Floor 1 — Clinical Units"`, `totalBeds`: `224`
+
+Use these coordinates for unit zones:
+
+| **Unit** | **x** | **y** | **width** | **height** |
+|---|---|---|---|---|
+| ED | 20 | 380 | 220 | 160 |
+| ICU | 260 | 380 | 160 | 160 |
+| MED1 | 20 | 200 | 180 | 160 |
+| MED2 | 220 | 200 | 180 | 160 |
+| SURG1 | 440 | 200 | 160 | 160 |
+| SURG2 | 620 | 200 | 160 | 160 |
+| PEDS | 440 | 380 | 160 | 160 |
+| OB | 620 | 380 | 160 | 160 |
+
+Add horizontal corridor rectangles at `y: 360, height: 20` spanning full map width, and a vertical corridor at `x: 420, width: 20` spanning full map height. Add small `40x40` nurse station squares at logical corridor intersections.
+
+#### 11.1.2 Extend `src/data/forecast.json`
+
+Add a new top-level key `hourlyByUnit` — an array of objects, one per unit, each containing:
+- `unitId` — matches unit IDs above
+- `unitName`
+- `hours`: array of **73 objects** (index 0 = now, index 72 = 72 hours from now), each with:
+  - `hoursFromNow`: integer 0–72
+  - `predictedOccupiedBeds`: integer
+  - `predictedOccupancyPercent`: float
+  - `predictedStatus`: `"green"` | `"amber"` | `"red"`
+
+Author the data to tell a realistic story:
+- **Hour 0** values must exactly match current `census.json` occupied bed counts
+- **ICU**: stays red (~95%) through hour 48, eases slightly to amber by hour 72
+- **ED**: surges to red at hours 8–14 (daytime), eases overnight, surges again hours 32–38
+- **MED1**: trends from current red toward critical (>95%) by hour 24, stays red
+- **MED2**: gradually increases from amber toward red by hour 48
+- **SURG1/SURG2**: drop to green overnight (hours 12–20, no elective surgeries), rise again after
+- **PEDS/OB**: remain stable in green-to-amber range throughout
+
+---
+
+### 11.2 New Utility: `src/utils/colorInterpolator.js`
+
+Export the following — use only vanilla JavaScript arithmetic, no external color libraries:
+
+- `lerp(a, b, t)` — returns `a + (b - a) * t`
+- `hexToRgb(hex)` — converts hex string to `{ r, g, b }` object
+- `rgbToHex(r, g, b)` — converts RGB integers to hex string
+- `occupancyToColor(percent)` — accepts 0–100, returns a hex color using smooth RGB interpolation across three stops:
+  - `0%` → `#2E7D32` (deep green)
+  - `80%` → `#F57F17` (amber)
+  - `100%` → `#C62828` (deep red)
+  - Interpolate between stop 1→2 for values 0–80, between stop 2→3 for values 80–100. Use `lerp` on each RGB channel independently.
+- `HEATMAP_GRADIENT` — exported constant array of `{ percent, hex }` objects at 0, 40, 80, 90, 100 for use in the legend component
+
+---
+
+### 11.3 New Widget: `src/components/widgets/HeatmapLegend.vue`
+
+- Imports `HEATMAP_GRADIENT` from `colorInterpolator.js`
+- Renders a horizontal SVG `<linearGradient>` bar using the gradient stops
+- Below bar: percentage labels at `0%`, `40%`, `80%`, `90%`, `100%`
+- Above bar: zone labels `"Available"`, `"Filling"`, `"Near Capacity"`, `"Critical"`
+- Wrapped in a compact `<v-card>` with subtle border
+- Designed to sit below the map without taking significant vertical space
+
+---
+
+### 11.4 New Widget: `src/components/widgets/UnitDetailPanel.vue`
+
+Props: `unitId` (String | null), `selectedHour` (Number, 0–72)
+
+- When `unitId` is null: render a `<v-empty-state>` with `mdi-map-marker` icon and text `"Select a unit on the map to view details"`
+- When `unitId` is set, read data from the Pinia store:
+  - **Header:** Unit name + type badge + RAG status chip colored by `predictedStatus` at `selectedHour`
+  - **Occupancy display:** Large `occupiedBeds / totalBeds` + occupancy percent — sourced from `store.census` when `selectedHour === 0`, from `store.forecast.hourlyByUnit` when `selectedHour > 0`
+  - **KPI chips:** Nurse ratio, pending discharges, pending admissions at the selected hour
+  - **72-hour sparkline:** Vue-ECharts line chart of `predictedOccupancyPercent` across all 73 hours. Include a dashed red threshold line at 90%. Highlight the current `selectedHour` position with a vertical marker line.
+  - **Forecast warning:** If any hour within the next 24hrs from `selectedHour` is predicted red, show `<v-alert type="warning">` with the projected time
+  - **Footer label:** `"Live Data"` chip when `selectedHour === 0`, `"Forecast Data"` chip when `selectedHour > 0`
+
+---
+
+### 11.5 New Tab: `src/components/tabs/HospitalMap.vue`
+
+#### Component State (`setup()`)
+```js
+const store = useDashboardStore()
+const selectedUnitId = ref(null)
+const hoveredUnitId = ref(null)
+const selectedHour = ref(0)
+const isPlaying = ref(false)
+let playInterval = null
+```
+
+#### Key Computed Values & Methods
+- `mapUnits`, `corridors`, `structuralElements` — imported statically from `map_layout.json`
+- `getOccupancyAtHour(unitId, hour)` — when `hour === 0` return from `store.census`; when `hour > 0` return from `store.forecast.hourlyByUnit`
+- `getUnitFill(unitId)` — calls `occupancyToColor(getOccupancyAtHour(unitId, selectedHour.value))`
+- `getUnitStatus(unitId)` — returns RAG status string for the unit at selected hour
+- `currentTimeLabel` — `"Now — [time]"` when `selectedHour === 0`; formatted date/time string using `date-fns` `addHours` + `format` when `selectedHour > 0`
+- `alertUnits` — units at `status: "red"` in `store.census` (live only, not forecast-driven)
+- Play mode methods:
+```js
+function startPlay() {
+  isPlaying.value = true
+  playInterval = setInterval(() => {
+    if (selectedHour.value >= 72) { stopPlay(); return }
+    selectedHour.value++
+  }, 800)
+}
+function stopPlay() {
+  isPlaying.value = false
+  clearInterval(playInterval)
+  playInterval = null
+}
+function resetSlider() {
+  stopPlay()
+  selectedHour.value = 0
+}
+onUnmounted(() => { if (playInterval) clearInterval(playInterval) })
+```
+
+#### Template — Build in This Order
+
+**Section A — Page Header Row**
+- Left: `"Hospital Capacity Map"` title + `"Regional Medical Center — Floor 1"` subtitle
+- Right: `<v-chip color="success">LIVE</v-chip>` when `selectedHour === 0`; `<v-chip color="info">FORECAST</v-chip>` when `selectedHour > 0`
+
+**Section B — Time Slider Row** (full-width `<v-card>`)
+- `<v-slider>` with `v-model="selectedHour"`, `min="0"`, `max="72"`, `step="1"`, `color="primary"`, thumb label showing `currentTimeLabel`, tick marks at 0/12/24/36/48/60/72 with labels `"Now"` / `"+12h"` / `"+24h"` etc.
+- Play button (`mdi-play` / `mdi-pause`) toggling `startPlay` / `stopPlay`
+- Reset button (`mdi-skip-backward`) calling `resetSlider`
+- `currentTimeLabel` displayed in `text-h6` below the slider
+
+**Section C — Map + Detail Panel Row**
+
+Left (`cols="8"`): `<v-card>` containing `<svg viewBox="0 0 900 580" width="100%">` built in these sub-layers in order:
+1. Background `<rect>` — full SVG area, `fill="#ECEFF1"`
+2. Corridors — `v-for` over `corridors`, `<rect fill="#B0BEC5">`
+3. Structural elements — `v-for` over `structuralElements`, `<rect fill="#78909C">` + `<text>` label
+4. Unit zones — `v-for` over `mapUnits`:
+```vue
+<rect
+  :key="unit.id"
+  :x="unit.x" :y="unit.y"
+  :width="unit.width" :height="unit.height"
+  :fill="getUnitFill(unit.id)"
+  :stroke="selectedUnitId === unit.id ? '#1565C0' : hoveredUnitId === unit.id ? '#455A64' : '#37474F'"
+  :stroke-width="selectedUnitId === unit.id ? 3 : 1.5"
+  rx="8"
+  class="unit-zone"
+  @mouseenter="hoveredUnitId = unit.id"
+  @mouseleave="hoveredUnitId = null"
+  @click="selectedUnitId = unit.id"
+/>
+```
+5. Unit name labels — `v-for` over `mapUnits`, `<text>` at `labelX/labelY`, `font-size="13"`, `font-weight="600"`, `fill="white"`, `text-anchor="middle"`
+6. Unit sublabels — `v-for` over `mapUnits`, `<text>` at `sublabelX/sublabelY`, `font-size="10"`, `fill="rgba(255,255,255,0.85)"`, `text-anchor="middle"`
+7. Occupancy percent labels — `v-for` over `mapUnits`, `<text>` at bottom-center of each zone showing `getOccupancyAtHour(unit.id, selectedHour)` as `"XX%"`, `font-size="11"`, `fill="white"`, `font-weight="700"`
+8. Alert pulse indicators — `v-for` over `alertUnits`, two concentric `<circle>` elements at top-right corner of unit zone: inner `r="7" fill="#C62828"`, outer `r="7" fill="none" stroke="#C62828"` with class `alert-pulse`
+9. Map footer — single `<text>` at bottom center with `mapMeta.facilityName` + `mapMeta.floorLabel`
+
+Right (`cols="4"`): `<UnitDetailPanel :unitId="selectedUnitId" :selectedHour="selectedHour" />`
+
+**Section D — Legend Row** (full width)
+- `<HeatmapLegend />` on the left
+- Summary stat chips on the right showing count of green / amber / red units at the selected hour, e.g. `<v-chip color="success">4 Green</v-chip>`
+
+#### Scoped CSS
+```css
+<style scoped>
+.unit-zone {
+  transition: fill 0.6s ease, stroke 0.2s ease, opacity 0.2s ease;
+  cursor: pointer;
+}
+.unit-zone:hover {
+  opacity: 0.88;
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.25));
+}
+@keyframes alert-pulse {
+  0% { r: 7; opacity: 1; }
+  100% { r: 16; opacity: 0; }
+}
+.alert-pulse {
+  animation: alert-pulse 1.5s ease-out infinite;
+}
+svg {
+  border-radius: 8px;
+  background: #ECEFF1;
+}
+</style>
+```
+> ⚠️ **Critical:** The `transition: fill 0.6s ease` on `.unit-zone` is what creates the animated heatmap effect when the slider moves. Do not remove this or replace it with JavaScript-based animation. Vue updates the `:fill` binding and CSS handles all color animation automatically.
+
+---
+
+### 11.6 Register the Map Tab
+
+#### In `src/components/layout/AppSidebar.vue`
+Add a new nav list item in the 5th position (between Ancillary Services and Quality & Outcomes):
+- Label: `"Hospital Map"`
+- Icon: `mdi-map`
+- RAG dot: show if any unit in `store.census` is currently `status: "red"`
+
+#### In `src/views/DashboardView.vue`
+- Add `"Hospital Map"` as the 5th tab, shifting Quality & Outcomes to 6th
+- Add `<v-window-item>` rendering `<HospitalMap />`
+- Import `HospitalMap` from `@/components/tabs/HospitalMap.vue`
+- Tab icon: `mdi-map`
+
+---
+
+### 11.7 Update Pinia Store
+
+#### In `src/stores/dashboardStore.js`
+- Import `mapLayoutData` from `@/data/map_layout.json`
+- Add `mapLayout` as a `ref` initialized from `mapLayoutData`
+- Update `criticalAlerts` computed to also include units where `forecast.hourlyByUnit` shows a unit hitting red within the next 6 hours — tag these with `type: "forecast"` so they can be styled differently from live alerts in `AlertBanner.vue`
+
+---
+
+### 11.8 Simulator & Performance Notes
+
+- The data simulator must **not** modify `forecast.hourlyByUnit` — forecast data is static and pre-authored
+- The simulator continues to update `store.census` as before — the map's live view (slider at hour 0) automatically reflects these changes since it reads from `store.census`
+- Verify that sliding from hour 0 → hour 1 → back to hour 0 correctly returns to live census values, not forecast values
+- `getUnitFill()` is called for every unit on every slider move — keep `colorInterpolator.js` to simple arithmetic only, no loops or array operations, to ensure smooth slider drag performance
+- If slider drag feels sluggish, wrap the `selectedHour` update in a 50ms `setTimeout` debounce using native JavaScript — no lodash required
+
+---
+
+## Updated Build Order Summary
+
+Replace the existing Build Order Summary with this complete version:
+
+```
+Phase 1  → Project setup, Vite config, plugin configuration
+Phase 2  → All 16 local JSON data files
+Phase 3  → Pinia store (dashboardStore.js)
+Phase 4  → Utility files (dataSimulator.js, thresholds.js, formatters.js)
+Phase 5  → Layout shell (App.vue, AppHeader, AppSidebar, RoleSwitcher)
+Phase 6  → Shared widget components (KPITile, RAGIndicator, AlertBanner, etc.)
+Phase 7  → Tab view components (all 5 original tabs)
+Phase 8  → DashboardView wiring and tab navigation
+Phase 9  → Final wiring, role filtering, polish, responsive, loading states
+Phase 10 → README
+Phase 11 → Hospital Map (map_layout.json, forecast.json extension,
+            colorInterpolator.js, HeatmapLegend.vue, UnitDetailPanel.vue,
+            HospitalMap.vue, sidebar + tab registration, store update)
+```
+
+---
+
+## Updated Key Constraints
+
+Add these two items to the existing constraints list:
+
+```
+11. SVG fill animation must use CSS transitions only — do not use JavaScript
+    setInterval or requestAnimationFrame to animate colors. The
+    transition: fill 0.6s ease CSS rule handles all color animation
+    automatically as Vue updates the :fill binding.
+
+12. colorInterpolator.js must use only vanilla JavaScript arithmetic —
+    no external color libraries (no chroma.js, no d3-color, no tinycolor).
+    All color math is self-contained.
+```
+
 *This build plan is the complete technical instruction set for constructing the Patient Volume Management Dashboard. Begin with Phase 1 and proceed in order. Each phase builds on the last.*

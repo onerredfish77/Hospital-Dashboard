@@ -17,6 +17,7 @@ import patientSatisfactionData from '@/data/patient_satisfaction.json'
 import readmissionsData from '@/data/readmissions.json'
 import qualityEventsData from '@/data/quality_events.json'
 import workforceHealthData from '@/data/workforce_health.json'
+import mapLayoutData from '@/data/map_layout.json'
 
 import {
   tickCensus,
@@ -48,6 +49,7 @@ export const useDashboardStore = defineStore('dashboard', () => {
   const readmissions = ref(deepClone(readmissionsData))
   const qualityEvents = ref(deepClone(qualityEventsData))
   const workforceHealth = ref(deepClone(workforceHealthData))
+  const mapLayout = ref(deepClone(mapLayoutData))
 
   const activeRole = ref('director')
   const lastSimulated = ref(new Date().toISOString())
@@ -137,6 +139,28 @@ export const useDashboardStore = defineStore('dashboard', () => {
         message: `ED volume elevated — ${edVolume.value.current.patientsInED} patients`,
       })
     }
+
+    // Forecast-driven look-ahead: any unit projected red within next 6 hours
+    const hourly = forecast.value?.hourlyByUnit
+    if (Array.isArray(hourly)) {
+      hourly.forEach((u) => {
+        const liveStatus = census.value.find((c) => c.unitId === u.unitId)?.status
+        if (liveStatus === 'red') return // already alerted live
+        const upcoming = u.hours
+          ?.slice(1, 7)
+          .find((h) => h.predictedStatus === 'red')
+        if (upcoming) {
+          alerts.push({
+            source: 'Forecast',
+            unit: u.unitName,
+            severity: 'warning',
+            type: 'forecast',
+            message: `${u.unitName} projected to hit ${upcoming.predictedOccupancyPercent}% in +${upcoming.hoursFromNow}h`,
+          })
+        }
+      })
+    }
+
     return alerts
   })
 
@@ -195,6 +219,7 @@ export const useDashboardStore = defineStore('dashboard', () => {
     readmissions,
     qualityEvents,
     workforceHealth,
+    mapLayout,
     activeRole,
     lastSimulated,
     simulatorActive,

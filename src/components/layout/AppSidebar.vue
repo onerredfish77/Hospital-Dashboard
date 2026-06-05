@@ -10,6 +10,7 @@ const navItems = [
   { id: 'forecast', label: 'Capacity Forecast', icon: 'mdi-chart-timeline-variant' },
   { id: 'staffing', label: 'Staffing & Resources', icon: 'mdi-account-group' },
   { id: 'ancillary', label: 'Ancillary Services', icon: 'mdi-medical-bag' },
+  { id: 'map', label: 'Hospital Map', icon: 'mdi-map' },
   { id: 'quality', label: 'Quality & Outcomes', icon: 'mdi-clipboard-pulse' },
 ]
 
@@ -40,11 +41,16 @@ const qualityHasRed = computed(() =>
   store.workforceHealth.byUnit.some((u) => u.burnoutRisk === 'high')
 )
 
+const mapHasRed = computed(() =>
+  store.census.some((u) => u.status === 'red')
+)
+
 const redFlags = {
   overview: overviewHasRed,
   forecast: forecastHasRed,
   staffing: staffingHasRed,
   ancillary: ancillaryHasRed,
+  map: mapHasRed,
   quality: qualityHasRed,
 }
 
