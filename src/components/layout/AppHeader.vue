@@ -1,11 +1,14 @@
 <script setup>
-import { computed, onMounted, onUnmounted, ref } from 'vue'
+import { computed, inject, onMounted, onUnmounted, ref } from 'vue'
 import { format } from 'date-fns'
+import { useDisplay } from 'vuetify'
 import { useDashboardStore } from '@/stores/dashboardStore'
 import { getRAGColor } from '@/utils/formatters'
 import RoleSwitcher from '@/components/layout/RoleSwitcher.vue'
 
 const store = useDashboardStore()
+const sidebarOpen = inject('sidebarOpen')
+const { mdAndUp, smAndUp } = useDisplay()
 
 const clock = ref(new Date())
 let clockInterval = null
@@ -31,14 +34,25 @@ const occupancyColor = computed(() => getRAGColor(occupancyStatus.value))
 
 const formattedTime = computed(() => format(clock.value, 'h:mm:ss a'))
 const formattedDate = computed(() => format(clock.value, 'EEEE, MMM d'))
+
+function toggleSidebar() {
+  sidebarOpen.value = !sidebarOpen.value
+}
 </script>
 
 <template>
   <v-app-bar color="surface-variant" elevation="2" density="comfortable">
     <template #prepend>
-      <div class="ml-2" style="white-space: nowrap;">
-        <div class="text-h6 font-weight-bold text-grey-lighten-4">Regional Medical Center</div>
-        <div class="text-caption text-grey-lighten-1">Operations Dashboard</div>
+      <v-app-bar-nav-icon
+        v-if="!mdAndUp"
+        @click="toggleSidebar"
+      />
+      <div class="ml-2 header-title" style="white-space: nowrap; overflow: hidden;">
+        <div class="text-h6 font-weight-bold text-grey-lighten-4 text-truncate">
+          <span class="d-none d-sm-inline">Regional Medical Center</span>
+          <span class="d-sm-none">RMC</span>
+        </div>
+        <div class="text-caption text-grey-lighten-1 d-none d-sm-block">Operations Dashboard</div>
       </div>
     </template>
 
@@ -47,23 +61,30 @@ const formattedDate = computed(() => format(clock.value, 'EEEE, MMM d'))
     <v-chip
       :color="occupancyColor"
       variant="elevated"
-      size="default"
+      :size="smAndUp ? 'default' : 'small'"
       class="mr-2 font-weight-bold"
       style="white-space: nowrap; flex: none;"
     >
       <v-icon start icon="mdi-bed" />
-      Hospital Occupancy: {{ store.hospitalOccupancyPercent }}%
-      ({{ store.totalOccupied }}/{{ store.totalBeds }})
+      <span class="d-none d-md-inline">Hospital Occupancy: </span>
+      {{ store.hospitalOccupancyPercent }}%
+      <span class="d-none d-sm-inline">
+        ({{ store.totalOccupied }}/{{ store.totalBeds }})
+      </span>
     </v-chip>
 
     <v-spacer />
 
     <template #append>
-      <RoleSwitcher class="mr-3" />
+      <RoleSwitcher v-if="mdAndUp" class="mr-3" />
 
-      <div class="d-flex flex-column align-end mr-3 text-grey-lighten-2" style="white-space: nowrap;">
+      <div
+        v-if="smAndUp"
+        class="d-flex flex-column align-end mr-3 text-grey-lighten-2"
+        style="white-space: nowrap;"
+      >
         <span class="text-body-2 font-weight-medium">{{ formattedTime }}</span>
-        <span class="text-caption">{{ formattedDate }}</span>
+        <span class="text-caption d-none d-md-block">{{ formattedDate }}</span>
       </div>
 
       <v-btn icon class="mr-2">
@@ -82,7 +103,7 @@ const formattedDate = computed(() => format(clock.value, 'EEEE, MMM d'))
           class="sim-dot mr-2"
           :class="{ 'sim-dot--active': store.simulatorActive }"
         />
-        <span class="text-caption text-grey-lighten-2">
+        <span class="text-caption text-grey-lighten-2 d-none d-sm-inline">
           {{ store.simulatorActive ? 'Live' : 'Paused' }}
         </span>
       </div>

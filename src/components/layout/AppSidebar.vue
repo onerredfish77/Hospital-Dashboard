@@ -1,9 +1,12 @@
 <script setup>
 import { computed, inject } from 'vue'
+import { useDisplay } from 'vuetify'
 import { useDashboardStore } from '@/stores/dashboardStore'
 
 const store = useDashboardStore()
 const activeTab = inject('activeTab')
+const sidebarOpen = inject('sidebarOpen')
+const { mdAndUp } = useDisplay()
 
 const navItems = [
   { id: 'overview', label: 'Real-Time Overview', icon: 'mdi-monitor-dashboard' },
@@ -56,11 +59,19 @@ const redFlags = {
 
 function selectTab(id) {
   activeTab.value = id
+  if (!mdAndUp.value) {
+    sidebarOpen.value = false
+  }
 }
 </script>
 
 <template>
-  <v-navigation-drawer permanent width="240" color="surface">
+  <v-navigation-drawer
+    v-model="sidebarOpen"
+    width="240"
+    color="surface"
+    mobile-breakpoint="md"
+  >
     <div class="pa-4 d-flex align-center">
       <v-icon icon="mdi-hospital-building" size="32" color="primary" class="mr-2" />
       <div>
