@@ -1,0 +1,78 @@
+{
+  "next24Hours": [
+    { "hour": 0, "predictedAdmissions": 1, "predictedDischarges": 0, "predictedCensus": 181, "confidenceLevel": "high" },
+    { "hour": 1, "predictedAdmissions": 1, "predictedDischarges": 0, "predictedCensus": 182, "confidenceLevel": "high" },
+    { "hour": 2, "predictedAdmissions": 1, "predictedDischarges": 0, "predictedCensus": 183, "confidenceLevel": "high" },
+    { "hour": 3, "predictedAdmissions": 0, "predictedDischarges": 0, "predictedCensus": 183, "confidenceLevel": "high" },
+    { "hour": 4, "predictedAdmissions": 1, "predictedDischarges": 0, "predictedCensus": 184, "confidenceLevel": "high" },
+    { "hour": 5, "predictedAdmissions": 1, "predictedDischarges": 0, "predictedCensus": 185, "confidenceLevel": "high" },
+    { "hour": 6, "predictedAdmissions": 2, "predictedDischarges": 1, "predictedCensus": 186, "confidenceLevel": "high" },
+    { "hour": 7, "predictedAdmissions": 3, "predictedDischarges": 2, "predictedCensus": 187, "confidenceLevel": "high" },
+    { "hour": 8, "predictedAdmissions": 4, "predictedDischarges": 4, "predictedCensus": 187, "confidenceLevel": "high" },
+    { "hour": 9, "predictedAdmissions": 5, "predictedDischarges": 6, "predictedCensus": 186, "confidenceLevel": "high" },
+    { "hour": 10, "predictedAdmissions": 6, "predictedDischarges": 8, "predictedCensus": 184, "confidenceLevel": "high" },
+    { "hour": 11, "predictedAdmissions": 5, "predictedDischarges": 7, "predictedCensus": 182, "confidenceLevel": "high" },
+    { "hour": 12, "predictedAdmissions": 4, "predictedDischarges": 6, "predictedCensus": 180, "confidenceLevel": "medium" },
+    { "hour": 13, "predictedAdmissions": 3, "predictedDischarges": 4, "predictedCensus": 179, "confidenceLevel": "medium" },
+    { "hour": 14, "predictedAdmissions": 3, "predictedDischarges": 3, "predictedCensus": 179, "confidenceLevel": "medium" },
+    { "hour": 15, "predictedAdmissions": 4, "predictedDischarges": 3, "predictedCensus": 180, "confidenceLevel": "medium" },
+    { "hour": 16, "predictedAdmissions": 4, "predictedDischarges": 2, "predictedCensus": 182, "confidenceLevel": "medium" },
+    { "hour": 17, "predictedAdmissions": 3, "predictedDischarges": 2, "predictedCensus": 183, "confidenceLevel": "medium" },
+    { "hour": 18, "predictedAdmissions": 3, "predictedDischarges": 1, "predictedCensus": 185, "confidenceLevel": "medium" },
+    { "hour": 19, "predictedAdmissions": 2, "predictedDischarges": 1, "predictedCensus": 186, "confidenceLevel": "low" },
+    { "hour": 20, "predictedAdmissions": 2, "predictedDischarges": 0, "predictedCensus": 188, "confidenceLevel": "low" },
+    { "hour": 21, "predictedAdmissions": 2, "predictedDischarges": 0, "predictedCensus": 190, "confidenceLevel": "low" },
+    { "hour": 22, "predictedAdmissions": 1, "predictedDischarges": 0, "predictedCensus": 191, "confidenceLevel": "low" },
+    { "hour": 23, "predictedAdmissions": 1, "predictedDischarges": 0, "predictedCensus": 192, "confidenceLevel": "low" }
+  ],
+  "next72Hours": [
+    {
+      "date": "2026-06-05",
+      "dayLabel": "Today (Fri)",
+      "predictedAdmissions": 42,
+      "predictedDischarges": 38,
+      "predictedPeakCensus": 192,
+      "predictedPeakTime": "23:00",
+      "surgeRisk": "medium"
+    },
+    {
+      "date": "2026-06-06",
+      "dayLabel": "Tomorrow (Sat)",
+      "predictedAdmissions": 52,
+      "predictedDischarges": 32,
+      "predictedPeakCensus": 212,
+      "predictedPeakTime": "21:00",
+      "surgeRisk": "high"
+    },
+    {
+      "date": "2026-06-07",
+      "dayLabel": "Day After (Sun)",
+      "predictedAdmissions": 46,
+      "predictedDischarges": 30,
+      "predictedPeakCensus": 218,
+      "predictedPeakTime": "20:00",
+      "surgeRisk": "high"
+    }
+  ],
+  "byUnit": [
+    { "unitId": "ED", "unitName": "Emergency Department", "currentOccupancy": 85, "predictedOccupancy24h": 88, "predictedOccupancy48h": 92, "predictedOccupancy72h": 90, "trend": "increasing" },
+    { "unitId": "ICU", "unitName": "Intensive Care Unit", "currentOccupancy": 95, "predictedOccupancy24h": 98, "predictedOccupancy48h": 100, "predictedOccupancy72h": 100, "trend": "increasing" },
+    { "unitId": "MED1", "unitName": "Medical Unit 1", "currentOccupancy": 94, "predictedOccupancy24h": 91, "predictedOccupancy48h": 96, "predictedOccupancy72h": 97, "trend": "increasing" },
+    { "unitId": "MED2", "unitName": "Medical Unit 2", "currentOccupancy": 75, "predictedOccupancy24h": 78, "predictedOccupancy48h": 86, "predictedOccupancy72h": 89, "trend": "increasing" },
+    { "unitId": "SURG1", "unitName": "Surgical Unit 1", "currentOccupancy": 79, "predictedOccupancy24h": 82, "predictedOccupancy48h": 80, "predictedOccupancy72h": 78, "trend": "stable" },
+    { "unitId": "SURG2", "unitName": "Surgical Unit 2", "currentOccupancy": 86, "predictedOccupancy24h": 84, "predictedOccupancy48h": 82, "predictedOccupancy72h": 80, "trend": "decreasing" },
+    { "unitId": "PEDS", "unitName": "Pediatrics", "currentOccupancy": 58, "predictedOccupancy24h": 62, "predictedOccupancy48h": 65, "predictedOccupancy72h": 68, "trend": "increasing" },
+    { "unitId": "OB", "unitName": "Obstetrics", "currentOccupancy": 65, "predictedOccupancy24h": 65, "predictedOccupancy48h": 70, "predictedOccupancy72h": 70, "trend": "stable" }
+  ],
+  "scheduledAdmissions": [
+    { "date": "2026-06-05", "type": "Elective Surgery", "count": 6 },
+    { "date": "2026-06-05", "type": "Planned Transfer", "count": 2 },
+    { "date": "2026-06-05", "type": "Scheduled Procedure", "count": 4 },
+    { "date": "2026-06-06", "type": "Elective Surgery", "count": 3 },
+    { "date": "2026-06-06", "type": "Planned Transfer", "count": 1 },
+    { "date": "2026-06-06", "type": "Scheduled Procedure", "count": 2 },
+    { "date": "2026-06-07", "type": "Elective Surgery", "count": 0 },
+    { "date": "2026-06-07", "type": "Planned Transfer", "count": 1 },
+    { "date": "2026-06-07", "type": "Scheduled Procedure", "count": 1 }
+  ]
+}

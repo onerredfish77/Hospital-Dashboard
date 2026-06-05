@@ -1,0 +1,24 @@
+{
+  "summary": {
+    "pendingOrders": 38,
+    "avgReadTimeMins": 62,
+    "target": 45,
+    "status": "amber",
+    "criticalFindingsPending": 2
+  },
+  "byModality": [
+    { "modality": "X-Ray", "pendingCount": 12, "avgReadTimeMins": 32, "target": 45, "status": "green" },
+    { "modality": "CT", "pendingCount": 14, "avgReadTimeMins": 68, "target": 45, "status": "amber" },
+    { "modality": "MRI", "pendingCount": 8, "avgReadTimeMins": 142, "target": 45, "status": "red" },
+    { "modality": "Ultrasound", "pendingCount": 4, "avgReadTimeMins": 38, "target": 45, "status": "green" }
+  ],
+  "trend": [
+    { "date": "2026-05-30", "avgReadTimeMins": 56 },
+    { "date": "2026-05-31", "avgReadTimeMins": 54 },
+    { "date": "2026-06-01", "avgReadTimeMins": 59 },
+    { "date": "2026-06-02", "avgReadTimeMins": 63 },
+    { "date": "2026-06-03", "avgReadTimeMins": 60 },
+    { "date": "2026-06-04", "avgReadTimeMins": 64 },
+    { "date": "2026-06-05", "avgReadTimeMins": 62 }
+  ]
+}

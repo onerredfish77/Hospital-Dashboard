@@ -1,0 +1,24 @@
+{
+  "summary": {
+    "pendingOrders": 64,
+    "avgDispenseTimeMins": 28,
+    "target": 30,
+    "status": "green",
+    "urgentPending": 6
+  },
+  "byOrderType": [
+    { "orderType": "Routine", "pendingCount": 42, "avgDispenseTimeMins": 32, "target": 45, "status": "green" },
+    { "orderType": "Urgent", "pendingCount": 12, "avgDispenseTimeMins": 22, "target": 30, "status": "green" },
+    { "orderType": "Stat", "pendingCount": 6, "avgDispenseTimeMins": 14, "target": 15, "status": "green" },
+    { "orderType": "IV Admixture", "pendingCount": 4, "avgDispenseTimeMins": 38, "target": 30, "status": "amber" }
+  ],
+  "trend": [
+    { "date": "2026-05-30", "avgDispenseTimeMins": 26 },
+    { "date": "2026-05-31", "avgDispenseTimeMins": 25 },
+    { "date": "2026-06-01", "avgDispenseTimeMins": 27 },
+    { "date": "2026-06-02", "avgDispenseTimeMins": 29 },
+    { "date": "2026-06-03", "avgDispenseTimeMins": 28 },
+    { "date": "2026-06-04", "avgDispenseTimeMins": 30 },
+    { "date": "2026-06-05", "avgDispenseTimeMins": 28 }
+  ]
+}

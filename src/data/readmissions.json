@@ -1,0 +1,38 @@
+{
+  "summary": {
+    "rate30Day": 0.142,
+    "benchmark": 0.15,
+    "status": "green",
+    "totalReadmissions30Days": 86,
+    "totalDischarges30Days": 605
+  },
+  "byDiagnosis": [
+    { "diagnosis": "CHF", "readmissionCount": 18, "rate": 0.21, "benchmark": 0.18, "status": "amber" },
+    { "diagnosis": "COPD", "readmissionCount": 14, "rate": 0.19, "benchmark": 0.17, "status": "amber" },
+    { "diagnosis": "Pneumonia", "readmissionCount": 11, "rate": 0.13, "benchmark": 0.15, "status": "green" },
+    { "diagnosis": "Sepsis", "readmissionCount": 16, "rate": 0.22, "benchmark": 0.18, "status": "red" },
+    { "diagnosis": "Hip/Knee Replacement", "readmissionCount": 4, "rate": 0.05, "benchmark": 0.08, "status": "green" },
+    { "diagnosis": "Diabetes", "readmissionCount": 9, "rate": 0.12, "benchmark": 0.14, "status": "green" }
+  ],
+  "byUnit": [
+    { "unitId": "ICU", "unitName": "Intensive Care Unit", "rate": 0.18, "benchmark": 0.16, "status": "amber" },
+    { "unitId": "MED1", "unitName": "Medical Unit 1", "rate": 0.17, "benchmark": 0.15, "status": "amber" },
+    { "unitId": "MED2", "unitName": "Medical Unit 2", "rate": 0.13, "benchmark": 0.15, "status": "green" },
+    { "unitId": "SURG1", "unitName": "Surgical Unit 1", "rate": 0.09, "benchmark": 0.12, "status": "green" },
+    { "unitId": "SURG2", "unitName": "Surgical Unit 2", "rate": 0.11, "benchmark": 0.12, "status": "green" },
+    { "unitId": "PEDS", "unitName": "Pediatrics", "rate": 0.07, "benchmark": 0.10, "status": "green" },
+    { "unitId": "OB", "unitName": "Obstetrics", "rate": 0.04, "benchmark": 0.08, "status": "green" }
+  ],
+  "trend": [
+    { "month": "2026-01", "rate": 0.158 },
+    { "month": "2026-02", "rate": 0.162 },
+    { "month": "2026-03", "rate": 0.150 },
+    { "month": "2026-04", "rate": 0.148 },
+    { "month": "2026-05", "rate": 0.145 },
+    { "month": "2026-06", "rate": 0.142 }
+  ],
+  "highRiskPatients": {
+    "count": 23,
+    "flaggedForFollowUp": 18
+  }
+}

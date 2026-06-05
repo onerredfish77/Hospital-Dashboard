@@ -1,0 +1,29 @@
+{
+  "summary": {
+    "pendingCleans": 14,
+    "avgTurnaroundMins": 68,
+    "target": 35,
+    "status": "red",
+    "bedsReadyToday": 22,
+    "bedsCleanedToday": 36
+  },
+  "byUnit": [
+    { "unitId": "ED", "unitName": "Emergency Department", "pendingCleans": 3, "avgTurnaroundMins": 52, "status": "amber" },
+    { "unitId": "ICU", "unitName": "Intensive Care Unit", "pendingCleans": 1, "avgTurnaroundMins": 42, "status": "amber" },
+    { "unitId": "MED1", "unitName": "Medical Unit 1", "pendingCleans": 4, "avgTurnaroundMins": 78, "status": "red" },
+    { "unitId": "MED2", "unitName": "Medical Unit 2", "pendingCleans": 2, "avgTurnaroundMins": 64, "status": "red" },
+    { "unitId": "SURG1", "unitName": "Surgical Unit 1", "pendingCleans": 2, "avgTurnaroundMins": 71, "status": "red" },
+    { "unitId": "SURG2", "unitName": "Surgical Unit 2", "pendingCleans": 1, "avgTurnaroundMins": 82, "status": "red" },
+    { "unitId": "PEDS", "unitName": "Pediatrics", "pendingCleans": 1, "avgTurnaroundMins": 38, "status": "amber" },
+    { "unitId": "OB", "unitName": "Obstetrics", "pendingCleans": 0, "avgTurnaroundMins": 34, "status": "green" }
+  ],
+  "trend": [
+    { "date": "2026-05-30", "avgTurnaroundMins": 48 },
+    { "date": "2026-05-31", "avgTurnaroundMins": 52 },
+    { "date": "2026-06-01", "avgTurnaroundMins": 55 },
+    { "date": "2026-06-02", "avgTurnaroundMins": 59 },
+    { "date": "2026-06-03", "avgTurnaroundMins": 62 },
+    { "date": "2026-06-04", "avgTurnaroundMins": 65 },
+    { "date": "2026-06-05", "avgTurnaroundMins": 68 }
+  ]
+}

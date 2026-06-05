@@ -1,0 +1,202 @@
+[
+  {
+    "unitId": "ED",
+    "unitName": "Emergency Department",
+    "currentShift": {
+      "shiftName": "Day",
+      "scheduledRNs": 12,
+      "actualRNs": 11,
+      "scheduledAides": 6,
+      "actualAides": 6,
+      "openRNSlots": 1,
+      "openAideSlots": 0
+    },
+    "nurseToPatientRatio": {
+      "current": "1:3",
+      "target": "1:3",
+      "status": "green"
+    },
+    "overtimeAlerts": [
+      { "name": "K. Patel, RN", "hoursWorked": 36, "otThreshold": 40, "approaching": true }
+    ],
+    "nextShiftCoverage": {
+      "scheduledRNs": 10,
+      "confirmedRNs": 9,
+      "gapCount": 1
+    }
+  },
+  {
+    "unitId": "ICU",
+    "unitName": "Intensive Care Unit",
+    "currentShift": {
+      "shiftName": "Day",
+      "scheduledRNs": 10,
+      "actualRNs": 10,
+      "scheduledAides": 2,
+      "actualAides": 2,
+      "openRNSlots": 0,
+      "openAideSlots": 0
+    },
+    "nurseToPatientRatio": {
+      "current": "1:2",
+      "target": "1:2",
+      "status": "green"
+    },
+    "overtimeAlerts": [],
+    "nextShiftCoverage": {
+      "scheduledRNs": 9,
+      "confirmedRNs": 9,
+      "gapCount": 0
+    }
+  },
+  {
+    "unitId": "MED1",
+    "unitName": "Medical Unit 1",
+    "currentShift": {
+      "shiftName": "Day",
+      "scheduledRNs": 7,
+      "actualRNs": 6,
+      "scheduledAides": 3,
+      "actualAides": 3,
+      "openRNSlots": 1,
+      "openAideSlots": 0
+    },
+    "nurseToPatientRatio": {
+      "current": "1:5",
+      "target": "1:4",
+      "status": "amber"
+    },
+    "overtimeAlerts": [
+      { "name": "M. Chen, RN", "hoursWorked": 38, "otThreshold": 40, "approaching": true }
+    ],
+    "nextShiftCoverage": {
+      "scheduledRNs": 6,
+      "confirmedRNs": 5,
+      "gapCount": 1
+    }
+  },
+  {
+    "unitId": "MED2",
+    "unitName": "Medical Unit 2",
+    "currentShift": {
+      "shiftName": "Day",
+      "scheduledRNs": 6,
+      "actualRNs": 6,
+      "scheduledAides": 3,
+      "actualAides": 2,
+      "openRNSlots": 0,
+      "openAideSlots": 1
+    },
+    "nurseToPatientRatio": {
+      "current": "1:4",
+      "target": "1:4",
+      "status": "green"
+    },
+    "overtimeAlerts": [],
+    "nextShiftCoverage": {
+      "scheduledRNs": 6,
+      "confirmedRNs": 6,
+      "gapCount": 0
+    }
+  },
+  {
+    "unitId": "SURG1",
+    "unitName": "Surgical Unit 1",
+    "currentShift": {
+      "shiftName": "Day",
+      "scheduledRNs": 6,
+      "actualRNs": 5,
+      "scheduledAides": 3,
+      "actualAides": 3,
+      "openRNSlots": 1,
+      "openAideSlots": 0
+    },
+    "nurseToPatientRatio": {
+      "current": "1:5",
+      "target": "1:4",
+      "status": "amber"
+    },
+    "overtimeAlerts": [
+      { "name": "R. Garcia, RN", "hoursWorked": 39, "otThreshold": 40, "approaching": true }
+    ],
+    "nextShiftCoverage": {
+      "scheduledRNs": 5,
+      "confirmedRNs": 4,
+      "gapCount": 1
+    }
+  },
+  {
+    "unitId": "SURG2",
+    "unitName": "Surgical Unit 2",
+    "currentShift": {
+      "shiftName": "Day",
+      "scheduledRNs": 6,
+      "actualRNs": 4,
+      "scheduledAides": 3,
+      "actualAides": 3,
+      "openRNSlots": 2,
+      "openAideSlots": 0
+    },
+    "nurseToPatientRatio": {
+      "current": "1:6",
+      "target": "1:4",
+      "status": "red"
+    },
+    "overtimeAlerts": [
+      { "name": "T. Nguyen, RN", "hoursWorked": 37, "otThreshold": 40, "approaching": true }
+    ],
+    "nextShiftCoverage": {
+      "scheduledRNs": 6,
+      "confirmedRNs": 4,
+      "gapCount": 2
+    }
+  },
+  {
+    "unitId": "PEDS",
+    "unitName": "Pediatrics",
+    "currentShift": {
+      "shiftName": "Day",
+      "scheduledRNs": 5,
+      "actualRNs": 5,
+      "scheduledAides": 2,
+      "actualAides": 2,
+      "openRNSlots": 0,
+      "openAideSlots": 0
+    },
+    "nurseToPatientRatio": {
+      "current": "1:3",
+      "target": "1:4",
+      "status": "green"
+    },
+    "overtimeAlerts": [],
+    "nextShiftCoverage": {
+      "scheduledRNs": 5,
+      "confirmedRNs": 5,
+      "gapCount": 0
+    }
+  },
+  {
+    "unitId": "OB",
+    "unitName": "Obstetrics",
+    "currentShift": {
+      "shiftName": "Day",
+      "scheduledRNs": 5,
+      "actualRNs": 5,
+      "scheduledAides": 2,
+      "actualAides": 2,
+      "openRNSlots": 0,
+      "openAideSlots": 0
+    },
+    "nurseToPatientRatio": {
+      "current": "1:3",
+      "target": "1:3",
+      "status": "green"
+    },
+    "overtimeAlerts": [],
+    "nextShiftCoverage": {
+      "scheduledRNs": 4,
+      "confirmedRNs": 4,
+      "gapCount": 0
+    }
+  }
+]

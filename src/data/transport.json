@@ -1,0 +1,32 @@
+{
+  "summary": {
+    "patientsWaiting": 12,
+    "avgWaitTimeMins": 28,
+    "target": 20,
+    "status": "amber",
+    "completedToday": 47
+  },
+  "queue": [
+    { "id": "TR-001", "patientId": "PT-0042", "fromUnit": "MED1", "toUnit": "Discharge", "priority": "Routine", "waitTimeMins": 42, "status": "Waiting" },
+    { "id": "TR-002", "patientId": "PT-0085", "fromUnit": "MED1", "toUnit": "Radiology", "priority": "Urgent", "waitTimeMins": 18, "status": "InProgress" },
+    { "id": "TR-003", "patientId": "PT-0103", "fromUnit": "ED", "toUnit": "MED2", "priority": "Routine", "waitTimeMins": 35, "status": "Waiting" },
+    { "id": "TR-004", "patientId": "PT-0127", "fromUnit": "SURG1", "toUnit": "Discharge", "priority": "Routine", "waitTimeMins": 28, "status": "Waiting" },
+    { "id": "TR-005", "patientId": "PT-0148", "fromUnit": "ICU", "toUnit": "MED1", "priority": "Urgent", "waitTimeMins": 22, "status": "InProgress" },
+    { "id": "TR-006", "patientId": "PT-0162", "fromUnit": "ED", "toUnit": "ICU", "priority": "Urgent", "waitTimeMins": 14, "status": "InProgress" },
+    { "id": "TR-007", "patientId": "PT-0179", "fromUnit": "MED2", "toUnit": "Discharge", "priority": "Routine", "waitTimeMins": 31, "status": "Waiting" },
+    { "id": "TR-008", "patientId": "PT-0194", "fromUnit": "SURG2", "toUnit": "Radiology", "priority": "Routine", "waitTimeMins": 24, "status": "Waiting" },
+    { "id": "TR-009", "patientId": "PT-0208", "fromUnit": "PEDS", "toUnit": "Discharge", "priority": "Routine", "waitTimeMins": 19, "status": "Waiting" },
+    { "id": "TR-010", "patientId": "PT-0223", "fromUnit": "MED1", "toUnit": "Discharge", "priority": "Routine", "waitTimeMins": 45, "status": "Waiting" },
+    { "id": "TR-011", "patientId": "PT-0231", "fromUnit": "OB", "toUnit": "Discharge", "priority": "Routine", "waitTimeMins": 12, "status": "Waiting" },
+    { "id": "TR-012", "patientId": "PT-0246", "fromUnit": "SURG1", "toUnit": "Discharge", "priority": "Routine", "waitTimeMins": 38, "status": "Waiting" }
+  ],
+  "trend": [
+    { "date": "2026-05-30", "avgWaitTimeMins": 22 },
+    { "date": "2026-05-31", "avgWaitTimeMins": 21 },
+    { "date": "2026-06-01", "avgWaitTimeMins": 24 },
+    { "date": "2026-06-02", "avgWaitTimeMins": 26 },
+    { "date": "2026-06-03", "avgWaitTimeMins": 25 },
+    { "date": "2026-06-04", "avgWaitTimeMins": 27 },
+    { "date": "2026-06-05", "avgWaitTimeMins": 28 }
+  ]
+}

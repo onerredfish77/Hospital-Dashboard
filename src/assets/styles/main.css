@@ -1,0 +1,57 @@
+:root {
+  --bg-app: #F5F7FA;
+  --rag-green: #2E7D32;
+  --rag-amber: #F57F17;
+  --rag-red: #C62828;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-app);
+  font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+.rag-green {
+  background-color: var(--rag-green);
+  color: #FFFFFF;
+}
+
+.rag-amber {
+  background-color: var(--rag-amber);
+  color: #FFFFFF;
+}
+
+.rag-red {
+  background-color: var(--rag-red);
+  color: #FFFFFF;
+}
+
+.kpi-tile {
+  padding: 16px 20px;
+  border-radius: 8px;
+}
+
+.kpi-tile .kpi-value {
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.kpi-tile .kpi-title {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.kpi-tile .kpi-subtitle {
+  font-size: 0.75rem;
+  color: rgba(0, 0, 0, 0.55);
+}

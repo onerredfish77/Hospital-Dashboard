@@ -1,0 +1,31 @@
+{
+  "overall": {
+    "hcahpsScore": 82,
+    "pressGaneyScore": 78,
+    "trend": "stable"
+  },
+  "byDomain": [
+    { "domain": "Communication with Nurses", "score": 86, "benchmark": 85, "status": "green" },
+    { "domain": "Communication with Doctors", "score": 84, "benchmark": 85, "status": "amber" },
+    { "domain": "Responsiveness", "score": 76, "benchmark": 80, "status": "amber" },
+    { "domain": "Pain Management", "score": 79, "benchmark": 80, "status": "amber" },
+    { "domain": "Discharge Information", "score": 88, "benchmark": 85, "status": "green" },
+    { "domain": "Overall Rating", "score": 82, "benchmark": 85, "status": "amber" }
+  ],
+  "last4Weeks": [
+    { "weekLabel": "Wk -3", "score": 81 },
+    { "weekLabel": "Wk -2", "score": 80 },
+    { "weekLabel": "Wk -1", "score": 83 },
+    { "weekLabel": "This Wk", "score": 82 }
+  ],
+  "byUnit": [
+    { "unitId": "ED", "unitName": "Emergency Department", "score": 74, "benchmark": 80, "status": "amber" },
+    { "unitId": "ICU", "unitName": "Intensive Care Unit", "score": 88, "benchmark": 85, "status": "green" },
+    { "unitId": "MED1", "unitName": "Medical Unit 1", "score": 80, "benchmark": 85, "status": "amber" },
+    { "unitId": "MED2", "unitName": "Medical Unit 2", "score": 84, "benchmark": 85, "status": "amber" },
+    { "unitId": "SURG1", "unitName": "Surgical Unit 1", "score": 86, "benchmark": 85, "status": "green" },
+    { "unitId": "SURG2", "unitName": "Surgical Unit 2", "score": 78, "benchmark": 85, "status": "amber" },
+    { "unitId": "PEDS", "unitName": "Pediatrics", "score": 90, "benchmark": 85, "status": "green" },
+    { "unitId": "OB", "unitName": "Obstetrics", "score": 89, "benchmark": 85, "status": "green" }
+  ]
+}

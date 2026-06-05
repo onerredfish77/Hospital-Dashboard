@@ -1,0 +1,81 @@
+{
+  "available": [
+    {
+      "id": "FP-001",
+      "name": "S. Williams",
+      "role": "RN",
+      "certifications": ["ACLS", "BLS", "Med-Surg"],
+      "availableForUnits": ["MED1", "MED2", "SURG1", "SURG2"],
+      "shiftAvailable": "Day"
+    },
+    {
+      "id": "FP-002",
+      "name": "J. Rivera",
+      "role": "RN",
+      "certifications": ["ACLS", "BLS", "Critical Care"],
+      "availableForUnits": ["ICU", "ED"],
+      "shiftAvailable": "Day"
+    },
+    {
+      "id": "FP-003",
+      "name": "A. Brooks",
+      "role": "LPN",
+      "certifications": ["BLS"],
+      "availableForUnits": ["MED1", "MED2"],
+      "shiftAvailable": "Evening"
+    },
+    {
+      "id": "FP-004",
+      "name": "L. Thompson",
+      "role": "CNA",
+      "certifications": ["BLS"],
+      "availableForUnits": ["MED1", "MED2", "SURG1", "SURG2", "PEDS"],
+      "shiftAvailable": "Day"
+    },
+    {
+      "id": "FP-005",
+      "name": "D. Okafor",
+      "role": "RN",
+      "certifications": ["ACLS", "BLS", "PALS"],
+      "availableForUnits": ["PEDS", "OB"],
+      "shiftAvailable": "Night"
+    },
+    {
+      "id": "FP-006",
+      "name": "C. Murphy",
+      "role": "CNA",
+      "certifications": ["BLS"],
+      "availableForUnits": ["MED1", "MED2", "SURG1", "SURG2"],
+      "shiftAvailable": "Any"
+    }
+  ],
+  "deployed": [
+    {
+      "id": "FP-007",
+      "name": "P. Anderson",
+      "role": "RN",
+      "certifications": ["ACLS", "BLS", "Med-Surg"],
+      "availableForUnits": ["MED1", "MED2", "SURG1", "SURG2"],
+      "shiftAvailable": "Day",
+      "deployedTo": "MED1",
+      "deployedAt": "2026-06-05T07:00:00Z"
+    },
+    {
+      "id": "FP-008",
+      "name": "B. Schmidt",
+      "role": "CNA",
+      "certifications": ["BLS"],
+      "availableForUnits": ["SURG1", "SURG2"],
+      "shiftAvailable": "Day",
+      "deployedTo": "SURG2",
+      "deployedAt": "2026-06-05T07:00:00Z"
+    }
+  ],
+  "summary": {
+    "totalAvailable": 6,
+    "totalDeployed": 2,
+    "rnAvailable": 3,
+    "lpnAvailable": 1,
+    "cnaAvailable": 2
+  }
+}
