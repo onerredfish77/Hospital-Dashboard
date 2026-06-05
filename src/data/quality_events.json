@@ -1,32 +1,147 @@
 {
   "summary": {
-    "totalEventsThisMonth": 14,
-    "totalEventsLastMonth": 18,
+    "totalEventsThisMonth": 42,
+    "totalEventsLastMonth": 54,
     "trend": "improving"
   },
   "byType": [
-    { "eventType": "Patient Fall", "count": 4, "benchmark": 5, "status": "green" },
-    { "eventType": "HAI", "count": 2, "benchmark": 3, "status": "green" },
-    { "eventType": "Medication Error", "count": 3, "benchmark": 2, "status": "amber" },
-    { "eventType": "Near Miss", "count": 4, "benchmark": 6, "status": "green" },
-    { "eventType": "Pressure Injury", "count": 1, "benchmark": 2, "status": "green" }
+    {
+      "eventType": "Patient Fall",
+      "count": 12,
+      "benchmark": 15,
+      "status": "green"
+    },
+    {
+      "eventType": "HAI",
+      "count": 6,
+      "benchmark": 9,
+      "status": "green"
+    },
+    {
+      "eventType": "Medication Error",
+      "count": 9,
+      "benchmark": 6,
+      "status": "amber"
+    },
+    {
+      "eventType": "Near Miss",
+      "count": 12,
+      "benchmark": 18,
+      "status": "green"
+    },
+    {
+      "eventType": "Pressure Injury",
+      "count": 3,
+      "benchmark": 6,
+      "status": "green"
+    }
   ],
   "recentEvents": [
-    { "id": "QE-014", "date": "2026-06-04", "type": "Medication Error", "unit": "MED1", "severity": "Medium", "status": "Under Review" },
-    { "id": "QE-013", "date": "2026-06-04", "type": "Near Miss", "unit": "ED", "severity": "Low", "status": "Closed" },
-    { "id": "QE-012", "date": "2026-06-03", "type": "Patient Fall", "unit": "MED2", "severity": "Low", "status": "Closed" },
-    { "id": "QE-011", "date": "2026-06-03", "type": "Patient Fall", "unit": "SURG1", "severity": "Medium", "status": "Closed" },
-    { "id": "QE-010", "date": "2026-06-02", "type": "HAI", "unit": "ICU", "severity": "High", "status": "Open" },
-    { "id": "QE-009", "date": "2026-06-02", "type": "Near Miss", "unit": "MED1", "severity": "Low", "status": "Closed" },
-    { "id": "QE-008", "date": "2026-06-01", "type": "Medication Error", "unit": "MED2", "severity": "Low", "status": "Closed" },
-    { "id": "QE-007", "date": "2026-05-31", "type": "Patient Fall", "unit": "MED1", "severity": "Low", "status": "Closed" },
-    { "id": "QE-006", "date": "2026-05-30", "type": "Pressure Injury", "unit": "ICU", "severity": "Medium", "status": "Under Review" },
-    { "id": "QE-005", "date": "2026-05-29", "type": "Near Miss", "unit": "SURG2", "severity": "Low", "status": "Closed" }
+    {
+      "id": "QE-014",
+      "date": "2026-06-04",
+      "type": "Medication Error",
+      "unit": "MED1",
+      "severity": "Medium",
+      "status": "Under Review"
+    },
+    {
+      "id": "QE-013",
+      "date": "2026-06-04",
+      "type": "Near Miss",
+      "unit": "ED",
+      "severity": "Low",
+      "status": "Closed"
+    },
+    {
+      "id": "QE-012",
+      "date": "2026-06-03",
+      "type": "Patient Fall",
+      "unit": "MED2",
+      "severity": "Low",
+      "status": "Closed"
+    },
+    {
+      "id": "QE-011",
+      "date": "2026-06-03",
+      "type": "Patient Fall",
+      "unit": "SURG1",
+      "severity": "Medium",
+      "status": "Closed"
+    },
+    {
+      "id": "QE-010",
+      "date": "2026-06-02",
+      "type": "HAI",
+      "unit": "ICU",
+      "severity": "High",
+      "status": "Open"
+    },
+    {
+      "id": "QE-009",
+      "date": "2026-06-02",
+      "type": "Near Miss",
+      "unit": "MED1",
+      "severity": "Low",
+      "status": "Closed"
+    },
+    {
+      "id": "QE-008",
+      "date": "2026-06-01",
+      "type": "Medication Error",
+      "unit": "MED2",
+      "severity": "Low",
+      "status": "Closed"
+    },
+    {
+      "id": "QE-007",
+      "date": "2026-05-31",
+      "type": "Patient Fall",
+      "unit": "MED1",
+      "severity": "Low",
+      "status": "Closed"
+    },
+    {
+      "id": "QE-006",
+      "date": "2026-05-30",
+      "type": "Pressure Injury",
+      "unit": "ICU",
+      "severity": "Medium",
+      "status": "Under Review"
+    },
+    {
+      "id": "QE-005",
+      "date": "2026-05-29",
+      "type": "Near Miss",
+      "unit": "SURG2",
+      "severity": "Low",
+      "status": "Closed"
+    }
   ],
   "coreMeasures": [
-    { "measure": "Sepsis Bundle", "compliancePercent": 92, "target": 95, "status": "amber" },
-    { "measure": "VTE Prophylaxis", "compliancePercent": 96, "target": 95, "status": "green" },
-    { "measure": "Hand Hygiene", "compliancePercent": 88, "target": 95, "status": "amber" },
-    { "measure": "Glycemic Control", "compliancePercent": 84, "target": 90, "status": "amber" }
+    {
+      "measure": "Sepsis Bundle",
+      "compliancePercent": 92,
+      "target": 95,
+      "status": "amber"
+    },
+    {
+      "measure": "VTE Prophylaxis",
+      "compliancePercent": 96,
+      "target": 95,
+      "status": "green"
+    },
+    {
+      "measure": "Hand Hygiene",
+      "compliancePercent": 88,
+      "target": 95,
+      "status": "amber"
+    },
+    {
+      "measure": "Glycemic Control",
+      "compliancePercent": 84,
+      "target": 90,
+      "status": "amber"
+    }
   ]
 }

@@ -3,24 +3,81 @@
     "avgTurnaroundMins": 58,
     "target": 60,
     "status": "green",
-    "pendingOrders": 47,
-    "criticalResultsPending": 3
+    "pendingOrders": 141,
+    "criticalResultsPending": 9
   },
   "byTestType": [
-    { "testName": "CBC", "avgTurnaroundMins": 42, "target": 60, "volume": 184, "status": "green" },
-    { "testName": "BMP", "avgTurnaroundMins": 48, "target": 60, "volume": 156, "status": "green" },
-    { "testName": "Troponin", "avgTurnaroundMins": 78, "target": 60, "volume": 32, "status": "amber" },
-    { "testName": "Blood Culture", "avgTurnaroundMins": 96, "target": 60, "volume": 18, "status": "red" },
-    { "testName": "PT/INR", "avgTurnaroundMins": 51, "target": 60, "volume": 64, "status": "green" },
-    { "testName": "Urinalysis", "avgTurnaroundMins": 38, "target": 60, "volume": 92, "status": "green" }
+    {
+      "testName": "CBC",
+      "avgTurnaroundMins": 42,
+      "target": 60,
+      "volume": 552,
+      "status": "green"
+    },
+    {
+      "testName": "BMP",
+      "avgTurnaroundMins": 48,
+      "target": 60,
+      "volume": 468,
+      "status": "green"
+    },
+    {
+      "testName": "Troponin",
+      "avgTurnaroundMins": 78,
+      "target": 60,
+      "volume": 96,
+      "status": "amber"
+    },
+    {
+      "testName": "Blood Culture",
+      "avgTurnaroundMins": 96,
+      "target": 60,
+      "volume": 54,
+      "status": "red"
+    },
+    {
+      "testName": "PT/INR",
+      "avgTurnaroundMins": 51,
+      "target": 60,
+      "volume": 192,
+      "status": "green"
+    },
+    {
+      "testName": "Urinalysis",
+      "avgTurnaroundMins": 38,
+      "target": 60,
+      "volume": 276,
+      "status": "green"
+    }
   ],
   "trend": [
-    { "date": "2026-05-30", "avgTurnaroundMins": 54 },
-    { "date": "2026-05-31", "avgTurnaroundMins": 52 },
-    { "date": "2026-06-01", "avgTurnaroundMins": 56 },
-    { "date": "2026-06-02", "avgTurnaroundMins": 59 },
-    { "date": "2026-06-03", "avgTurnaroundMins": 57 },
-    { "date": "2026-06-04", "avgTurnaroundMins": 60 },
-    { "date": "2026-06-05", "avgTurnaroundMins": 58 }
+    {
+      "date": "2026-05-30",
+      "avgTurnaroundMins": 54
+    },
+    {
+      "date": "2026-05-31",
+      "avgTurnaroundMins": 52
+    },
+    {
+      "date": "2026-06-01",
+      "avgTurnaroundMins": 56
+    },
+    {
+      "date": "2026-06-02",
+      "avgTurnaroundMins": 59
+    },
+    {
+      "date": "2026-06-03",
+      "avgTurnaroundMins": 57
+    },
+    {
+      "date": "2026-06-04",
+      "avgTurnaroundMins": 60
+    },
+    {
+      "date": "2026-06-05",
+      "avgTurnaroundMins": 58
+    }
   ]
 }

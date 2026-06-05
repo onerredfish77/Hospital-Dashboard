@@ -7,40 +7,148 @@
     "burnoutRiskLevel": "medium"
   },
   "byUnit": [
-    { "unitId": "ED", "unitName": "Emergency Department", "overtimePercent": 12.4, "turnoverRate": 16.2, "vacancyRate": 10.5, "burnoutRisk": "high" },
-    { "unitId": "ICU", "unitName": "Intensive Care Unit", "overtimePercent": 11.8, "turnoverRate": 18.4, "vacancyRate": 12.0, "burnoutRisk": "high" },
-    { "unitId": "MED1", "unitName": "Medical Unit 1", "overtimePercent": 10.2, "turnoverRate": 15.8, "vacancyRate": 9.5, "burnoutRisk": "medium" },
-    { "unitId": "MED2", "unitName": "Medical Unit 2", "overtimePercent": 8.4, "turnoverRate": 13.2, "vacancyRate": 7.8, "burnoutRisk": "medium" },
-    { "unitId": "SURG1", "unitName": "Surgical Unit 1", "overtimePercent": 9.6, "turnoverRate": 14.5, "vacancyRate": 8.6, "burnoutRisk": "medium" },
-    { "unitId": "SURG2", "unitName": "Surgical Unit 2", "overtimePercent": 11.0, "turnoverRate": 16.8, "vacancyRate": 9.8, "burnoutRisk": "high" },
-    { "unitId": "PEDS", "unitName": "Pediatrics", "overtimePercent": 6.4, "turnoverRate": 9.2, "vacancyRate": 4.5, "burnoutRisk": "low" },
-    { "unitId": "OB", "unitName": "Obstetrics", "overtimePercent": 5.8, "turnoverRate": 8.4, "vacancyRate": 3.8, "burnoutRisk": "low" }
+    {
+      "unitId": "ED",
+      "unitName": "Emergency Department",
+      "overtimePercent": 12.4,
+      "turnoverRate": 16.2,
+      "vacancyRate": 10.5,
+      "burnoutRisk": "high"
+    },
+    {
+      "unitId": "ICU",
+      "unitName": "Intensive Care Unit",
+      "overtimePercent": 11.8,
+      "turnoverRate": 18.4,
+      "vacancyRate": 12,
+      "burnoutRisk": "high"
+    },
+    {
+      "unitId": "MED1",
+      "unitName": "Medical Unit 1",
+      "overtimePercent": 10.2,
+      "turnoverRate": 15.8,
+      "vacancyRate": 9.5,
+      "burnoutRisk": "medium"
+    },
+    {
+      "unitId": "MED2",
+      "unitName": "Medical Unit 2",
+      "overtimePercent": 8.4,
+      "turnoverRate": 13.2,
+      "vacancyRate": 7.8,
+      "burnoutRisk": "medium"
+    },
+    {
+      "unitId": "SURG1",
+      "unitName": "Surgical Unit 1",
+      "overtimePercent": 9.6,
+      "turnoverRate": 14.5,
+      "vacancyRate": 8.6,
+      "burnoutRisk": "medium"
+    },
+    {
+      "unitId": "SURG2",
+      "unitName": "Surgical Unit 2",
+      "overtimePercent": 11,
+      "turnoverRate": 16.8,
+      "vacancyRate": 9.8,
+      "burnoutRisk": "high"
+    },
+    {
+      "unitId": "PEDS",
+      "unitName": "Pediatrics",
+      "overtimePercent": 6.4,
+      "turnoverRate": 9.2,
+      "vacancyRate": 4.5,
+      "burnoutRisk": "low"
+    },
+    {
+      "unitId": "OB",
+      "unitName": "Obstetrics",
+      "overtimePercent": 5.8,
+      "turnoverRate": 8.4,
+      "vacancyRate": 3.8,
+      "burnoutRisk": "low"
+    }
   ],
   "trend": {
     "overtimeTrend": [
-      { "month": "2026-01", "value": 7.4 },
-      { "month": "2026-02", "value": 7.8 },
-      { "month": "2026-03", "value": 8.2 },
-      { "month": "2026-04", "value": 8.6 },
-      { "month": "2026-05", "value": 8.9 },
-      { "month": "2026-06", "value": 9.2 }
+      {
+        "month": "2026-01",
+        "value": 7.4
+      },
+      {
+        "month": "2026-02",
+        "value": 7.8
+      },
+      {
+        "month": "2026-03",
+        "value": 8.2
+      },
+      {
+        "month": "2026-04",
+        "value": 8.6
+      },
+      {
+        "month": "2026-05",
+        "value": 8.9
+      },
+      {
+        "month": "2026-06",
+        "value": 9.2
+      }
     ],
     "turnoverTrend": [
-      { "month": "2026-01", "value": 13.2 },
-      { "month": "2026-02", "value": 13.8 },
-      { "month": "2026-03", "value": 14.0 },
-      { "month": "2026-04", "value": 14.4 },
-      { "month": "2026-05", "value": 14.5 },
-      { "month": "2026-06", "value": 14.6 }
+      {
+        "month": "2026-01",
+        "value": 13.2
+      },
+      {
+        "month": "2026-02",
+        "value": 13.8
+      },
+      {
+        "month": "2026-03",
+        "value": 14
+      },
+      {
+        "month": "2026-04",
+        "value": 14.4
+      },
+      {
+        "month": "2026-05",
+        "value": 14.5
+      },
+      {
+        "month": "2026-06",
+        "value": 14.6
+      }
     ]
   },
   "openPositions": {
-    "totalOpen": 24,
+    "totalOpen": 72,
     "byRole": [
-      { "role": "RN", "openCount": 14, "avgDaysOpen": 62 },
-      { "role": "LPN", "openCount": 3, "avgDaysOpen": 38 },
-      { "role": "CNA", "openCount": 5, "avgDaysOpen": 28 },
-      { "role": "Respiratory Therapist", "openCount": 2, "avgDaysOpen": 84 }
+      {
+        "role": "RN",
+        "openCount": 42,
+        "avgDaysOpen": 62
+      },
+      {
+        "role": "LPN",
+        "openCount": 9,
+        "avgDaysOpen": 38
+      },
+      {
+        "role": "CNA",
+        "openCount": 15,
+        "avgDaysOpen": 28
+      },
+      {
+        "role": "Respiratory Therapist",
+        "openCount": 6,
+        "avgDaysOpen": 84
+      }
     ]
   }
 }

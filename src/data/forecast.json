@@ -2,170 +2,170 @@
   "next24Hours": [
     {
       "hour": 0,
-      "predictedAdmissions": 1,
+      "predictedAdmissions": 3,
       "predictedDischarges": 0,
-      "predictedCensus": 181,
+      "predictedCensus": 543,
       "confidenceLevel": "high"
     },
     {
       "hour": 1,
-      "predictedAdmissions": 1,
+      "predictedAdmissions": 3,
       "predictedDischarges": 0,
-      "predictedCensus": 182,
+      "predictedCensus": 546,
       "confidenceLevel": "high"
     },
     {
       "hour": 2,
-      "predictedAdmissions": 1,
+      "predictedAdmissions": 3,
       "predictedDischarges": 0,
-      "predictedCensus": 183,
+      "predictedCensus": 549,
       "confidenceLevel": "high"
     },
     {
       "hour": 3,
       "predictedAdmissions": 0,
       "predictedDischarges": 0,
-      "predictedCensus": 183,
+      "predictedCensus": 549,
       "confidenceLevel": "high"
     },
     {
       "hour": 4,
-      "predictedAdmissions": 1,
+      "predictedAdmissions": 3,
       "predictedDischarges": 0,
-      "predictedCensus": 184,
+      "predictedCensus": 552,
       "confidenceLevel": "high"
     },
     {
       "hour": 5,
-      "predictedAdmissions": 1,
+      "predictedAdmissions": 3,
       "predictedDischarges": 0,
-      "predictedCensus": 185,
+      "predictedCensus": 555,
       "confidenceLevel": "high"
     },
     {
       "hour": 6,
-      "predictedAdmissions": 2,
-      "predictedDischarges": 1,
-      "predictedCensus": 186,
+      "predictedAdmissions": 6,
+      "predictedDischarges": 3,
+      "predictedCensus": 558,
       "confidenceLevel": "high"
     },
     {
       "hour": 7,
-      "predictedAdmissions": 3,
-      "predictedDischarges": 2,
-      "predictedCensus": 187,
+      "predictedAdmissions": 9,
+      "predictedDischarges": 6,
+      "predictedCensus": 561,
       "confidenceLevel": "high"
     },
     {
       "hour": 8,
-      "predictedAdmissions": 4,
-      "predictedDischarges": 4,
-      "predictedCensus": 187,
+      "predictedAdmissions": 12,
+      "predictedDischarges": 12,
+      "predictedCensus": 561,
       "confidenceLevel": "high"
     },
     {
       "hour": 9,
-      "predictedAdmissions": 5,
-      "predictedDischarges": 6,
-      "predictedCensus": 186,
+      "predictedAdmissions": 15,
+      "predictedDischarges": 18,
+      "predictedCensus": 558,
       "confidenceLevel": "high"
     },
     {
       "hour": 10,
-      "predictedAdmissions": 6,
-      "predictedDischarges": 8,
-      "predictedCensus": 184,
+      "predictedAdmissions": 18,
+      "predictedDischarges": 24,
+      "predictedCensus": 552,
       "confidenceLevel": "high"
     },
     {
       "hour": 11,
-      "predictedAdmissions": 5,
-      "predictedDischarges": 7,
-      "predictedCensus": 182,
+      "predictedAdmissions": 15,
+      "predictedDischarges": 21,
+      "predictedCensus": 546,
       "confidenceLevel": "high"
     },
     {
       "hour": 12,
-      "predictedAdmissions": 4,
-      "predictedDischarges": 6,
-      "predictedCensus": 180,
+      "predictedAdmissions": 12,
+      "predictedDischarges": 18,
+      "predictedCensus": 540,
       "confidenceLevel": "medium"
     },
     {
       "hour": 13,
-      "predictedAdmissions": 3,
-      "predictedDischarges": 4,
-      "predictedCensus": 179,
+      "predictedAdmissions": 9,
+      "predictedDischarges": 12,
+      "predictedCensus": 537,
       "confidenceLevel": "medium"
     },
     {
       "hour": 14,
-      "predictedAdmissions": 3,
-      "predictedDischarges": 3,
-      "predictedCensus": 179,
+      "predictedAdmissions": 9,
+      "predictedDischarges": 9,
+      "predictedCensus": 537,
       "confidenceLevel": "medium"
     },
     {
       "hour": 15,
-      "predictedAdmissions": 4,
-      "predictedDischarges": 3,
-      "predictedCensus": 180,
+      "predictedAdmissions": 12,
+      "predictedDischarges": 9,
+      "predictedCensus": 540,
       "confidenceLevel": "medium"
     },
     {
       "hour": 16,
-      "predictedAdmissions": 4,
-      "predictedDischarges": 2,
-      "predictedCensus": 182,
+      "predictedAdmissions": 12,
+      "predictedDischarges": 6,
+      "predictedCensus": 546,
       "confidenceLevel": "medium"
     },
     {
       "hour": 17,
-      "predictedAdmissions": 3,
-      "predictedDischarges": 2,
-      "predictedCensus": 183,
+      "predictedAdmissions": 9,
+      "predictedDischarges": 6,
+      "predictedCensus": 549,
       "confidenceLevel": "medium"
     },
     {
       "hour": 18,
-      "predictedAdmissions": 3,
-      "predictedDischarges": 1,
-      "predictedCensus": 185,
+      "predictedAdmissions": 9,
+      "predictedDischarges": 3,
+      "predictedCensus": 555,
       "confidenceLevel": "medium"
     },
     {
       "hour": 19,
-      "predictedAdmissions": 2,
-      "predictedDischarges": 1,
-      "predictedCensus": 186,
+      "predictedAdmissions": 6,
+      "predictedDischarges": 3,
+      "predictedCensus": 558,
       "confidenceLevel": "low"
     },
     {
       "hour": 20,
-      "predictedAdmissions": 2,
+      "predictedAdmissions": 6,
       "predictedDischarges": 0,
-      "predictedCensus": 188,
+      "predictedCensus": 564,
       "confidenceLevel": "low"
     },
     {
       "hour": 21,
-      "predictedAdmissions": 2,
+      "predictedAdmissions": 6,
       "predictedDischarges": 0,
-      "predictedCensus": 190,
+      "predictedCensus": 570,
       "confidenceLevel": "low"
     },
     {
       "hour": 22,
-      "predictedAdmissions": 1,
+      "predictedAdmissions": 3,
       "predictedDischarges": 0,
-      "predictedCensus": 191,
+      "predictedCensus": 573,
       "confidenceLevel": "low"
     },
     {
       "hour": 23,
-      "predictedAdmissions": 1,
+      "predictedAdmissions": 3,
       "predictedDischarges": 0,
-      "predictedCensus": 192,
+      "predictedCensus": 576,
       "confidenceLevel": "low"
     }
   ],
@@ -173,27 +173,27 @@
     {
       "date": "2026-06-05",
       "dayLabel": "Today (Fri)",
-      "predictedAdmissions": 42,
-      "predictedDischarges": 38,
-      "predictedPeakCensus": 192,
+      "predictedAdmissions": 126,
+      "predictedDischarges": 114,
+      "predictedPeakCensus": 576,
       "predictedPeakTime": "23:00",
       "surgeRisk": "medium"
     },
     {
       "date": "2026-06-06",
       "dayLabel": "Tomorrow (Sat)",
-      "predictedAdmissions": 52,
-      "predictedDischarges": 32,
-      "predictedPeakCensus": 212,
+      "predictedAdmissions": 156,
+      "predictedDischarges": 96,
+      "predictedPeakCensus": 636,
       "predictedPeakTime": "21:00",
       "surgeRisk": "high"
     },
     {
       "date": "2026-06-07",
       "dayLabel": "Day After (Sun)",
-      "predictedAdmissions": 46,
-      "predictedDischarges": 30,
-      "predictedPeakCensus": 218,
+      "predictedAdmissions": 138,
+      "predictedDischarges": 90,
+      "predictedPeakCensus": 654,
       "predictedPeakTime": "20:00",
       "surgeRisk": "high"
     }
@@ -276,32 +276,32 @@
     {
       "date": "2026-06-05",
       "type": "Elective Surgery",
+      "count": 18
+    },
+    {
+      "date": "2026-06-05",
+      "type": "Planned Transfer",
       "count": 6
     },
     {
       "date": "2026-06-05",
-      "type": "Planned Transfer",
-      "count": 2
-    },
-    {
-      "date": "2026-06-05",
       "type": "Scheduled Procedure",
-      "count": 4
+      "count": 12
     },
     {
       "date": "2026-06-06",
       "type": "Elective Surgery",
-      "count": 3
+      "count": 9
     },
     {
       "date": "2026-06-06",
       "type": "Planned Transfer",
-      "count": 1
+      "count": 3
     },
     {
       "date": "2026-06-06",
       "type": "Scheduled Procedure",
-      "count": 2
+      "count": 6
     },
     {
       "date": "2026-06-07",
@@ -311,12 +311,12 @@
     {
       "date": "2026-06-07",
       "type": "Planned Transfer",
-      "count": 1
+      "count": 3
     },
     {
       "date": "2026-06-07",
       "type": "Scheduled Procedure",
-      "count": 1
+      "count": 3
     }
   ],
   "hourlyByUnit": [
@@ -326,440 +326,440 @@
       "hours": [
         {
           "hoursFromNow": 0,
-          "predictedOccupiedBeds": 34,
+          "predictedOccupiedBeds": 102,
           "predictedOccupancyPercent": 85,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 1,
-          "predictedOccupiedBeds": 34,
+          "predictedOccupiedBeds": 102,
           "predictedOccupancyPercent": 85,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 2,
-          "predictedOccupiedBeds": 34,
+          "predictedOccupiedBeds": 102,
           "predictedOccupancyPercent": 85,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 3,
-          "predictedOccupiedBeds": 34,
+          "predictedOccupiedBeds": 102,
           "predictedOccupancyPercent": 85,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 4,
-          "predictedOccupiedBeds": 34,
-          "predictedOccupancyPercent": 85,
+          "predictedOccupiedBeds": 103,
+          "predictedOccupancyPercent": 85.8,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 5,
-          "predictedOccupiedBeds": 34,
-          "predictedOccupancyPercent": 85,
+          "predictedOccupiedBeds": 103,
+          "predictedOccupancyPercent": 85.8,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 6,
-          "predictedOccupiedBeds": 35,
+          "predictedOccupiedBeds": 105,
           "predictedOccupancyPercent": 87.5,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 7,
-          "predictedOccupiedBeds": 36,
-          "predictedOccupancyPercent": 90,
-          "predictedStatus": "red"
+          "predictedOccupiedBeds": 107,
+          "predictedOccupancyPercent": 89.2,
+          "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 8,
-          "predictedOccupiedBeds": 37,
+          "predictedOccupiedBeds": 111,
           "predictedOccupancyPercent": 92.5,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 9,
-          "predictedOccupiedBeds": 39,
-          "predictedOccupancyPercent": 97.5,
+          "predictedOccupiedBeds": 116,
+          "predictedOccupancyPercent": 96.7,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 10,
-          "predictedOccupiedBeds": 40,
-          "predictedOccupancyPercent": 100,
+          "predictedOccupiedBeds": 119,
+          "predictedOccupancyPercent": 99.2,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 11,
-          "predictedOccupiedBeds": 40,
+          "predictedOccupiedBeds": 120,
           "predictedOccupancyPercent": 100,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 12,
-          "predictedOccupiedBeds": 40,
-          "predictedOccupancyPercent": 100,
+          "predictedOccupiedBeds": 119,
+          "predictedOccupancyPercent": 99.2,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 13,
-          "predictedOccupiedBeds": 39,
-          "predictedOccupancyPercent": 97.5,
+          "predictedOccupiedBeds": 116,
+          "predictedOccupancyPercent": 96.7,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 14,
-          "predictedOccupiedBeds": 37,
+          "predictedOccupiedBeds": 111,
           "predictedOccupancyPercent": 92.5,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 15,
-          "predictedOccupiedBeds": 36,
+          "predictedOccupiedBeds": 108,
           "predictedOccupancyPercent": 90,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 16,
-          "predictedOccupiedBeds": 35,
+          "predictedOccupiedBeds": 105,
           "predictedOccupancyPercent": 87.5,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 17,
-          "predictedOccupiedBeds": 34,
-          "predictedOccupancyPercent": 85,
+          "predictedOccupiedBeds": 103,
+          "predictedOccupancyPercent": 85.8,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 18,
-          "predictedOccupiedBeds": 34,
+          "predictedOccupiedBeds": 102,
           "predictedOccupancyPercent": 85,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 19,
-          "predictedOccupiedBeds": 33,
-          "predictedOccupancyPercent": 82.5,
+          "predictedOccupiedBeds": 100,
+          "predictedOccupancyPercent": 83.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 20,
-          "predictedOccupiedBeds": 33,
-          "predictedOccupancyPercent": 82.5,
+          "predictedOccupiedBeds": 98,
+          "predictedOccupancyPercent": 81.7,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 21,
-          "predictedOccupiedBeds": 32,
+          "predictedOccupiedBeds": 96,
           "predictedOccupancyPercent": 80,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 22,
-          "predictedOccupiedBeds": 32,
-          "predictedOccupancyPercent": 80,
-          "predictedStatus": "amber"
+          "predictedOccupiedBeds": 95,
+          "predictedOccupancyPercent": 79.2,
+          "predictedStatus": "green"
         },
         {
           "hoursFromNow": 23,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 77.5,
+          "predictedOccupiedBeds": 94,
+          "predictedOccupancyPercent": 78.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 24,
-          "predictedOccupiedBeds": 32,
-          "predictedOccupancyPercent": 80,
-          "predictedStatus": "amber"
+          "predictedOccupiedBeds": 95,
+          "predictedOccupancyPercent": 79.2,
+          "predictedStatus": "green"
         },
         {
           "hoursFromNow": 25,
-          "predictedOccupiedBeds": 32,
+          "predictedOccupiedBeds": 96,
           "predictedOccupancyPercent": 80,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 26,
-          "predictedOccupiedBeds": 33,
-          "predictedOccupancyPercent": 82.5,
+          "predictedOccupiedBeds": 98,
+          "predictedOccupancyPercent": 81.7,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 27,
-          "predictedOccupiedBeds": 33,
-          "predictedOccupancyPercent": 82.5,
+          "predictedOccupiedBeds": 100,
+          "predictedOccupancyPercent": 83.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 28,
-          "predictedOccupiedBeds": 34,
+          "predictedOccupiedBeds": 102,
           "predictedOccupancyPercent": 85,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 29,
-          "predictedOccupiedBeds": 35,
-          "predictedOccupancyPercent": 87.5,
+          "predictedOccupiedBeds": 104,
+          "predictedOccupancyPercent": 86.7,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 30,
-          "predictedOccupiedBeds": 35,
+          "predictedOccupiedBeds": 105,
           "predictedOccupancyPercent": 87.5,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 31,
-          "predictedOccupiedBeds": 36,
+          "predictedOccupiedBeds": 108,
           "predictedOccupancyPercent": 90,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 32,
-          "predictedOccupiedBeds": 37,
+          "predictedOccupiedBeds": 111,
           "predictedOccupancyPercent": 92.5,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 33,
-          "predictedOccupiedBeds": 38,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 115,
+          "predictedOccupancyPercent": 95.8,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 34,
-          "predictedOccupiedBeds": 39,
-          "predictedOccupancyPercent": 97.5,
+          "predictedOccupiedBeds": 118,
+          "predictedOccupancyPercent": 98.3,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 35,
-          "predictedOccupiedBeds": 40,
-          "predictedOccupancyPercent": 100,
+          "predictedOccupiedBeds": 119,
+          "predictedOccupancyPercent": 99.2,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 36,
-          "predictedOccupiedBeds": 39,
-          "predictedOccupancyPercent": 97.5,
+          "predictedOccupiedBeds": 118,
+          "predictedOccupancyPercent": 98.3,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 37,
-          "predictedOccupiedBeds": 38,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 115,
+          "predictedOccupancyPercent": 95.8,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 38,
-          "predictedOccupiedBeds": 37,
+          "predictedOccupiedBeds": 111,
           "predictedOccupancyPercent": 92.5,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 39,
-          "predictedOccupiedBeds": 36,
+          "predictedOccupiedBeds": 108,
           "predictedOccupancyPercent": 90,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 40,
-          "predictedOccupiedBeds": 35,
-          "predictedOccupancyPercent": 87.5,
+          "predictedOccupiedBeds": 106,
+          "predictedOccupancyPercent": 88.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 41,
-          "predictedOccupiedBeds": 35,
-          "predictedOccupancyPercent": 87.5,
+          "predictedOccupiedBeds": 104,
+          "predictedOccupancyPercent": 86.7,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 42,
-          "predictedOccupiedBeds": 34,
-          "predictedOccupancyPercent": 85,
+          "predictedOccupiedBeds": 103,
+          "predictedOccupancyPercent": 85.8,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 43,
-          "predictedOccupiedBeds": 34,
-          "predictedOccupancyPercent": 85,
+          "predictedOccupiedBeds": 101,
+          "predictedOccupancyPercent": 84.2,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 44,
-          "predictedOccupiedBeds": 33,
-          "predictedOccupancyPercent": 82.5,
+          "predictedOccupiedBeds": 100,
+          "predictedOccupancyPercent": 83.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 45,
-          "predictedOccupiedBeds": 33,
-          "predictedOccupancyPercent": 82.5,
+          "predictedOccupiedBeds": 98,
+          "predictedOccupancyPercent": 81.7,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 46,
-          "predictedOccupiedBeds": 32,
+          "predictedOccupiedBeds": 96,
           "predictedOccupancyPercent": 80,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 47,
-          "predictedOccupiedBeds": 32,
+          "predictedOccupiedBeds": 96,
           "predictedOccupancyPercent": 80,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 48,
-          "predictedOccupiedBeds": 32,
+          "predictedOccupiedBeds": 96,
           "predictedOccupancyPercent": 80,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 49,
-          "predictedOccupiedBeds": 33,
-          "predictedOccupancyPercent": 82.5,
+          "predictedOccupiedBeds": 98,
+          "predictedOccupancyPercent": 81.7,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 50,
-          "predictedOccupiedBeds": 33,
-          "predictedOccupancyPercent": 82.5,
+          "predictedOccupiedBeds": 100,
+          "predictedOccupancyPercent": 83.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 51,
-          "predictedOccupiedBeds": 34,
+          "predictedOccupiedBeds": 102,
           "predictedOccupancyPercent": 85,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 52,
-          "predictedOccupiedBeds": 34,
-          "predictedOccupancyPercent": 85,
+          "predictedOccupiedBeds": 103,
+          "predictedOccupancyPercent": 85.8,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 53,
-          "predictedOccupiedBeds": 35,
-          "predictedOccupancyPercent": 87.5,
+          "predictedOccupiedBeds": 104,
+          "predictedOccupancyPercent": 86.7,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 54,
-          "predictedOccupiedBeds": 35,
+          "predictedOccupiedBeds": 105,
           "predictedOccupancyPercent": 87.5,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 55,
-          "predictedOccupiedBeds": 35,
+          "predictedOccupiedBeds": 105,
           "predictedOccupancyPercent": 87.5,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 56,
-          "predictedOccupiedBeds": 35,
+          "predictedOccupiedBeds": 105,
           "predictedOccupancyPercent": 87.5,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 57,
-          "predictedOccupiedBeds": 35,
+          "predictedOccupiedBeds": 105,
           "predictedOccupancyPercent": 87.5,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 58,
-          "predictedOccupiedBeds": 35,
+          "predictedOccupiedBeds": 105,
           "predictedOccupancyPercent": 87.5,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 59,
-          "predictedOccupiedBeds": 35,
-          "predictedOccupancyPercent": 87.5,
+          "predictedOccupiedBeds": 106,
+          "predictedOccupancyPercent": 88.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 60,
-          "predictedOccupiedBeds": 35,
-          "predictedOccupancyPercent": 87.5,
+          "predictedOccupiedBeds": 106,
+          "predictedOccupancyPercent": 88.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 61,
-          "predictedOccupiedBeds": 35,
-          "predictedOccupancyPercent": 87.5,
+          "predictedOccupiedBeds": 106,
+          "predictedOccupancyPercent": 88.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 62,
-          "predictedOccupiedBeds": 35,
-          "predictedOccupancyPercent": 87.5,
+          "predictedOccupiedBeds": 106,
+          "predictedOccupancyPercent": 88.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 63,
-          "predictedOccupiedBeds": 35,
-          "predictedOccupancyPercent": 87.5,
+          "predictedOccupiedBeds": 106,
+          "predictedOccupancyPercent": 88.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 64,
-          "predictedOccupiedBeds": 35,
-          "predictedOccupancyPercent": 87.5,
+          "predictedOccupiedBeds": 106,
+          "predictedOccupancyPercent": 88.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 65,
-          "predictedOccupiedBeds": 35,
-          "predictedOccupancyPercent": 87.5,
+          "predictedOccupiedBeds": 106,
+          "predictedOccupancyPercent": 88.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 66,
-          "predictedOccupiedBeds": 35,
-          "predictedOccupancyPercent": 87.5,
+          "predictedOccupiedBeds": 106,
+          "predictedOccupancyPercent": 88.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 67,
-          "predictedOccupiedBeds": 35,
-          "predictedOccupancyPercent": 87.5,
+          "predictedOccupiedBeds": 106,
+          "predictedOccupancyPercent": 88.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 68,
-          "predictedOccupiedBeds": 35,
-          "predictedOccupancyPercent": 87.5,
+          "predictedOccupiedBeds": 106,
+          "predictedOccupancyPercent": 88.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 69,
-          "predictedOccupiedBeds": 35,
-          "predictedOccupancyPercent": 87.5,
+          "predictedOccupiedBeds": 106,
+          "predictedOccupancyPercent": 88.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 70,
-          "predictedOccupiedBeds": 35,
-          "predictedOccupancyPercent": 87.5,
+          "predictedOccupiedBeds": 106,
+          "predictedOccupancyPercent": 88.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 71,
-          "predictedOccupiedBeds": 35,
-          "predictedOccupancyPercent": 87.5,
+          "predictedOccupiedBeds": 106,
+          "predictedOccupancyPercent": 88.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 72,
-          "predictedOccupiedBeds": 35,
-          "predictedOccupancyPercent": 87.5,
+          "predictedOccupiedBeds": 106,
+          "predictedOccupancyPercent": 88.3,
           "predictedStatus": "amber"
         }
       ]
@@ -770,439 +770,439 @@
       "hours": [
         {
           "hoursFromNow": 0,
-          "predictedOccupiedBeds": 19,
+          "predictedOccupiedBeds": 57,
           "predictedOccupancyPercent": 95,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 1,
-          "predictedOccupiedBeds": 19,
+          "predictedOccupiedBeds": 57,
           "predictedOccupancyPercent": 95,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 2,
-          "predictedOccupiedBeds": 19,
+          "predictedOccupiedBeds": 57,
           "predictedOccupancyPercent": 95,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 3,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 58,
+          "predictedOccupancyPercent": 96.7,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 4,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 58,
+          "predictedOccupancyPercent": 96.7,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 5,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 58,
+          "predictedOccupancyPercent": 96.7,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 6,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 58,
+          "predictedOccupancyPercent": 96.7,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 7,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 58,
+          "predictedOccupancyPercent": 96.7,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 8,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 58,
+          "predictedOccupancyPercent": 96.7,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 9,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 58,
+          "predictedOccupancyPercent": 96.7,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 10,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 58,
+          "predictedOccupancyPercent": 96.7,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 11,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 58,
+          "predictedOccupancyPercent": 96.7,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 12,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 58,
+          "predictedOccupancyPercent": 96.7,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 13,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 58,
+          "predictedOccupancyPercent": 96.7,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 14,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 58,
+          "predictedOccupancyPercent": 96.7,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 15,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 58,
+          "predictedOccupancyPercent": 96.7,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 16,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 58,
+          "predictedOccupancyPercent": 96.7,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 17,
-          "predictedOccupiedBeds": 19,
+          "predictedOccupiedBeds": 57,
           "predictedOccupancyPercent": 95,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 18,
-          "predictedOccupiedBeds": 19,
+          "predictedOccupiedBeds": 57,
           "predictedOccupancyPercent": 95,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 19,
-          "predictedOccupiedBeds": 19,
+          "predictedOccupiedBeds": 57,
           "predictedOccupancyPercent": 95,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 20,
-          "predictedOccupiedBeds": 19,
+          "predictedOccupiedBeds": 57,
           "predictedOccupancyPercent": 95,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 21,
-          "predictedOccupiedBeds": 19,
+          "predictedOccupiedBeds": 57,
           "predictedOccupancyPercent": 95,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 22,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 56,
+          "predictedOccupancyPercent": 93.3,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 23,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 56,
+          "predictedOccupancyPercent": 93.3,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 24,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 56,
+          "predictedOccupancyPercent": 93.3,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 25,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 56,
+          "predictedOccupancyPercent": 93.3,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 26,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 56,
+          "predictedOccupancyPercent": 93.3,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 27,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 56,
+          "predictedOccupancyPercent": 93.3,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 28,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 56,
+          "predictedOccupancyPercent": 93.3,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 29,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 56,
+          "predictedOccupancyPercent": 93.3,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 30,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 56,
+          "predictedOccupancyPercent": 93.3,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 31,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 56,
+          "predictedOccupancyPercent": 93.3,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 32,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 56,
+          "predictedOccupancyPercent": 93.3,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 33,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 56,
+          "predictedOccupancyPercent": 93.3,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 34,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 56,
+          "predictedOccupancyPercent": 93.3,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 35,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 56,
+          "predictedOccupancyPercent": 93.3,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 36,
-          "predictedOccupiedBeds": 19,
+          "predictedOccupiedBeds": 57,
           "predictedOccupancyPercent": 95,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 37,
-          "predictedOccupiedBeds": 19,
+          "predictedOccupiedBeds": 57,
           "predictedOccupancyPercent": 95,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 38,
-          "predictedOccupiedBeds": 19,
+          "predictedOccupiedBeds": 57,
           "predictedOccupancyPercent": 95,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 39,
-          "predictedOccupiedBeds": 19,
+          "predictedOccupiedBeds": 57,
           "predictedOccupancyPercent": 95,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 40,
-          "predictedOccupiedBeds": 19,
+          "predictedOccupiedBeds": 57,
           "predictedOccupancyPercent": 95,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 41,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 58,
+          "predictedOccupancyPercent": 96.7,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 42,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 58,
+          "predictedOccupancyPercent": 96.7,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 43,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 58,
+          "predictedOccupancyPercent": 96.7,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 44,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 58,
+          "predictedOccupancyPercent": 96.7,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 45,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 58,
+          "predictedOccupancyPercent": 96.7,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 46,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 58,
+          "predictedOccupancyPercent": 96.7,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 47,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 58,
+          "predictedOccupancyPercent": 96.7,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 48,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 58,
+          "predictedOccupancyPercent": 96.7,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 49,
-          "predictedOccupiedBeds": 19,
+          "predictedOccupiedBeds": 57,
           "predictedOccupancyPercent": 95,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 50,
-          "predictedOccupiedBeds": 19,
+          "predictedOccupiedBeds": 57,
           "predictedOccupancyPercent": 95,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 51,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 56,
+          "predictedOccupancyPercent": 93.3,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 52,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 56,
+          "predictedOccupancyPercent": 93.3,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 53,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 56,
+          "predictedOccupancyPercent": 93.3,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 54,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 95,
+          "predictedOccupiedBeds": 56,
+          "predictedOccupancyPercent": 93.3,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 55,
-          "predictedOccupiedBeds": 18,
-          "predictedOccupancyPercent": 90,
+          "predictedOccupiedBeds": 55,
+          "predictedOccupancyPercent": 91.7,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 56,
-          "predictedOccupiedBeds": 18,
-          "predictedOccupancyPercent": 90,
+          "predictedOccupiedBeds": 55,
+          "predictedOccupancyPercent": 91.7,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 57,
-          "predictedOccupiedBeds": 18,
-          "predictedOccupancyPercent": 90,
+          "predictedOccupiedBeds": 55,
+          "predictedOccupancyPercent": 91.7,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 58,
-          "predictedOccupiedBeds": 18,
-          "predictedOccupancyPercent": 90,
+          "predictedOccupiedBeds": 55,
+          "predictedOccupancyPercent": 91.7,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 59,
-          "predictedOccupiedBeds": 18,
+          "predictedOccupiedBeds": 54,
           "predictedOccupancyPercent": 90,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 60,
-          "predictedOccupiedBeds": 18,
+          "predictedOccupiedBeds": 54,
           "predictedOccupancyPercent": 90,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 61,
-          "predictedOccupiedBeds": 18,
+          "predictedOccupiedBeds": 54,
           "predictedOccupancyPercent": 90,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 62,
-          "predictedOccupiedBeds": 18,
+          "predictedOccupiedBeds": 54,
           "predictedOccupancyPercent": 90,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 63,
-          "predictedOccupiedBeds": 18,
-          "predictedOccupancyPercent": 90,
-          "predictedStatus": "red"
+          "predictedOccupiedBeds": 53,
+          "predictedOccupancyPercent": 88.3,
+          "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 64,
-          "predictedOccupiedBeds": 18,
-          "predictedOccupancyPercent": 90,
-          "predictedStatus": "red"
+          "predictedOccupiedBeds": 53,
+          "predictedOccupancyPercent": 88.3,
+          "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 65,
-          "predictedOccupiedBeds": 18,
-          "predictedOccupancyPercent": 90,
-          "predictedStatus": "red"
+          "predictedOccupiedBeds": 53,
+          "predictedOccupancyPercent": 88.3,
+          "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 66,
-          "predictedOccupiedBeds": 18,
-          "predictedOccupancyPercent": 90,
-          "predictedStatus": "red"
+          "predictedOccupiedBeds": 53,
+          "predictedOccupancyPercent": 88.3,
+          "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 67,
-          "predictedOccupiedBeds": 17,
-          "predictedOccupancyPercent": 85,
+          "predictedOccupiedBeds": 52,
+          "predictedOccupancyPercent": 86.7,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 68,
-          "predictedOccupiedBeds": 17,
-          "predictedOccupancyPercent": 85,
+          "predictedOccupiedBeds": 52,
+          "predictedOccupancyPercent": 86.7,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 69,
-          "predictedOccupiedBeds": 17,
-          "predictedOccupancyPercent": 85,
+          "predictedOccupiedBeds": 52,
+          "predictedOccupancyPercent": 86.7,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 70,
-          "predictedOccupiedBeds": 17,
-          "predictedOccupancyPercent": 85,
+          "predictedOccupiedBeds": 52,
+          "predictedOccupancyPercent": 86.7,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 71,
-          "predictedOccupiedBeds": 17,
+          "predictedOccupiedBeds": 51,
           "predictedOccupancyPercent": 85,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 72,
-          "predictedOccupiedBeds": 17,
+          "predictedOccupiedBeds": 51,
           "predictedOccupancyPercent": 85,
           "predictedStatus": "amber"
         }
@@ -1214,440 +1214,440 @@
       "hours": [
         {
           "hoursFromNow": 0,
-          "predictedOccupiedBeds": 30,
+          "predictedOccupiedBeds": 90,
           "predictedOccupancyPercent": 93.8,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 1,
-          "predictedOccupiedBeds": 30,
+          "predictedOccupiedBeds": 90,
           "predictedOccupancyPercent": 93.8,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 2,
-          "predictedOccupiedBeds": 30,
+          "predictedOccupiedBeds": 90,
           "predictedOccupancyPercent": 93.8,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 3,
-          "predictedOccupiedBeds": 30,
-          "predictedOccupancyPercent": 93.8,
+          "predictedOccupiedBeds": 91,
+          "predictedOccupancyPercent": 94.8,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 4,
-          "predictedOccupiedBeds": 30,
-          "predictedOccupancyPercent": 93.8,
+          "predictedOccupiedBeds": 91,
+          "predictedOccupancyPercent": 94.8,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 5,
-          "predictedOccupiedBeds": 30,
-          "predictedOccupancyPercent": 93.8,
+          "predictedOccupiedBeds": 91,
+          "predictedOccupancyPercent": 94.8,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 6,
-          "predictedOccupiedBeds": 30,
-          "predictedOccupancyPercent": 93.8,
+          "predictedOccupiedBeds": 91,
+          "predictedOccupancyPercent": 94.8,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 7,
-          "predictedOccupiedBeds": 30,
-          "predictedOccupancyPercent": 93.8,
+          "predictedOccupiedBeds": 91,
+          "predictedOccupancyPercent": 94.8,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 8,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 92,
+          "predictedOccupancyPercent": 95.8,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 9,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 92,
+          "predictedOccupancyPercent": 95.8,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 10,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 92,
+          "predictedOccupancyPercent": 95.8,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 11,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 92,
+          "predictedOccupancyPercent": 95.8,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 12,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 92,
+          "predictedOccupancyPercent": 95.8,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 13,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 92,
+          "predictedOccupancyPercent": 95.8,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 14,
-          "predictedOccupiedBeds": 31,
+          "predictedOccupiedBeds": 93,
           "predictedOccupancyPercent": 96.9,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 15,
-          "predictedOccupiedBeds": 31,
+          "predictedOccupiedBeds": 93,
           "predictedOccupancyPercent": 96.9,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 16,
-          "predictedOccupiedBeds": 31,
+          "predictedOccupiedBeds": 93,
           "predictedOccupancyPercent": 96.9,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 17,
-          "predictedOccupiedBeds": 31,
+          "predictedOccupiedBeds": 93,
           "predictedOccupancyPercent": 96.9,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 18,
-          "predictedOccupiedBeds": 31,
+          "predictedOccupiedBeds": 93,
           "predictedOccupancyPercent": 96.9,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 19,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 94,
+          "predictedOccupancyPercent": 97.9,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 20,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 94,
+          "predictedOccupancyPercent": 97.9,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 21,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 94,
+          "predictedOccupancyPercent": 97.9,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 22,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 94,
+          "predictedOccupancyPercent": 97.9,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 23,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 94,
+          "predictedOccupancyPercent": 97.9,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 24,
-          "predictedOccupiedBeds": 32,
-          "predictedOccupancyPercent": 100,
+          "predictedOccupiedBeds": 95,
+          "predictedOccupancyPercent": 99,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 25,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 95,
+          "predictedOccupancyPercent": 99,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 26,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 94,
+          "predictedOccupancyPercent": 97.9,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 27,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 94,
+          "predictedOccupancyPercent": 97.9,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 28,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 94,
+          "predictedOccupancyPercent": 97.9,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 29,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 94,
+          "predictedOccupancyPercent": 97.9,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 30,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 94,
+          "predictedOccupancyPercent": 97.9,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 31,
-          "predictedOccupiedBeds": 31,
+          "predictedOccupiedBeds": 93,
           "predictedOccupancyPercent": 96.9,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 32,
-          "predictedOccupiedBeds": 31,
+          "predictedOccupiedBeds": 93,
           "predictedOccupancyPercent": 96.9,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 33,
-          "predictedOccupiedBeds": 31,
+          "predictedOccupiedBeds": 93,
           "predictedOccupancyPercent": 96.9,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 34,
-          "predictedOccupiedBeds": 31,
+          "predictedOccupiedBeds": 93,
           "predictedOccupancyPercent": 96.9,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 35,
-          "predictedOccupiedBeds": 31,
+          "predictedOccupiedBeds": 93,
           "predictedOccupancyPercent": 96.9,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 36,
-          "predictedOccupiedBeds": 31,
+          "predictedOccupiedBeds": 93,
           "predictedOccupancyPercent": 96.9,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 37,
-          "predictedOccupiedBeds": 31,
+          "predictedOccupiedBeds": 93,
           "predictedOccupancyPercent": 96.9,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 38,
-          "predictedOccupiedBeds": 31,
+          "predictedOccupiedBeds": 93,
           "predictedOccupancyPercent": 96.9,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 39,
-          "predictedOccupiedBeds": 31,
+          "predictedOccupiedBeds": 93,
           "predictedOccupancyPercent": 96.9,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 40,
-          "predictedOccupiedBeds": 31,
+          "predictedOccupiedBeds": 93,
           "predictedOccupancyPercent": 96.9,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 41,
-          "predictedOccupiedBeds": 31,
+          "predictedOccupiedBeds": 93,
           "predictedOccupancyPercent": 96.9,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 42,
-          "predictedOccupiedBeds": 31,
+          "predictedOccupiedBeds": 93,
           "predictedOccupancyPercent": 96.9,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 43,
-          "predictedOccupiedBeds": 31,
+          "predictedOccupiedBeds": 93,
           "predictedOccupancyPercent": 96.9,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 44,
-          "predictedOccupiedBeds": 31,
+          "predictedOccupiedBeds": 93,
           "predictedOccupancyPercent": 96.9,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 45,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 94,
+          "predictedOccupancyPercent": 97.9,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 46,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 94,
+          "predictedOccupancyPercent": 97.9,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 47,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 94,
+          "predictedOccupancyPercent": 97.9,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 48,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 94,
+          "predictedOccupancyPercent": 97.9,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 49,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 94,
+          "predictedOccupancyPercent": 97.9,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 50,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 94,
+          "predictedOccupancyPercent": 97.9,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 51,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 95,
+          "predictedOccupancyPercent": 99,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 52,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 95,
+          "predictedOccupancyPercent": 99,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 53,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 95,
+          "predictedOccupancyPercent": 99,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 54,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 95,
+          "predictedOccupancyPercent": 99,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 55,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 95,
+          "predictedOccupancyPercent": 99,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 56,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 95,
+          "predictedOccupancyPercent": 99,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 57,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 96,
+          "predictedOccupancyPercent": 100,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 58,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 96,
+          "predictedOccupancyPercent": 100,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 59,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 96,
+          "predictedOccupancyPercent": 100,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 60,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 96,
+          "predictedOccupancyPercent": 100,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 61,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 96,
+          "predictedOccupancyPercent": 100,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 62,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 96,
+          "predictedOccupancyPercent": 100,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 63,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 96,
+          "predictedOccupancyPercent": 100,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 64,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 96,
+          "predictedOccupancyPercent": 100,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 65,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 96,
+          "predictedOccupancyPercent": 100,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 66,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 96,
+          "predictedOccupancyPercent": 100,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 67,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 96,
+          "predictedOccupancyPercent": 100,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 68,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 96,
+          "predictedOccupancyPercent": 100,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 69,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 96,
+          "predictedOccupancyPercent": 100,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 70,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 95,
+          "predictedOccupancyPercent": 99,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 71,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 95,
+          "predictedOccupancyPercent": 99,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 72,
-          "predictedOccupiedBeds": 31,
-          "predictedOccupancyPercent": 96.9,
+          "predictedOccupiedBeds": 95,
+          "predictedOccupancyPercent": 99,
           "predictedStatus": "red"
         }
       ]
@@ -1658,440 +1658,440 @@
       "hours": [
         {
           "hoursFromNow": 0,
-          "predictedOccupiedBeds": 24,
+          "predictedOccupiedBeds": 72,
           "predictedOccupancyPercent": 75,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 1,
-          "predictedOccupiedBeds": 24,
+          "predictedOccupiedBeds": 72,
           "predictedOccupancyPercent": 75,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 2,
-          "predictedOccupiedBeds": 24,
-          "predictedOccupancyPercent": 75,
+          "predictedOccupiedBeds": 73,
+          "predictedOccupancyPercent": 76,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 3,
-          "predictedOccupiedBeds": 24,
-          "predictedOccupancyPercent": 75,
+          "predictedOccupiedBeds": 73,
+          "predictedOccupancyPercent": 76,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 4,
-          "predictedOccupiedBeds": 24,
-          "predictedOccupancyPercent": 75,
+          "predictedOccupiedBeds": 73,
+          "predictedOccupancyPercent": 76,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 5,
-          "predictedOccupiedBeds": 25,
-          "predictedOccupancyPercent": 78.1,
+          "predictedOccupiedBeds": 74,
+          "predictedOccupancyPercent": 77.1,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 6,
-          "predictedOccupiedBeds": 25,
-          "predictedOccupancyPercent": 78.1,
+          "predictedOccupiedBeds": 74,
+          "predictedOccupancyPercent": 77.1,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 7,
-          "predictedOccupiedBeds": 25,
-          "predictedOccupancyPercent": 78.1,
+          "predictedOccupiedBeds": 74,
+          "predictedOccupancyPercent": 77.1,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 8,
-          "predictedOccupiedBeds": 25,
+          "predictedOccupiedBeds": 75,
           "predictedOccupancyPercent": 78.1,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 9,
-          "predictedOccupiedBeds": 25,
+          "predictedOccupiedBeds": 75,
           "predictedOccupancyPercent": 78.1,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 10,
-          "predictedOccupiedBeds": 25,
+          "predictedOccupiedBeds": 75,
           "predictedOccupancyPercent": 78.1,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 11,
-          "predictedOccupiedBeds": 25,
+          "predictedOccupiedBeds": 75,
           "predictedOccupancyPercent": 78.1,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 12,
-          "predictedOccupiedBeds": 25,
-          "predictedOccupancyPercent": 78.1,
+          "predictedOccupiedBeds": 76,
+          "predictedOccupancyPercent": 79.2,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 13,
-          "predictedOccupiedBeds": 25,
-          "predictedOccupancyPercent": 78.1,
+          "predictedOccupiedBeds": 76,
+          "predictedOccupancyPercent": 79.2,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 14,
-          "predictedOccupiedBeds": 25,
-          "predictedOccupancyPercent": 78.1,
+          "predictedOccupiedBeds": 76,
+          "predictedOccupancyPercent": 79.2,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 15,
-          "predictedOccupiedBeds": 26,
-          "predictedOccupancyPercent": 81.3,
+          "predictedOccupiedBeds": 77,
+          "predictedOccupancyPercent": 80.2,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 16,
-          "predictedOccupiedBeds": 26,
-          "predictedOccupancyPercent": 81.3,
+          "predictedOccupiedBeds": 77,
+          "predictedOccupancyPercent": 80.2,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 17,
-          "predictedOccupiedBeds": 26,
-          "predictedOccupancyPercent": 81.3,
+          "predictedOccupiedBeds": 77,
+          "predictedOccupancyPercent": 80.2,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 18,
-          "predictedOccupiedBeds": 26,
+          "predictedOccupiedBeds": 78,
           "predictedOccupancyPercent": 81.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 19,
-          "predictedOccupiedBeds": 26,
+          "predictedOccupiedBeds": 78,
           "predictedOccupancyPercent": 81.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 20,
-          "predictedOccupiedBeds": 26,
+          "predictedOccupiedBeds": 78,
           "predictedOccupancyPercent": 81.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 21,
-          "predictedOccupiedBeds": 26,
-          "predictedOccupancyPercent": 81.3,
+          "predictedOccupiedBeds": 79,
+          "predictedOccupancyPercent": 82.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 22,
-          "predictedOccupiedBeds": 26,
-          "predictedOccupancyPercent": 81.3,
+          "predictedOccupiedBeds": 79,
+          "predictedOccupancyPercent": 82.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 23,
-          "predictedOccupiedBeds": 26,
-          "predictedOccupancyPercent": 81.3,
+          "predictedOccupiedBeds": 79,
+          "predictedOccupancyPercent": 82.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 24,
-          "predictedOccupiedBeds": 27,
-          "predictedOccupancyPercent": 84.4,
+          "predictedOccupiedBeds": 80,
+          "predictedOccupancyPercent": 83.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 25,
-          "predictedOccupiedBeds": 27,
-          "predictedOccupancyPercent": 84.4,
+          "predictedOccupiedBeds": 80,
+          "predictedOccupancyPercent": 83.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 26,
-          "predictedOccupiedBeds": 27,
-          "predictedOccupancyPercent": 84.4,
+          "predictedOccupiedBeds": 80,
+          "predictedOccupancyPercent": 83.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 27,
-          "predictedOccupiedBeds": 27,
-          "predictedOccupancyPercent": 84.4,
+          "predictedOccupiedBeds": 80,
+          "predictedOccupancyPercent": 83.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 28,
-          "predictedOccupiedBeds": 27,
+          "predictedOccupiedBeds": 81,
           "predictedOccupancyPercent": 84.4,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 29,
-          "predictedOccupiedBeds": 27,
+          "predictedOccupiedBeds": 81,
           "predictedOccupancyPercent": 84.4,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 30,
-          "predictedOccupiedBeds": 27,
+          "predictedOccupiedBeds": 81,
           "predictedOccupancyPercent": 84.4,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 31,
-          "predictedOccupiedBeds": 27,
-          "predictedOccupancyPercent": 84.4,
+          "predictedOccupiedBeds": 82,
+          "predictedOccupancyPercent": 85.4,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 32,
-          "predictedOccupiedBeds": 27,
-          "predictedOccupancyPercent": 84.4,
+          "predictedOccupiedBeds": 82,
+          "predictedOccupancyPercent": 85.4,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 33,
-          "predictedOccupiedBeds": 27,
-          "predictedOccupancyPercent": 84.4,
+          "predictedOccupiedBeds": 82,
+          "predictedOccupancyPercent": 85.4,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 34,
-          "predictedOccupiedBeds": 28,
-          "predictedOccupancyPercent": 87.5,
+          "predictedOccupiedBeds": 83,
+          "predictedOccupancyPercent": 86.5,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 35,
-          "predictedOccupiedBeds": 28,
-          "predictedOccupancyPercent": 87.5,
+          "predictedOccupiedBeds": 83,
+          "predictedOccupancyPercent": 86.5,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 36,
-          "predictedOccupiedBeds": 28,
-          "predictedOccupancyPercent": 87.5,
+          "predictedOccupiedBeds": 83,
+          "predictedOccupancyPercent": 86.5,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 37,
-          "predictedOccupiedBeds": 28,
+          "predictedOccupiedBeds": 84,
           "predictedOccupancyPercent": 87.5,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 38,
-          "predictedOccupiedBeds": 28,
+          "predictedOccupiedBeds": 84,
           "predictedOccupancyPercent": 87.5,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 39,
-          "predictedOccupiedBeds": 28,
+          "predictedOccupiedBeds": 84,
           "predictedOccupancyPercent": 87.5,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 40,
-          "predictedOccupiedBeds": 28,
-          "predictedOccupancyPercent": 87.5,
+          "predictedOccupiedBeds": 85,
+          "predictedOccupancyPercent": 88.5,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 41,
-          "predictedOccupiedBeds": 28,
-          "predictedOccupancyPercent": 87.5,
+          "predictedOccupiedBeds": 85,
+          "predictedOccupancyPercent": 88.5,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 42,
-          "predictedOccupiedBeds": 28,
-          "predictedOccupancyPercent": 87.5,
+          "predictedOccupiedBeds": 85,
+          "predictedOccupancyPercent": 88.5,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 43,
-          "predictedOccupiedBeds": 28,
-          "predictedOccupancyPercent": 87.5,
+          "predictedOccupiedBeds": 85,
+          "predictedOccupancyPercent": 88.5,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 44,
-          "predictedOccupiedBeds": 29,
-          "predictedOccupancyPercent": 90.6,
-          "predictedStatus": "red"
+          "predictedOccupiedBeds": 86,
+          "predictedOccupancyPercent": 89.6,
+          "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 45,
-          "predictedOccupiedBeds": 29,
-          "predictedOccupancyPercent": 90.6,
-          "predictedStatus": "red"
+          "predictedOccupiedBeds": 86,
+          "predictedOccupancyPercent": 89.6,
+          "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 46,
-          "predictedOccupiedBeds": 29,
-          "predictedOccupancyPercent": 90.6,
-          "predictedStatus": "red"
+          "predictedOccupiedBeds": 86,
+          "predictedOccupancyPercent": 89.6,
+          "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 47,
-          "predictedOccupiedBeds": 29,
+          "predictedOccupiedBeds": 87,
           "predictedOccupancyPercent": 90.6,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 48,
-          "predictedOccupiedBeds": 29,
+          "predictedOccupiedBeds": 87,
           "predictedOccupancyPercent": 90.6,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 49,
-          "predictedOccupiedBeds": 29,
-          "predictedOccupancyPercent": 90.6,
-          "predictedStatus": "red"
+          "predictedOccupiedBeds": 86,
+          "predictedOccupancyPercent": 89.6,
+          "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 50,
-          "predictedOccupiedBeds": 29,
-          "predictedOccupancyPercent": 90.6,
-          "predictedStatus": "red"
+          "predictedOccupiedBeds": 86,
+          "predictedOccupancyPercent": 89.6,
+          "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 51,
-          "predictedOccupiedBeds": 29,
-          "predictedOccupancyPercent": 90.6,
-          "predictedStatus": "red"
+          "predictedOccupiedBeds": 86,
+          "predictedOccupancyPercent": 89.6,
+          "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 52,
-          "predictedOccupiedBeds": 29,
-          "predictedOccupancyPercent": 90.6,
-          "predictedStatus": "red"
+          "predictedOccupiedBeds": 86,
+          "predictedOccupancyPercent": 89.6,
+          "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 53,
-          "predictedOccupiedBeds": 29,
-          "predictedOccupancyPercent": 90.6,
-          "predictedStatus": "red"
+          "predictedOccupiedBeds": 86,
+          "predictedOccupancyPercent": 89.6,
+          "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 54,
-          "predictedOccupiedBeds": 29,
-          "predictedOccupancyPercent": 90.6,
-          "predictedStatus": "red"
+          "predictedOccupiedBeds": 86,
+          "predictedOccupancyPercent": 89.6,
+          "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 55,
-          "predictedOccupiedBeds": 29,
-          "predictedOccupancyPercent": 90.6,
-          "predictedStatus": "red"
+          "predictedOccupiedBeds": 86,
+          "predictedOccupancyPercent": 89.6,
+          "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 56,
-          "predictedOccupiedBeds": 29,
-          "predictedOccupancyPercent": 90.6,
-          "predictedStatus": "red"
+          "predictedOccupiedBeds": 86,
+          "predictedOccupancyPercent": 89.6,
+          "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 57,
-          "predictedOccupiedBeds": 29,
-          "predictedOccupancyPercent": 90.6,
-          "predictedStatus": "red"
+          "predictedOccupiedBeds": 86,
+          "predictedOccupancyPercent": 89.6,
+          "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 58,
-          "predictedOccupiedBeds": 29,
-          "predictedOccupancyPercent": 90.6,
-          "predictedStatus": "red"
+          "predictedOccupiedBeds": 86,
+          "predictedOccupancyPercent": 89.6,
+          "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 59,
-          "predictedOccupiedBeds": 29,
-          "predictedOccupancyPercent": 90.6,
-          "predictedStatus": "red"
+          "predictedOccupiedBeds": 86,
+          "predictedOccupancyPercent": 89.6,
+          "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 60,
-          "predictedOccupiedBeds": 29,
+          "predictedOccupiedBeds": 87,
           "predictedOccupancyPercent": 90.6,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 61,
-          "predictedOccupiedBeds": 29,
+          "predictedOccupiedBeds": 87,
           "predictedOccupancyPercent": 90.6,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 62,
-          "predictedOccupiedBeds": 29,
+          "predictedOccupiedBeds": 87,
           "predictedOccupancyPercent": 90.6,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 63,
-          "predictedOccupiedBeds": 29,
+          "predictedOccupiedBeds": 87,
           "predictedOccupancyPercent": 90.6,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 64,
-          "predictedOccupiedBeds": 29,
+          "predictedOccupiedBeds": 87,
           "predictedOccupancyPercent": 90.6,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 65,
-          "predictedOccupiedBeds": 29,
+          "predictedOccupiedBeds": 87,
           "predictedOccupancyPercent": 90.6,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 66,
-          "predictedOccupiedBeds": 29,
+          "predictedOccupiedBeds": 87,
           "predictedOccupancyPercent": 90.6,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 67,
-          "predictedOccupiedBeds": 29,
-          "predictedOccupancyPercent": 90.6,
+          "predictedOccupiedBeds": 88,
+          "predictedOccupancyPercent": 91.7,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 68,
-          "predictedOccupiedBeds": 29,
-          "predictedOccupancyPercent": 90.6,
+          "predictedOccupiedBeds": 88,
+          "predictedOccupancyPercent": 91.7,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 69,
-          "predictedOccupiedBeds": 29,
-          "predictedOccupancyPercent": 90.6,
+          "predictedOccupiedBeds": 88,
+          "predictedOccupancyPercent": 91.7,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 70,
-          "predictedOccupiedBeds": 29,
-          "predictedOccupancyPercent": 90.6,
+          "predictedOccupiedBeds": 88,
+          "predictedOccupancyPercent": 91.7,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 71,
-          "predictedOccupiedBeds": 29,
-          "predictedOccupancyPercent": 90.6,
+          "predictedOccupiedBeds": 88,
+          "predictedOccupancyPercent": 91.7,
           "predictedStatus": "red"
         },
         {
           "hoursFromNow": 72,
-          "predictedOccupiedBeds": 29,
-          "predictedOccupancyPercent": 90.6,
+          "predictedOccupiedBeds": 88,
+          "predictedOccupancyPercent": 91.7,
           "predictedStatus": "red"
         }
       ]
@@ -2102,440 +2102,440 @@
       "hours": [
         {
           "hoursFromNow": 0,
-          "predictedOccupiedBeds": 22,
+          "predictedOccupiedBeds": 66,
           "predictedOccupancyPercent": 78.6,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 1,
-          "predictedOccupiedBeds": 21,
+          "predictedOccupiedBeds": 63,
           "predictedOccupancyPercent": 75,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 2,
-          "predictedOccupiedBeds": 21,
-          "predictedOccupancyPercent": 75,
+          "predictedOccupiedBeds": 64,
+          "predictedOccupancyPercent": 76.2,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 3,
-          "predictedOccupiedBeds": 22,
-          "predictedOccupancyPercent": 78.6,
+          "predictedOccupiedBeds": 65,
+          "predictedOccupancyPercent": 77.4,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 4,
-          "predictedOccupiedBeds": 22,
+          "predictedOccupiedBeds": 66,
           "predictedOccupancyPercent": 78.6,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 5,
-          "predictedOccupiedBeds": 22,
-          "predictedOccupancyPercent": 78.6,
+          "predictedOccupiedBeds": 67,
+          "predictedOccupancyPercent": 79.8,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 6,
-          "predictedOccupiedBeds": 23,
-          "predictedOccupancyPercent": 82.1,
+          "predictedOccupiedBeds": 68,
+          "predictedOccupancyPercent": 81,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 7,
-          "predictedOccupiedBeds": 23,
+          "predictedOccupiedBeds": 69,
           "predictedOccupancyPercent": 82.1,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 8,
-          "predictedOccupiedBeds": 23,
-          "predictedOccupancyPercent": 82.1,
+          "predictedOccupiedBeds": 70,
+          "predictedOccupancyPercent": 83.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 9,
-          "predictedOccupiedBeds": 23,
-          "predictedOccupancyPercent": 82.1,
+          "predictedOccupiedBeds": 70,
+          "predictedOccupancyPercent": 83.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 10,
-          "predictedOccupiedBeds": 23,
-          "predictedOccupancyPercent": 82.1,
+          "predictedOccupiedBeds": 70,
+          "predictedOccupancyPercent": 83.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 11,
-          "predictedOccupiedBeds": 23,
+          "predictedOccupiedBeds": 69,
           "predictedOccupancyPercent": 82.1,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 12,
-          "predictedOccupiedBeds": 23,
-          "predictedOccupancyPercent": 82.1,
+          "predictedOccupiedBeds": 68,
+          "predictedOccupancyPercent": 81,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 13,
-          "predictedOccupiedBeds": 21,
-          "predictedOccupancyPercent": 75,
+          "predictedOccupiedBeds": 64,
+          "predictedOccupancyPercent": 76.2,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 14,
-          "predictedOccupiedBeds": 20,
-          "predictedOccupancyPercent": 71.4,
+          "predictedOccupiedBeds": 59,
+          "predictedOccupancyPercent": 70.2,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 15,
-          "predictedOccupiedBeds": 18,
+          "predictedOccupiedBeds": 54,
           "predictedOccupancyPercent": 64.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 16,
-          "predictedOccupiedBeds": 17,
-          "predictedOccupancyPercent": 60.7,
+          "predictedOccupiedBeds": 52,
+          "predictedOccupancyPercent": 61.9,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 17,
-          "predictedOccupiedBeds": 17,
-          "predictedOccupancyPercent": 60.7,
+          "predictedOccupiedBeds": 52,
+          "predictedOccupancyPercent": 61.9,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 18,
-          "predictedOccupiedBeds": 18,
-          "predictedOccupancyPercent": 64.3,
+          "predictedOccupiedBeds": 55,
+          "predictedOccupancyPercent": 65.5,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 19,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 67.9,
+          "predictedOccupiedBeds": 58,
+          "predictedOccupancyPercent": 69,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 20,
-          "predictedOccupiedBeds": 20,
+          "predictedOccupiedBeds": 60,
           "predictedOccupancyPercent": 71.4,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 21,
-          "predictedOccupiedBeds": 20,
-          "predictedOccupancyPercent": 71.4,
+          "predictedOccupiedBeds": 61,
+          "predictedOccupancyPercent": 72.6,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 22,
-          "predictedOccupiedBeds": 20,
-          "predictedOccupancyPercent": 71.4,
+          "predictedOccupiedBeds": 61,
+          "predictedOccupancyPercent": 72.6,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 23,
-          "predictedOccupiedBeds": 20,
-          "predictedOccupancyPercent": 71.4,
+          "predictedOccupiedBeds": 61,
+          "predictedOccupancyPercent": 72.6,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 24,
-          "predictedOccupiedBeds": 21,
-          "predictedOccupancyPercent": 75,
+          "predictedOccupiedBeds": 62,
+          "predictedOccupancyPercent": 73.8,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 25,
-          "predictedOccupiedBeds": 21,
-          "predictedOccupancyPercent": 75,
+          "predictedOccupiedBeds": 62,
+          "predictedOccupancyPercent": 73.8,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 26,
-          "predictedOccupiedBeds": 21,
+          "predictedOccupiedBeds": 63,
           "predictedOccupancyPercent": 75,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 27,
-          "predictedOccupiedBeds": 21,
-          "predictedOccupancyPercent": 75,
+          "predictedOccupiedBeds": 64,
+          "predictedOccupancyPercent": 76.2,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 28,
-          "predictedOccupiedBeds": 22,
-          "predictedOccupancyPercent": 78.6,
+          "predictedOccupiedBeds": 65,
+          "predictedOccupancyPercent": 77.4,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 29,
-          "predictedOccupiedBeds": 22,
+          "predictedOccupiedBeds": 66,
           "predictedOccupancyPercent": 78.6,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 30,
-          "predictedOccupiedBeds": 22,
-          "predictedOccupancyPercent": 78.6,
+          "predictedOccupiedBeds": 67,
+          "predictedOccupancyPercent": 79.8,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 31,
-          "predictedOccupiedBeds": 23,
-          "predictedOccupancyPercent": 82.1,
+          "predictedOccupiedBeds": 68,
+          "predictedOccupancyPercent": 81,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 32,
-          "predictedOccupiedBeds": 23,
+          "predictedOccupiedBeds": 69,
           "predictedOccupancyPercent": 82.1,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 33,
-          "predictedOccupiedBeds": 23,
-          "predictedOccupancyPercent": 82.1,
+          "predictedOccupiedBeds": 70,
+          "predictedOccupancyPercent": 83.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 34,
-          "predictedOccupiedBeds": 23,
-          "predictedOccupancyPercent": 82.1,
+          "predictedOccupiedBeds": 70,
+          "predictedOccupancyPercent": 83.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 35,
-          "predictedOccupiedBeds": 23,
-          "predictedOccupancyPercent": 82.1,
+          "predictedOccupiedBeds": 70,
+          "predictedOccupancyPercent": 83.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 36,
-          "predictedOccupiedBeds": 23,
-          "predictedOccupancyPercent": 82.1,
+          "predictedOccupiedBeds": 68,
+          "predictedOccupancyPercent": 81,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 37,
-          "predictedOccupiedBeds": 22,
-          "predictedOccupancyPercent": 78.6,
+          "predictedOccupiedBeds": 65,
+          "predictedOccupancyPercent": 77.4,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 38,
-          "predictedOccupiedBeds": 20,
+          "predictedOccupiedBeds": 60,
           "predictedOccupancyPercent": 71.4,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 39,
-          "predictedOccupiedBeds": 18,
-          "predictedOccupancyPercent": 64.3,
+          "predictedOccupiedBeds": 55,
+          "predictedOccupancyPercent": 65.5,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 40,
-          "predictedOccupiedBeds": 18,
-          "predictedOccupancyPercent": 64.3,
+          "predictedOccupiedBeds": 53,
+          "predictedOccupancyPercent": 63.1,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 41,
-          "predictedOccupiedBeds": 18,
-          "predictedOccupancyPercent": 64.3,
+          "predictedOccupiedBeds": 53,
+          "predictedOccupancyPercent": 63.1,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 42,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 67.9,
+          "predictedOccupiedBeds": 56,
+          "predictedOccupancyPercent": 66.7,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 43,
-          "predictedOccupiedBeds": 20,
-          "predictedOccupancyPercent": 71.4,
+          "predictedOccupiedBeds": 59,
+          "predictedOccupancyPercent": 70.2,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 44,
-          "predictedOccupiedBeds": 20,
-          "predictedOccupancyPercent": 71.4,
+          "predictedOccupiedBeds": 61,
+          "predictedOccupancyPercent": 72.6,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 45,
-          "predictedOccupiedBeds": 21,
-          "predictedOccupancyPercent": 75,
+          "predictedOccupiedBeds": 62,
+          "predictedOccupancyPercent": 73.8,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 46,
-          "predictedOccupiedBeds": 21,
-          "predictedOccupancyPercent": 75,
+          "predictedOccupiedBeds": 62,
+          "predictedOccupancyPercent": 73.8,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 47,
-          "predictedOccupiedBeds": 21,
-          "predictedOccupancyPercent": 75,
+          "predictedOccupiedBeds": 62,
+          "predictedOccupancyPercent": 73.8,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 48,
-          "predictedOccupiedBeds": 20,
-          "predictedOccupancyPercent": 71.4,
+          "predictedOccupiedBeds": 61,
+          "predictedOccupancyPercent": 72.6,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 49,
-          "predictedOccupiedBeds": 21,
-          "predictedOccupancyPercent": 75,
+          "predictedOccupiedBeds": 62,
+          "predictedOccupancyPercent": 73.8,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 50,
-          "predictedOccupiedBeds": 21,
-          "predictedOccupancyPercent": 75,
+          "predictedOccupiedBeds": 62,
+          "predictedOccupancyPercent": 73.8,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 51,
-          "predictedOccupiedBeds": 21,
+          "predictedOccupiedBeds": 63,
           "predictedOccupancyPercent": 75,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 52,
-          "predictedOccupiedBeds": 21,
-          "predictedOccupancyPercent": 75,
+          "predictedOccupiedBeds": 64,
+          "predictedOccupancyPercent": 76.2,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 53,
-          "predictedOccupiedBeds": 22,
-          "predictedOccupancyPercent": 78.6,
+          "predictedOccupiedBeds": 65,
+          "predictedOccupancyPercent": 77.4,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 54,
-          "predictedOccupiedBeds": 22,
+          "predictedOccupiedBeds": 66,
           "predictedOccupancyPercent": 78.6,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 55,
-          "predictedOccupiedBeds": 22,
-          "predictedOccupancyPercent": 78.6,
+          "predictedOccupiedBeds": 67,
+          "predictedOccupancyPercent": 79.8,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 56,
-          "predictedOccupiedBeds": 23,
-          "predictedOccupancyPercent": 82.1,
+          "predictedOccupiedBeds": 68,
+          "predictedOccupancyPercent": 81,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 57,
-          "predictedOccupiedBeds": 23,
+          "predictedOccupiedBeds": 69,
           "predictedOccupancyPercent": 82.1,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 58,
-          "predictedOccupiedBeds": 23,
+          "predictedOccupiedBeds": 69,
           "predictedOccupancyPercent": 82.1,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 59,
-          "predictedOccupiedBeds": 23,
+          "predictedOccupiedBeds": 69,
           "predictedOccupancyPercent": 82.1,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 60,
-          "predictedOccupiedBeds": 23,
-          "predictedOccupancyPercent": 82.1,
+          "predictedOccupiedBeds": 68,
+          "predictedOccupancyPercent": 81,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 61,
-          "predictedOccupiedBeds": 22,
-          "predictedOccupancyPercent": 78.6,
+          "predictedOccupiedBeds": 65,
+          "predictedOccupancyPercent": 77.4,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 62,
-          "predictedOccupiedBeds": 20,
-          "predictedOccupancyPercent": 71.4,
+          "predictedOccupiedBeds": 61,
+          "predictedOccupancyPercent": 72.6,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 63,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 67.9,
+          "predictedOccupiedBeds": 56,
+          "predictedOccupancyPercent": 66.7,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 64,
-          "predictedOccupiedBeds": 18,
+          "predictedOccupiedBeds": 54,
           "predictedOccupancyPercent": 64.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 65,
-          "predictedOccupiedBeds": 18,
-          "predictedOccupancyPercent": 64.3,
+          "predictedOccupiedBeds": 55,
+          "predictedOccupancyPercent": 65.5,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 66,
-          "predictedOccupiedBeds": 19,
+          "predictedOccupiedBeds": 57,
           "predictedOccupancyPercent": 67.9,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 67,
-          "predictedOccupiedBeds": 20,
+          "predictedOccupiedBeds": 60,
           "predictedOccupancyPercent": 71.4,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 68,
-          "predictedOccupiedBeds": 21,
-          "predictedOccupancyPercent": 75,
+          "predictedOccupiedBeds": 62,
+          "predictedOccupancyPercent": 73.8,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 69,
-          "predictedOccupiedBeds": 21,
+          "predictedOccupiedBeds": 63,
           "predictedOccupancyPercent": 75,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 70,
-          "predictedOccupiedBeds": 21,
+          "predictedOccupiedBeds": 63,
           "predictedOccupancyPercent": 75,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 71,
-          "predictedOccupiedBeds": 21,
-          "predictedOccupancyPercent": 75,
+          "predictedOccupiedBeds": 62,
+          "predictedOccupancyPercent": 73.8,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 72,
-          "predictedOccupiedBeds": 21,
-          "predictedOccupancyPercent": 75,
+          "predictedOccupiedBeds": 62,
+          "predictedOccupancyPercent": 73.8,
           "predictedStatus": "green"
         }
       ]
@@ -2546,440 +2546,440 @@
       "hours": [
         {
           "hoursFromNow": 0,
-          "predictedOccupiedBeds": 24,
+          "predictedOccupiedBeds": 72,
           "predictedOccupancyPercent": 85.7,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 1,
-          "predictedOccupiedBeds": 23,
+          "predictedOccupiedBeds": 69,
           "predictedOccupancyPercent": 82.1,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 2,
-          "predictedOccupiedBeds": 23,
-          "predictedOccupancyPercent": 82.1,
+          "predictedOccupiedBeds": 70,
+          "predictedOccupancyPercent": 83.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 3,
-          "predictedOccupiedBeds": 24,
-          "predictedOccupancyPercent": 85.7,
+          "predictedOccupiedBeds": 71,
+          "predictedOccupancyPercent": 84.5,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 4,
-          "predictedOccupiedBeds": 24,
+          "predictedOccupiedBeds": 72,
           "predictedOccupancyPercent": 85.7,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 5,
-          "predictedOccupiedBeds": 24,
-          "predictedOccupancyPercent": 85.7,
+          "predictedOccupiedBeds": 73,
+          "predictedOccupancyPercent": 86.9,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 6,
-          "predictedOccupiedBeds": 25,
-          "predictedOccupancyPercent": 89.3,
+          "predictedOccupiedBeds": 74,
+          "predictedOccupancyPercent": 88.1,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 7,
-          "predictedOccupiedBeds": 25,
+          "predictedOccupiedBeds": 75,
           "predictedOccupancyPercent": 89.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 8,
-          "predictedOccupiedBeds": 25,
-          "predictedOccupancyPercent": 89.3,
-          "predictedStatus": "amber"
+          "predictedOccupiedBeds": 76,
+          "predictedOccupancyPercent": 90.5,
+          "predictedStatus": "red"
         },
         {
           "hoursFromNow": 9,
-          "predictedOccupiedBeds": 25,
-          "predictedOccupancyPercent": 89.3,
-          "predictedStatus": "amber"
+          "predictedOccupiedBeds": 76,
+          "predictedOccupancyPercent": 90.5,
+          "predictedStatus": "red"
         },
         {
           "hoursFromNow": 10,
-          "predictedOccupiedBeds": 25,
-          "predictedOccupancyPercent": 89.3,
-          "predictedStatus": "amber"
+          "predictedOccupiedBeds": 76,
+          "predictedOccupancyPercent": 90.5,
+          "predictedStatus": "red"
         },
         {
           "hoursFromNow": 11,
-          "predictedOccupiedBeds": 25,
+          "predictedOccupiedBeds": 75,
           "predictedOccupancyPercent": 89.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 12,
-          "predictedOccupiedBeds": 24,
-          "predictedOccupancyPercent": 85.7,
+          "predictedOccupiedBeds": 73,
+          "predictedOccupancyPercent": 86.9,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 13,
-          "predictedOccupiedBeds": 23,
+          "predictedOccupiedBeds": 69,
           "predictedOccupancyPercent": 82.1,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 14,
-          "predictedOccupiedBeds": 21,
+          "predictedOccupiedBeds": 63,
           "predictedOccupancyPercent": 75,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 15,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 67.9,
+          "predictedOccupiedBeds": 58,
+          "predictedOccupancyPercent": 69,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 16,
-          "predictedOccupiedBeds": 18,
-          "predictedOccupancyPercent": 64.3,
+          "predictedOccupiedBeds": 55,
+          "predictedOccupancyPercent": 65.5,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 17,
-          "predictedOccupiedBeds": 18,
-          "predictedOccupancyPercent": 64.3,
+          "predictedOccupiedBeds": 55,
+          "predictedOccupancyPercent": 65.5,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 18,
-          "predictedOccupiedBeds": 20,
-          "predictedOccupancyPercent": 71.4,
+          "predictedOccupiedBeds": 59,
+          "predictedOccupancyPercent": 70.2,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 19,
-          "predictedOccupiedBeds": 21,
+          "predictedOccupiedBeds": 63,
           "predictedOccupancyPercent": 75,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 20,
-          "predictedOccupiedBeds": 22,
+          "predictedOccupiedBeds": 66,
           "predictedOccupancyPercent": 78.6,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 21,
-          "predictedOccupiedBeds": 22,
-          "predictedOccupancyPercent": 78.6,
+          "predictedOccupiedBeds": 67,
+          "predictedOccupancyPercent": 79.8,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 22,
-          "predictedOccupiedBeds": 22,
-          "predictedOccupancyPercent": 78.6,
+          "predictedOccupiedBeds": 67,
+          "predictedOccupancyPercent": 79.8,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 23,
-          "predictedOccupiedBeds": 22,
-          "predictedOccupancyPercent": 78.6,
+          "predictedOccupiedBeds": 67,
+          "predictedOccupancyPercent": 79.8,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 24,
-          "predictedOccupiedBeds": 23,
-          "predictedOccupancyPercent": 82.1,
+          "predictedOccupiedBeds": 68,
+          "predictedOccupancyPercent": 81,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 25,
-          "predictedOccupiedBeds": 23,
-          "predictedOccupancyPercent": 82.1,
+          "predictedOccupiedBeds": 68,
+          "predictedOccupancyPercent": 81,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 26,
-          "predictedOccupiedBeds": 23,
+          "predictedOccupiedBeds": 69,
           "predictedOccupancyPercent": 82.1,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 27,
-          "predictedOccupiedBeds": 23,
-          "predictedOccupancyPercent": 82.1,
+          "predictedOccupiedBeds": 70,
+          "predictedOccupancyPercent": 83.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 28,
-          "predictedOccupiedBeds": 24,
-          "predictedOccupancyPercent": 85.7,
+          "predictedOccupiedBeds": 71,
+          "predictedOccupancyPercent": 84.5,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 29,
-          "predictedOccupiedBeds": 24,
+          "predictedOccupiedBeds": 72,
           "predictedOccupancyPercent": 85.7,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 30,
-          "predictedOccupiedBeds": 24,
-          "predictedOccupancyPercent": 85.7,
+          "predictedOccupiedBeds": 73,
+          "predictedOccupancyPercent": 86.9,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 31,
-          "predictedOccupiedBeds": 25,
-          "predictedOccupancyPercent": 89.3,
+          "predictedOccupiedBeds": 74,
+          "predictedOccupancyPercent": 88.1,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 32,
-          "predictedOccupiedBeds": 25,
+          "predictedOccupiedBeds": 75,
           "predictedOccupancyPercent": 89.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 33,
-          "predictedOccupiedBeds": 25,
-          "predictedOccupancyPercent": 89.3,
-          "predictedStatus": "amber"
+          "predictedOccupiedBeds": 76,
+          "predictedOccupancyPercent": 90.5,
+          "predictedStatus": "red"
         },
         {
           "hoursFromNow": 34,
-          "predictedOccupiedBeds": 25,
-          "predictedOccupancyPercent": 89.3,
-          "predictedStatus": "amber"
+          "predictedOccupiedBeds": 76,
+          "predictedOccupancyPercent": 90.5,
+          "predictedStatus": "red"
         },
         {
           "hoursFromNow": 35,
-          "predictedOccupiedBeds": 25,
+          "predictedOccupiedBeds": 75,
           "predictedOccupancyPercent": 89.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 36,
-          "predictedOccupiedBeds": 24,
-          "predictedOccupancyPercent": 85.7,
+          "predictedOccupiedBeds": 73,
+          "predictedOccupancyPercent": 86.9,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 37,
-          "predictedOccupiedBeds": 23,
-          "predictedOccupancyPercent": 82.1,
+          "predictedOccupiedBeds": 70,
+          "predictedOccupancyPercent": 83.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 38,
-          "predictedOccupiedBeds": 21,
-          "predictedOccupancyPercent": 75,
+          "predictedOccupiedBeds": 64,
+          "predictedOccupancyPercent": 76.2,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 39,
-          "predictedOccupiedBeds": 20,
-          "predictedOccupancyPercent": 71.4,
+          "predictedOccupiedBeds": 59,
+          "predictedOccupancyPercent": 70.2,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 40,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 67.9,
+          "predictedOccupiedBeds": 56,
+          "predictedOccupancyPercent": 66.7,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 41,
-          "predictedOccupiedBeds": 19,
+          "predictedOccupiedBeds": 57,
           "predictedOccupancyPercent": 67.9,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 42,
-          "predictedOccupiedBeds": 20,
+          "predictedOccupiedBeds": 60,
           "predictedOccupancyPercent": 71.4,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 43,
-          "predictedOccupiedBeds": 21,
-          "predictedOccupancyPercent": 75,
+          "predictedOccupiedBeds": 64,
+          "predictedOccupancyPercent": 76.2,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 44,
-          "predictedOccupiedBeds": 22,
-          "predictedOccupancyPercent": 78.6,
+          "predictedOccupiedBeds": 67,
+          "predictedOccupancyPercent": 79.8,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 45,
-          "predictedOccupiedBeds": 23,
-          "predictedOccupancyPercent": 82.1,
+          "predictedOccupiedBeds": 68,
+          "predictedOccupancyPercent": 81,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 46,
-          "predictedOccupiedBeds": 23,
-          "predictedOccupancyPercent": 82.1,
+          "predictedOccupiedBeds": 68,
+          "predictedOccupancyPercent": 81,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 47,
-          "predictedOccupiedBeds": 23,
-          "predictedOccupancyPercent": 82.1,
+          "predictedOccupiedBeds": 68,
+          "predictedOccupancyPercent": 81,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 48,
-          "predictedOccupiedBeds": 22,
-          "predictedOccupancyPercent": 78.6,
+          "predictedOccupiedBeds": 67,
+          "predictedOccupancyPercent": 79.8,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 49,
-          "predictedOccupiedBeds": 23,
-          "predictedOccupancyPercent": 82.1,
+          "predictedOccupiedBeds": 68,
+          "predictedOccupancyPercent": 81,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 50,
-          "predictedOccupiedBeds": 23,
-          "predictedOccupancyPercent": 82.1,
+          "predictedOccupiedBeds": 68,
+          "predictedOccupancyPercent": 81,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 51,
-          "predictedOccupiedBeds": 23,
+          "predictedOccupiedBeds": 69,
           "predictedOccupancyPercent": 82.1,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 52,
-          "predictedOccupiedBeds": 23,
-          "predictedOccupancyPercent": 82.1,
+          "predictedOccupiedBeds": 70,
+          "predictedOccupancyPercent": 83.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 53,
-          "predictedOccupiedBeds": 24,
-          "predictedOccupancyPercent": 85.7,
+          "predictedOccupiedBeds": 71,
+          "predictedOccupancyPercent": 84.5,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 54,
-          "predictedOccupiedBeds": 24,
+          "predictedOccupiedBeds": 72,
           "predictedOccupancyPercent": 85.7,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 55,
-          "predictedOccupiedBeds": 24,
-          "predictedOccupancyPercent": 85.7,
+          "predictedOccupiedBeds": 73,
+          "predictedOccupancyPercent": 86.9,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 56,
-          "predictedOccupiedBeds": 25,
-          "predictedOccupancyPercent": 89.3,
+          "predictedOccupiedBeds": 74,
+          "predictedOccupancyPercent": 88.1,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 57,
-          "predictedOccupiedBeds": 25,
+          "predictedOccupiedBeds": 75,
           "predictedOccupancyPercent": 89.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 58,
-          "predictedOccupiedBeds": 25,
+          "predictedOccupiedBeds": 75,
           "predictedOccupancyPercent": 89.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 59,
-          "predictedOccupiedBeds": 25,
+          "predictedOccupiedBeds": 75,
           "predictedOccupancyPercent": 89.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 60,
-          "predictedOccupiedBeds": 24,
-          "predictedOccupancyPercent": 85.7,
+          "predictedOccupiedBeds": 73,
+          "predictedOccupancyPercent": 86.9,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 61,
-          "predictedOccupiedBeds": 23,
-          "predictedOccupancyPercent": 82.1,
+          "predictedOccupiedBeds": 70,
+          "predictedOccupancyPercent": 83.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 62,
-          "predictedOccupiedBeds": 22,
-          "predictedOccupancyPercent": 78.6,
+          "predictedOccupiedBeds": 65,
+          "predictedOccupancyPercent": 77.4,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 63,
-          "predictedOccupiedBeds": 20,
+          "predictedOccupiedBeds": 60,
           "predictedOccupancyPercent": 71.4,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 64,
-          "predictedOccupiedBeds": 19,
+          "predictedOccupiedBeds": 57,
           "predictedOccupancyPercent": 67.9,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 65,
-          "predictedOccupiedBeds": 19,
-          "predictedOccupancyPercent": 67.9,
+          "predictedOccupiedBeds": 58,
+          "predictedOccupancyPercent": 69,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 66,
-          "predictedOccupiedBeds": 20,
-          "predictedOccupancyPercent": 71.4,
+          "predictedOccupiedBeds": 61,
+          "predictedOccupancyPercent": 72.6,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 67,
-          "predictedOccupiedBeds": 22,
-          "predictedOccupancyPercent": 78.6,
+          "predictedOccupiedBeds": 65,
+          "predictedOccupancyPercent": 77.4,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 68,
-          "predictedOccupiedBeds": 23,
-          "predictedOccupancyPercent": 82.1,
+          "predictedOccupiedBeds": 68,
+          "predictedOccupancyPercent": 81,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 69,
-          "predictedOccupiedBeds": 23,
+          "predictedOccupiedBeds": 69,
           "predictedOccupancyPercent": 82.1,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 70,
-          "predictedOccupiedBeds": 23,
-          "predictedOccupancyPercent": 82.1,
+          "predictedOccupiedBeds": 68,
+          "predictedOccupancyPercent": 81,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 71,
-          "predictedOccupiedBeds": 23,
-          "predictedOccupancyPercent": 82.1,
+          "predictedOccupiedBeds": 68,
+          "predictedOccupancyPercent": 81,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 72,
-          "predictedOccupiedBeds": 23,
-          "predictedOccupancyPercent": 82.1,
+          "predictedOccupiedBeds": 68,
+          "predictedOccupancyPercent": 81,
           "predictedStatus": "amber"
         }
       ]
@@ -2990,440 +2990,440 @@
       "hours": [
         {
           "hoursFromNow": 0,
-          "predictedOccupiedBeds": 14,
+          "predictedOccupiedBeds": 42,
           "predictedOccupancyPercent": 58.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 1,
-          "predictedOccupiedBeds": 14,
-          "predictedOccupancyPercent": 58.3,
+          "predictedOccupiedBeds": 43,
+          "predictedOccupancyPercent": 59.7,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 2,
-          "predictedOccupiedBeds": 14,
-          "predictedOccupancyPercent": 58.3,
+          "predictedOccupiedBeds": 43,
+          "predictedOccupancyPercent": 59.7,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 3,
-          "predictedOccupiedBeds": 15,
-          "predictedOccupancyPercent": 62.5,
+          "predictedOccupiedBeds": 44,
+          "predictedOccupancyPercent": 61.1,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 4,
-          "predictedOccupiedBeds": 15,
+          "predictedOccupiedBeds": 45,
           "predictedOccupancyPercent": 62.5,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 5,
-          "predictedOccupiedBeds": 15,
+          "predictedOccupiedBeds": 45,
           "predictedOccupancyPercent": 62.5,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 6,
-          "predictedOccupiedBeds": 15,
-          "predictedOccupancyPercent": 62.5,
+          "predictedOccupiedBeds": 46,
+          "predictedOccupancyPercent": 63.9,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 7,
-          "predictedOccupiedBeds": 16,
-          "predictedOccupancyPercent": 66.7,
+          "predictedOccupiedBeds": 47,
+          "predictedOccupancyPercent": 65.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 8,
-          "predictedOccupiedBeds": 16,
-          "predictedOccupancyPercent": 66.7,
+          "predictedOccupiedBeds": 47,
+          "predictedOccupancyPercent": 65.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 9,
-          "predictedOccupiedBeds": 16,
+          "predictedOccupiedBeds": 48,
           "predictedOccupancyPercent": 66.7,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 10,
-          "predictedOccupiedBeds": 16,
+          "predictedOccupiedBeds": 48,
           "predictedOccupancyPercent": 66.7,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 11,
-          "predictedOccupiedBeds": 16,
-          "predictedOccupancyPercent": 66.7,
+          "predictedOccupiedBeds": 49,
+          "predictedOccupancyPercent": 68.1,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 12,
-          "predictedOccupiedBeds": 16,
-          "predictedOccupancyPercent": 66.7,
+          "predictedOccupiedBeds": 49,
+          "predictedOccupancyPercent": 68.1,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 13,
-          "predictedOccupiedBeds": 16,
-          "predictedOccupancyPercent": 66.7,
+          "predictedOccupiedBeds": 49,
+          "predictedOccupancyPercent": 68.1,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 14,
-          "predictedOccupiedBeds": 17,
-          "predictedOccupancyPercent": 70.8,
+          "predictedOccupiedBeds": 50,
+          "predictedOccupancyPercent": 69.4,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 15,
-          "predictedOccupiedBeds": 17,
-          "predictedOccupancyPercent": 70.8,
+          "predictedOccupiedBeds": 50,
+          "predictedOccupancyPercent": 69.4,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 16,
-          "predictedOccupiedBeds": 17,
-          "predictedOccupancyPercent": 70.8,
+          "predictedOccupiedBeds": 50,
+          "predictedOccupancyPercent": 69.4,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 17,
-          "predictedOccupiedBeds": 17,
-          "predictedOccupancyPercent": 70.8,
+          "predictedOccupiedBeds": 50,
+          "predictedOccupancyPercent": 69.4,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 18,
-          "predictedOccupiedBeds": 17,
-          "predictedOccupancyPercent": 70.8,
+          "predictedOccupiedBeds": 50,
+          "predictedOccupancyPercent": 69.4,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 19,
-          "predictedOccupiedBeds": 17,
-          "predictedOccupancyPercent": 70.8,
+          "predictedOccupiedBeds": 50,
+          "predictedOccupancyPercent": 69.4,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 20,
-          "predictedOccupiedBeds": 17,
-          "predictedOccupancyPercent": 70.8,
+          "predictedOccupiedBeds": 50,
+          "predictedOccupancyPercent": 69.4,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 21,
-          "predictedOccupiedBeds": 17,
-          "predictedOccupancyPercent": 70.8,
+          "predictedOccupiedBeds": 50,
+          "predictedOccupancyPercent": 69.4,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 22,
-          "predictedOccupiedBeds": 16,
-          "predictedOccupancyPercent": 66.7,
+          "predictedOccupiedBeds": 49,
+          "predictedOccupancyPercent": 68.1,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 23,
-          "predictedOccupiedBeds": 16,
-          "predictedOccupancyPercent": 66.7,
+          "predictedOccupiedBeds": 49,
+          "predictedOccupancyPercent": 68.1,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 24,
-          "predictedOccupiedBeds": 16,
-          "predictedOccupancyPercent": 66.7,
+          "predictedOccupiedBeds": 49,
+          "predictedOccupancyPercent": 68.1,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 25,
-          "predictedOccupiedBeds": 16,
-          "predictedOccupancyPercent": 66.7,
+          "predictedOccupiedBeds": 49,
+          "predictedOccupancyPercent": 68.1,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 26,
-          "predictedOccupiedBeds": 16,
+          "predictedOccupiedBeds": 48,
           "predictedOccupancyPercent": 66.7,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 27,
-          "predictedOccupiedBeds": 16,
+          "predictedOccupiedBeds": 48,
           "predictedOccupancyPercent": 66.7,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 28,
-          "predictedOccupiedBeds": 16,
-          "predictedOccupancyPercent": 66.7,
+          "predictedOccupiedBeds": 47,
+          "predictedOccupancyPercent": 65.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 29,
-          "predictedOccupiedBeds": 16,
-          "predictedOccupancyPercent": 66.7,
+          "predictedOccupiedBeds": 47,
+          "predictedOccupancyPercent": 65.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 30,
-          "predictedOccupiedBeds": 15,
-          "predictedOccupancyPercent": 62.5,
+          "predictedOccupiedBeds": 46,
+          "predictedOccupancyPercent": 63.9,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 31,
-          "predictedOccupiedBeds": 15,
-          "predictedOccupancyPercent": 62.5,
+          "predictedOccupiedBeds": 46,
+          "predictedOccupancyPercent": 63.9,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 32,
-          "predictedOccupiedBeds": 15,
+          "predictedOccupiedBeds": 45,
           "predictedOccupancyPercent": 62.5,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 33,
-          "predictedOccupiedBeds": 15,
+          "predictedOccupiedBeds": 45,
           "predictedOccupancyPercent": 62.5,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 34,
-          "predictedOccupiedBeds": 15,
+          "predictedOccupiedBeds": 45,
           "predictedOccupancyPercent": 62.5,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 35,
-          "predictedOccupiedBeds": 15,
-          "predictedOccupancyPercent": 62.5,
+          "predictedOccupiedBeds": 44,
+          "predictedOccupancyPercent": 61.1,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 36,
-          "predictedOccupiedBeds": 15,
-          "predictedOccupancyPercent": 62.5,
+          "predictedOccupiedBeds": 44,
+          "predictedOccupancyPercent": 61.1,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 37,
-          "predictedOccupiedBeds": 14,
-          "predictedOccupancyPercent": 58.3,
+          "predictedOccupiedBeds": 43,
+          "predictedOccupancyPercent": 59.7,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 38,
-          "predictedOccupiedBeds": 14,
-          "predictedOccupancyPercent": 58.3,
+          "predictedOccupiedBeds": 43,
+          "predictedOccupancyPercent": 59.7,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 39,
-          "predictedOccupiedBeds": 14,
-          "predictedOccupancyPercent": 58.3,
+          "predictedOccupiedBeds": 43,
+          "predictedOccupancyPercent": 59.7,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 40,
-          "predictedOccupiedBeds": 14,
+          "predictedOccupiedBeds": 42,
           "predictedOccupancyPercent": 58.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 41,
-          "predictedOccupiedBeds": 14,
+          "predictedOccupiedBeds": 42,
           "predictedOccupancyPercent": 58.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 42,
-          "predictedOccupiedBeds": 14,
+          "predictedOccupiedBeds": 42,
           "predictedOccupancyPercent": 58.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 43,
-          "predictedOccupiedBeds": 14,
+          "predictedOccupiedBeds": 42,
           "predictedOccupancyPercent": 58.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 44,
-          "predictedOccupiedBeds": 14,
+          "predictedOccupiedBeds": 42,
           "predictedOccupancyPercent": 58.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 45,
-          "predictedOccupiedBeds": 14,
+          "predictedOccupiedBeds": 42,
           "predictedOccupancyPercent": 58.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 46,
-          "predictedOccupiedBeds": 14,
+          "predictedOccupiedBeds": 42,
           "predictedOccupancyPercent": 58.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 47,
-          "predictedOccupiedBeds": 14,
+          "predictedOccupiedBeds": 42,
           "predictedOccupancyPercent": 58.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 48,
-          "predictedOccupiedBeds": 14,
+          "predictedOccupiedBeds": 42,
           "predictedOccupancyPercent": 58.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 49,
-          "predictedOccupiedBeds": 14,
+          "predictedOccupiedBeds": 42,
           "predictedOccupancyPercent": 58.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 50,
-          "predictedOccupiedBeds": 14,
+          "predictedOccupiedBeds": 42,
           "predictedOccupancyPercent": 58.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 51,
-          "predictedOccupiedBeds": 14,
-          "predictedOccupancyPercent": 58.3,
+          "predictedOccupiedBeds": 43,
+          "predictedOccupancyPercent": 59.7,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 52,
-          "predictedOccupiedBeds": 14,
-          "predictedOccupancyPercent": 58.3,
+          "predictedOccupiedBeds": 43,
+          "predictedOccupancyPercent": 59.7,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 53,
-          "predictedOccupiedBeds": 14,
-          "predictedOccupancyPercent": 58.3,
+          "predictedOccupiedBeds": 43,
+          "predictedOccupancyPercent": 59.7,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 54,
-          "predictedOccupiedBeds": 15,
-          "predictedOccupancyPercent": 62.5,
+          "predictedOccupiedBeds": 44,
+          "predictedOccupancyPercent": 61.1,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 55,
-          "predictedOccupiedBeds": 15,
-          "predictedOccupancyPercent": 62.5,
+          "predictedOccupiedBeds": 44,
+          "predictedOccupancyPercent": 61.1,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 56,
-          "predictedOccupiedBeds": 15,
+          "predictedOccupiedBeds": 45,
           "predictedOccupancyPercent": 62.5,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 57,
-          "predictedOccupiedBeds": 15,
-          "predictedOccupancyPercent": 62.5,
+          "predictedOccupiedBeds": 46,
+          "predictedOccupancyPercent": 63.9,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 58,
-          "predictedOccupiedBeds": 15,
-          "predictedOccupancyPercent": 62.5,
+          "predictedOccupiedBeds": 46,
+          "predictedOccupancyPercent": 63.9,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 59,
-          "predictedOccupiedBeds": 16,
-          "predictedOccupancyPercent": 66.7,
+          "predictedOccupiedBeds": 47,
+          "predictedOccupancyPercent": 65.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 60,
-          "predictedOccupiedBeds": 16,
+          "predictedOccupiedBeds": 48,
           "predictedOccupancyPercent": 66.7,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 61,
-          "predictedOccupiedBeds": 16,
+          "predictedOccupiedBeds": 48,
           "predictedOccupancyPercent": 66.7,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 62,
-          "predictedOccupiedBeds": 16,
-          "predictedOccupancyPercent": 66.7,
+          "predictedOccupiedBeds": 49,
+          "predictedOccupancyPercent": 68.1,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 63,
-          "predictedOccupiedBeds": 17,
-          "predictedOccupancyPercent": 70.8,
+          "predictedOccupiedBeds": 50,
+          "predictedOccupancyPercent": 69.4,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 64,
-          "predictedOccupiedBeds": 17,
-          "predictedOccupancyPercent": 70.8,
+          "predictedOccupiedBeds": 50,
+          "predictedOccupancyPercent": 69.4,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 65,
-          "predictedOccupiedBeds": 17,
+          "predictedOccupiedBeds": 51,
           "predictedOccupancyPercent": 70.8,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 66,
-          "predictedOccupiedBeds": 17,
-          "predictedOccupancyPercent": 70.8,
+          "predictedOccupiedBeds": 52,
+          "predictedOccupancyPercent": 72.2,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 67,
-          "predictedOccupiedBeds": 17,
-          "predictedOccupancyPercent": 70.8,
+          "predictedOccupiedBeds": 52,
+          "predictedOccupancyPercent": 72.2,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 68,
-          "predictedOccupiedBeds": 18,
-          "predictedOccupancyPercent": 75,
+          "predictedOccupiedBeds": 53,
+          "predictedOccupancyPercent": 73.6,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 69,
-          "predictedOccupiedBeds": 18,
+          "predictedOccupiedBeds": 54,
           "predictedOccupancyPercent": 75,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 70,
-          "predictedOccupiedBeds": 18,
+          "predictedOccupiedBeds": 54,
           "predictedOccupancyPercent": 75,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 71,
-          "predictedOccupiedBeds": 18,
-          "predictedOccupancyPercent": 75,
+          "predictedOccupiedBeds": 55,
+          "predictedOccupancyPercent": 76.4,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 72,
-          "predictedOccupiedBeds": 18,
-          "predictedOccupancyPercent": 75,
+          "predictedOccupiedBeds": 55,
+          "predictedOccupancyPercent": 76.4,
           "predictedStatus": "green"
         }
       ]
@@ -3434,440 +3434,440 @@
       "hours": [
         {
           "hoursFromNow": 0,
-          "predictedOccupiedBeds": 13,
+          "predictedOccupiedBeds": 39,
           "predictedOccupancyPercent": 65,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 1,
-          "predictedOccupiedBeds": 13,
-          "predictedOccupancyPercent": 65,
+          "predictedOccupiedBeds": 40,
+          "predictedOccupancyPercent": 66.7,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 2,
-          "predictedOccupiedBeds": 13,
-          "predictedOccupancyPercent": 65,
+          "predictedOccupiedBeds": 40,
+          "predictedOccupancyPercent": 66.7,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 3,
-          "predictedOccupiedBeds": 14,
-          "predictedOccupancyPercent": 70,
+          "predictedOccupiedBeds": 41,
+          "predictedOccupancyPercent": 68.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 4,
-          "predictedOccupiedBeds": 14,
-          "predictedOccupancyPercent": 70,
+          "predictedOccupiedBeds": 41,
+          "predictedOccupancyPercent": 68.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 5,
-          "predictedOccupiedBeds": 14,
+          "predictedOccupiedBeds": 42,
           "predictedOccupancyPercent": 70,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 6,
-          "predictedOccupiedBeds": 14,
+          "predictedOccupiedBeds": 42,
           "predictedOccupancyPercent": 70,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 7,
-          "predictedOccupiedBeds": 14,
-          "predictedOccupancyPercent": 70,
+          "predictedOccupiedBeds": 43,
+          "predictedOccupancyPercent": 71.7,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 8,
-          "predictedOccupiedBeds": 14,
-          "predictedOccupancyPercent": 70,
+          "predictedOccupiedBeds": 43,
+          "predictedOccupancyPercent": 71.7,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 9,
-          "predictedOccupiedBeds": 15,
-          "predictedOccupancyPercent": 75,
+          "predictedOccupiedBeds": 44,
+          "predictedOccupancyPercent": 73.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 10,
-          "predictedOccupiedBeds": 15,
-          "predictedOccupancyPercent": 75,
+          "predictedOccupiedBeds": 44,
+          "predictedOccupancyPercent": 73.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 11,
-          "predictedOccupiedBeds": 15,
-          "predictedOccupancyPercent": 75,
+          "predictedOccupiedBeds": 44,
+          "predictedOccupancyPercent": 73.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 12,
-          "predictedOccupiedBeds": 15,
-          "predictedOccupancyPercent": 75,
+          "predictedOccupiedBeds": 44,
+          "predictedOccupancyPercent": 73.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 13,
-          "predictedOccupiedBeds": 15,
+          "predictedOccupiedBeds": 45,
           "predictedOccupancyPercent": 75,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 14,
-          "predictedOccupiedBeds": 15,
+          "predictedOccupiedBeds": 45,
           "predictedOccupancyPercent": 75,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 15,
-          "predictedOccupiedBeds": 15,
+          "predictedOccupiedBeds": 45,
           "predictedOccupancyPercent": 75,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 16,
-          "predictedOccupiedBeds": 15,
+          "predictedOccupiedBeds": 45,
           "predictedOccupancyPercent": 75,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 17,
-          "predictedOccupiedBeds": 15,
+          "predictedOccupiedBeds": 45,
           "predictedOccupancyPercent": 75,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 18,
-          "predictedOccupiedBeds": 15,
+          "predictedOccupiedBeds": 45,
           "predictedOccupancyPercent": 75,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 19,
-          "predictedOccupiedBeds": 15,
+          "predictedOccupiedBeds": 45,
           "predictedOccupancyPercent": 75,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 20,
-          "predictedOccupiedBeds": 15,
-          "predictedOccupancyPercent": 75,
+          "predictedOccupiedBeds": 44,
+          "predictedOccupancyPercent": 73.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 21,
-          "predictedOccupiedBeds": 15,
-          "predictedOccupancyPercent": 75,
+          "predictedOccupiedBeds": 44,
+          "predictedOccupancyPercent": 73.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 22,
-          "predictedOccupiedBeds": 15,
-          "predictedOccupancyPercent": 75,
+          "predictedOccupiedBeds": 44,
+          "predictedOccupancyPercent": 73.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 23,
-          "predictedOccupiedBeds": 15,
-          "predictedOccupancyPercent": 75,
+          "predictedOccupiedBeds": 44,
+          "predictedOccupancyPercent": 73.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 24,
-          "predictedOccupiedBeds": 14,
-          "predictedOccupancyPercent": 70,
+          "predictedOccupiedBeds": 43,
+          "predictedOccupancyPercent": 71.7,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 25,
-          "predictedOccupiedBeds": 14,
-          "predictedOccupancyPercent": 70,
+          "predictedOccupiedBeds": 43,
+          "predictedOccupancyPercent": 71.7,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 26,
-          "predictedOccupiedBeds": 14,
+          "predictedOccupiedBeds": 42,
           "predictedOccupancyPercent": 70,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 27,
-          "predictedOccupiedBeds": 14,
+          "predictedOccupiedBeds": 42,
           "predictedOccupancyPercent": 70,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 28,
-          "predictedOccupiedBeds": 14,
+          "predictedOccupiedBeds": 42,
           "predictedOccupancyPercent": 70,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 29,
-          "predictedOccupiedBeds": 14,
-          "predictedOccupancyPercent": 70,
+          "predictedOccupiedBeds": 41,
+          "predictedOccupancyPercent": 68.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 30,
-          "predictedOccupiedBeds": 14,
-          "predictedOccupancyPercent": 70,
+          "predictedOccupiedBeds": 41,
+          "predictedOccupancyPercent": 68.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 31,
-          "predictedOccupiedBeds": 13,
-          "predictedOccupancyPercent": 65,
+          "predictedOccupiedBeds": 40,
+          "predictedOccupancyPercent": 66.7,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 32,
-          "predictedOccupiedBeds": 13,
-          "predictedOccupancyPercent": 65,
+          "predictedOccupiedBeds": 40,
+          "predictedOccupancyPercent": 66.7,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 33,
-          "predictedOccupiedBeds": 13,
-          "predictedOccupancyPercent": 65,
+          "predictedOccupiedBeds": 40,
+          "predictedOccupancyPercent": 66.7,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 34,
-          "predictedOccupiedBeds": 13,
+          "predictedOccupiedBeds": 39,
           "predictedOccupancyPercent": 65,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 35,
-          "predictedOccupiedBeds": 13,
+          "predictedOccupiedBeds": 39,
           "predictedOccupancyPercent": 65,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 36,
-          "predictedOccupiedBeds": 13,
+          "predictedOccupiedBeds": 39,
           "predictedOccupancyPercent": 65,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 37,
-          "predictedOccupiedBeds": 13,
+          "predictedOccupiedBeds": 39,
           "predictedOccupancyPercent": 65,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 38,
-          "predictedOccupiedBeds": 13,
-          "predictedOccupancyPercent": 65,
+          "predictedOccupiedBeds": 38,
+          "predictedOccupancyPercent": 63.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 39,
-          "predictedOccupiedBeds": 13,
-          "predictedOccupancyPercent": 65,
+          "predictedOccupiedBeds": 38,
+          "predictedOccupancyPercent": 63.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 40,
-          "predictedOccupiedBeds": 13,
-          "predictedOccupancyPercent": 65,
+          "predictedOccupiedBeds": 38,
+          "predictedOccupancyPercent": 63.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 41,
-          "predictedOccupiedBeds": 13,
-          "predictedOccupancyPercent": 65,
+          "predictedOccupiedBeds": 38,
+          "predictedOccupancyPercent": 63.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 42,
-          "predictedOccupiedBeds": 13,
-          "predictedOccupancyPercent": 65,
+          "predictedOccupiedBeds": 38,
+          "predictedOccupancyPercent": 63.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 43,
-          "predictedOccupiedBeds": 13,
-          "predictedOccupancyPercent": 65,
+          "predictedOccupiedBeds": 38,
+          "predictedOccupancyPercent": 63.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 44,
-          "predictedOccupiedBeds": 13,
+          "predictedOccupiedBeds": 39,
           "predictedOccupancyPercent": 65,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 45,
-          "predictedOccupiedBeds": 13,
+          "predictedOccupiedBeds": 39,
           "predictedOccupancyPercent": 65,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 46,
-          "predictedOccupiedBeds": 13,
+          "predictedOccupiedBeds": 39,
           "predictedOccupancyPercent": 65,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 47,
-          "predictedOccupiedBeds": 13,
+          "predictedOccupiedBeds": 39,
           "predictedOccupancyPercent": 65,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 48,
-          "predictedOccupiedBeds": 13,
-          "predictedOccupancyPercent": 65,
+          "predictedOccupiedBeds": 40,
+          "predictedOccupancyPercent": 66.7,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 49,
-          "predictedOccupiedBeds": 13,
-          "predictedOccupancyPercent": 65,
+          "predictedOccupiedBeds": 40,
+          "predictedOccupancyPercent": 66.7,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 50,
-          "predictedOccupiedBeds": 14,
-          "predictedOccupancyPercent": 70,
+          "predictedOccupiedBeds": 41,
+          "predictedOccupancyPercent": 68.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 51,
-          "predictedOccupiedBeds": 14,
-          "predictedOccupancyPercent": 70,
+          "predictedOccupiedBeds": 41,
+          "predictedOccupancyPercent": 68.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 52,
-          "predictedOccupiedBeds": 14,
+          "predictedOccupiedBeds": 42,
           "predictedOccupancyPercent": 70,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 53,
-          "predictedOccupiedBeds": 14,
+          "predictedOccupiedBeds": 42,
           "predictedOccupancyPercent": 70,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 54,
-          "predictedOccupiedBeds": 14,
-          "predictedOccupancyPercent": 70,
+          "predictedOccupiedBeds": 43,
+          "predictedOccupancyPercent": 71.7,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 55,
-          "predictedOccupiedBeds": 14,
-          "predictedOccupancyPercent": 70,
+          "predictedOccupiedBeds": 43,
+          "predictedOccupancyPercent": 71.7,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 56,
-          "predictedOccupiedBeds": 15,
-          "predictedOccupancyPercent": 75,
+          "predictedOccupiedBeds": 44,
+          "predictedOccupancyPercent": 73.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 57,
-          "predictedOccupiedBeds": 15,
-          "predictedOccupancyPercent": 75,
+          "predictedOccupiedBeds": 44,
+          "predictedOccupancyPercent": 73.3,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 58,
-          "predictedOccupiedBeds": 15,
+          "predictedOccupiedBeds": 45,
           "predictedOccupancyPercent": 75,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 59,
-          "predictedOccupiedBeds": 15,
-          "predictedOccupancyPercent": 75,
+          "predictedOccupiedBeds": 46,
+          "predictedOccupancyPercent": 76.7,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 60,
-          "predictedOccupiedBeds": 15,
-          "predictedOccupancyPercent": 75,
+          "predictedOccupiedBeds": 46,
+          "predictedOccupancyPercent": 76.7,
           "predictedStatus": "green"
         },
         {
           "hoursFromNow": 61,
-          "predictedOccupiedBeds": 16,
-          "predictedOccupancyPercent": 80,
-          "predictedStatus": "amber"
+          "predictedOccupiedBeds": 47,
+          "predictedOccupancyPercent": 78.3,
+          "predictedStatus": "green"
         },
         {
           "hoursFromNow": 62,
-          "predictedOccupiedBeds": 16,
-          "predictedOccupancyPercent": 80,
-          "predictedStatus": "amber"
+          "predictedOccupiedBeds": 47,
+          "predictedOccupancyPercent": 78.3,
+          "predictedStatus": "green"
         },
         {
           "hoursFromNow": 63,
-          "predictedOccupiedBeds": 16,
+          "predictedOccupiedBeds": 48,
           "predictedOccupancyPercent": 80,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 64,
-          "predictedOccupiedBeds": 16,
+          "predictedOccupiedBeds": 48,
           "predictedOccupancyPercent": 80,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 65,
-          "predictedOccupiedBeds": 16,
+          "predictedOccupiedBeds": 48,
           "predictedOccupancyPercent": 80,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 66,
-          "predictedOccupiedBeds": 16,
-          "predictedOccupancyPercent": 80,
+          "predictedOccupiedBeds": 49,
+          "predictedOccupancyPercent": 81.7,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 67,
-          "predictedOccupiedBeds": 16,
-          "predictedOccupancyPercent": 80,
+          "predictedOccupiedBeds": 49,
+          "predictedOccupancyPercent": 81.7,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 68,
-          "predictedOccupiedBeds": 16,
-          "predictedOccupancyPercent": 80,
+          "predictedOccupiedBeds": 49,
+          "predictedOccupancyPercent": 81.7,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 69,
-          "predictedOccupiedBeds": 17,
-          "predictedOccupancyPercent": 85,
+          "predictedOccupiedBeds": 50,
+          "predictedOccupancyPercent": 83.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 70,
-          "predictedOccupiedBeds": 17,
-          "predictedOccupancyPercent": 85,
+          "predictedOccupiedBeds": 50,
+          "predictedOccupancyPercent": 83.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 71,
-          "predictedOccupiedBeds": 17,
-          "predictedOccupancyPercent": 85,
+          "predictedOccupiedBeds": 50,
+          "predictedOccupancyPercent": 83.3,
           "predictedStatus": "amber"
         },
         {
           "hoursFromNow": 72,
-          "predictedOccupiedBeds": 17,
-          "predictedOccupancyPercent": 85,
+          "predictedOccupiedBeds": 50,
+          "predictedOccupancyPercent": 83.3,
           "predictedStatus": "amber"
         }
       ]

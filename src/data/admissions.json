@@ -1,66 +1,312 @@
 {
   "todaysSummary": {
     "date": "2026-06-05",
-    "totalAdmissions": 28,
-    "totalDischarges": 21,
-    "netChange": 7
+    "totalAdmissions": 84,
+    "totalDischarges": 63,
+    "netChange": 21
   },
   "hourlyTrend": [
-    { "hour": 0, "admissions": 1, "discharges": 0 },
-    { "hour": 1, "admissions": 1, "discharges": 0 },
-    { "hour": 2, "admissions": 0, "discharges": 0 },
-    { "hour": 3, "admissions": 1, "discharges": 0 },
-    { "hour": 4, "admissions": 0, "discharges": 0 },
-    { "hour": 5, "admissions": 1, "discharges": 0 },
-    { "hour": 6, "admissions": 2, "discharges": 1 },
-    { "hour": 7, "admissions": 3, "discharges": 2 },
-    { "hour": 8, "admissions": 4, "discharges": 3 },
-    { "hour": 9, "admissions": 5, "discharges": 4 },
-    { "hour": 10, "admissions": 6, "discharges": 5 },
-    { "hour": 11, "admissions": 5, "discharges": 4 },
-    { "hour": 12, "admissions": 4, "discharges": 3 },
-    { "hour": 13, "admissions": 3, "discharges": 2 },
-    { "hour": 14, "admissions": 0, "discharges": 0 },
-    { "hour": 15, "admissions": 0, "discharges": 0 },
-    { "hour": 16, "admissions": 0, "discharges": 0 },
-    { "hour": 17, "admissions": 0, "discharges": 0 },
-    { "hour": 18, "admissions": 0, "discharges": 0 },
-    { "hour": 19, "admissions": 0, "discharges": 0 },
-    { "hour": 20, "admissions": 0, "discharges": 0 },
-    { "hour": 21, "admissions": 0, "discharges": 0 },
-    { "hour": 22, "admissions": 0, "discharges": 0 },
-    { "hour": 23, "admissions": 0, "discharges": 0 }
+    {
+      "hour": 0,
+      "admissions": 3,
+      "discharges": 0
+    },
+    {
+      "hour": 1,
+      "admissions": 3,
+      "discharges": 0
+    },
+    {
+      "hour": 2,
+      "admissions": 0,
+      "discharges": 0
+    },
+    {
+      "hour": 3,
+      "admissions": 3,
+      "discharges": 0
+    },
+    {
+      "hour": 4,
+      "admissions": 0,
+      "discharges": 0
+    },
+    {
+      "hour": 5,
+      "admissions": 3,
+      "discharges": 0
+    },
+    {
+      "hour": 6,
+      "admissions": 6,
+      "discharges": 3
+    },
+    {
+      "hour": 7,
+      "admissions": 9,
+      "discharges": 6
+    },
+    {
+      "hour": 8,
+      "admissions": 12,
+      "discharges": 9
+    },
+    {
+      "hour": 9,
+      "admissions": 15,
+      "discharges": 12
+    },
+    {
+      "hour": 10,
+      "admissions": 18,
+      "discharges": 15
+    },
+    {
+      "hour": 11,
+      "admissions": 15,
+      "discharges": 12
+    },
+    {
+      "hour": 12,
+      "admissions": 12,
+      "discharges": 9
+    },
+    {
+      "hour": 13,
+      "admissions": 9,
+      "discharges": 6
+    },
+    {
+      "hour": 14,
+      "admissions": 0,
+      "discharges": 0
+    },
+    {
+      "hour": 15,
+      "admissions": 0,
+      "discharges": 0
+    },
+    {
+      "hour": 16,
+      "admissions": 0,
+      "discharges": 0
+    },
+    {
+      "hour": 17,
+      "admissions": 0,
+      "discharges": 0
+    },
+    {
+      "hour": 18,
+      "admissions": 0,
+      "discharges": 0
+    },
+    {
+      "hour": 19,
+      "admissions": 0,
+      "discharges": 0
+    },
+    {
+      "hour": 20,
+      "admissions": 0,
+      "discharges": 0
+    },
+    {
+      "hour": 21,
+      "admissions": 0,
+      "discharges": 0
+    },
+    {
+      "hour": 22,
+      "admissions": 0,
+      "discharges": 0
+    },
+    {
+      "hour": 23,
+      "admissions": 0,
+      "discharges": 0
+    }
   ],
   "last30Days": [
-    { "date": "2026-05-07", "admissions": 38, "discharges": 36, "census": 174 },
-    { "date": "2026-05-08", "admissions": 42, "discharges": 39, "census": 177 },
-    { "date": "2026-05-09", "admissions": 35, "discharges": 41, "census": 171 },
-    { "date": "2026-05-10", "admissions": 30, "discharges": 32, "census": 169 },
-    { "date": "2026-05-11", "admissions": 44, "discharges": 38, "census": 175 },
-    { "date": "2026-05-12", "admissions": 41, "discharges": 40, "census": 176 },
-    { "date": "2026-05-13", "admissions": 39, "discharges": 42, "census": 173 },
-    { "date": "2026-05-14", "admissions": 37, "discharges": 35, "census": 175 },
-    { "date": "2026-05-15", "admissions": 40, "discharges": 38, "census": 177 },
-    { "date": "2026-05-16", "admissions": 33, "discharges": 36, "census": 174 },
-    { "date": "2026-05-17", "admissions": 28, "discharges": 30, "census": 172 },
-    { "date": "2026-05-18", "admissions": 43, "discharges": 39, "census": 176 },
-    { "date": "2026-05-19", "admissions": 41, "discharges": 40, "census": 177 },
-    { "date": "2026-05-20", "admissions": 38, "discharges": 41, "census": 174 },
-    { "date": "2026-05-21", "admissions": 39, "discharges": 37, "census": 176 },
-    { "date": "2026-05-22", "admissions": 42, "discharges": 38, "census": 180 },
-    { "date": "2026-05-23", "admissions": 36, "discharges": 39, "census": 177 },
-    { "date": "2026-05-24", "admissions": 31, "discharges": 33, "census": 175 },
-    { "date": "2026-05-25", "admissions": 45, "discharges": 41, "census": 179 },
-    { "date": "2026-05-26", "admissions": 43, "discharges": 42, "census": 180 },
-    { "date": "2026-05-27", "admissions": 40, "discharges": 43, "census": 177 },
-    { "date": "2026-05-28", "admissions": 38, "discharges": 36, "census": 179 },
-    { "date": "2026-05-29", "admissions": 42, "discharges": 39, "census": 182 },
-    { "date": "2026-05-30", "admissions": 37, "discharges": 40, "census": 179 },
-    { "date": "2026-05-31", "admissions": 32, "discharges": 35, "census": 176 },
-    { "date": "2026-06-01", "admissions": 46, "discharges": 41, "census": 181 },
-    { "date": "2026-06-02", "admissions": 44, "discharges": 42, "census": 183 },
-    { "date": "2026-06-03", "admissions": 41, "discharges": 44, "census": 180 },
-    { "date": "2026-06-04", "admissions": 39, "discharges": 38, "census": 181 },
-    { "date": "2026-06-05", "admissions": 28, "discharges": 21, "census": 180 }
+    {
+      "date": "2026-05-07",
+      "admissions": 114,
+      "discharges": 108,
+      "census": 522
+    },
+    {
+      "date": "2026-05-08",
+      "admissions": 126,
+      "discharges": 117,
+      "census": 531
+    },
+    {
+      "date": "2026-05-09",
+      "admissions": 105,
+      "discharges": 123,
+      "census": 513
+    },
+    {
+      "date": "2026-05-10",
+      "admissions": 90,
+      "discharges": 96,
+      "census": 507
+    },
+    {
+      "date": "2026-05-11",
+      "admissions": 132,
+      "discharges": 114,
+      "census": 525
+    },
+    {
+      "date": "2026-05-12",
+      "admissions": 123,
+      "discharges": 120,
+      "census": 528
+    },
+    {
+      "date": "2026-05-13",
+      "admissions": 117,
+      "discharges": 126,
+      "census": 519
+    },
+    {
+      "date": "2026-05-14",
+      "admissions": 111,
+      "discharges": 105,
+      "census": 525
+    },
+    {
+      "date": "2026-05-15",
+      "admissions": 120,
+      "discharges": 114,
+      "census": 531
+    },
+    {
+      "date": "2026-05-16",
+      "admissions": 99,
+      "discharges": 108,
+      "census": 522
+    },
+    {
+      "date": "2026-05-17",
+      "admissions": 84,
+      "discharges": 90,
+      "census": 516
+    },
+    {
+      "date": "2026-05-18",
+      "admissions": 129,
+      "discharges": 117,
+      "census": 528
+    },
+    {
+      "date": "2026-05-19",
+      "admissions": 123,
+      "discharges": 120,
+      "census": 531
+    },
+    {
+      "date": "2026-05-20",
+      "admissions": 114,
+      "discharges": 123,
+      "census": 522
+    },
+    {
+      "date": "2026-05-21",
+      "admissions": 117,
+      "discharges": 111,
+      "census": 528
+    },
+    {
+      "date": "2026-05-22",
+      "admissions": 126,
+      "discharges": 114,
+      "census": 540
+    },
+    {
+      "date": "2026-05-23",
+      "admissions": 108,
+      "discharges": 117,
+      "census": 531
+    },
+    {
+      "date": "2026-05-24",
+      "admissions": 93,
+      "discharges": 99,
+      "census": 525
+    },
+    {
+      "date": "2026-05-25",
+      "admissions": 135,
+      "discharges": 123,
+      "census": 537
+    },
+    {
+      "date": "2026-05-26",
+      "admissions": 129,
+      "discharges": 126,
+      "census": 540
+    },
+    {
+      "date": "2026-05-27",
+      "admissions": 120,
+      "discharges": 129,
+      "census": 531
+    },
+    {
+      "date": "2026-05-28",
+      "admissions": 114,
+      "discharges": 108,
+      "census": 537
+    },
+    {
+      "date": "2026-05-29",
+      "admissions": 126,
+      "discharges": 117,
+      "census": 546
+    },
+    {
+      "date": "2026-05-30",
+      "admissions": 111,
+      "discharges": 120,
+      "census": 537
+    },
+    {
+      "date": "2026-05-31",
+      "admissions": 96,
+      "discharges": 105,
+      "census": 528
+    },
+    {
+      "date": "2026-06-01",
+      "admissions": 138,
+      "discharges": 123,
+      "census": 543
+    },
+    {
+      "date": "2026-06-02",
+      "admissions": 132,
+      "discharges": 126,
+      "census": 549
+    },
+    {
+      "date": "2026-06-03",
+      "admissions": 123,
+      "discharges": 132,
+      "census": 540
+    },
+    {
+      "date": "2026-06-04",
+      "admissions": 117,
+      "discharges": 114,
+      "census": 543
+    },
+    {
+      "date": "2026-06-05",
+      "admissions": 84,
+      "discharges": 63,
+      "census": 540
+    }
   ]
 }

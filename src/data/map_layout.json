@@ -4,7 +4,7 @@
   "mapMeta": {
     "facilityName": "Regional Medical Center",
     "floorLabel": "Floor 1 — Clinical Units",
-    "totalBeds": 224
+    "totalBeds": 672
   },
   "units": [
     {
@@ -121,25 +121,137 @@
     }
   ],
   "corridors": [
-    { "x": 0, "y": 360, "width": 900, "height": 20 },
-    { "x": 0, "y": 180, "width": 900, "height": 20 },
-    { "x": 420, "y": 0, "width": 20, "height": 580 },
-    { "x": 200, "y": 200, "width": 20, "height": 160 },
-    { "x": 600, "y": 200, "width": 20, "height": 160 },
-    { "x": 240, "y": 380, "width": 20, "height": 160 },
-    { "x": 600, "y": 380, "width": 20, "height": 160 }
+    {
+      "x": 0,
+      "y": 360,
+      "width": 900,
+      "height": 20
+    },
+    {
+      "x": 0,
+      "y": 180,
+      "width": 900,
+      "height": 20
+    },
+    {
+      "x": 420,
+      "y": 0,
+      "width": 20,
+      "height": 580
+    },
+    {
+      "x": 200,
+      "y": 200,
+      "width": 20,
+      "height": 160
+    },
+    {
+      "x": 600,
+      "y": 200,
+      "width": 20,
+      "height": 160
+    },
+    {
+      "x": 240,
+      "y": 380,
+      "width": 20,
+      "height": 160
+    },
+    {
+      "x": 600,
+      "y": 380,
+      "width": 20,
+      "height": 160
+    }
   ],
   "structuralElements": [
-    { "type": "nurseStation", "x": 95, "y": 165, "width": 50, "height": 30, "label": "NS-A" },
-    { "type": "nurseStation", "x": 295, "y": 165, "width": 50, "height": 30, "label": "NS-B" },
-    { "type": "nurseStation", "x": 515, "y": 165, "width": 50, "height": 30, "label": "NS-C" },
-    { "type": "nurseStation", "x": 695, "y": 165, "width": 50, "height": 30, "label": "NS-D" },
-    { "type": "nurseStation", "x": 115, "y": 345, "width": 50, "height": 30, "label": "NS-E" },
-    { "type": "nurseStation", "x": 325, "y": 345, "width": 50, "height": 30, "label": "NS-F" },
-    { "type": "nurseStation", "x": 515, "y": 345, "width": 50, "height": 30, "label": "NS-G" },
-    { "type": "nurseStation", "x": 695, "y": 345, "width": 50, "height": 30, "label": "NS-H" },
-    { "type": "landmark", "x": 380, "y": 40, "width": 160, "height": 100, "label": "Main Lobby" },
-    { "type": "landmark", "x": 40, "y": 40, "width": 140, "height": 100, "label": "Imaging" },
-    { "type": "landmark", "x": 740, "y": 40, "width": 140, "height": 100, "label": "Pharmacy" }
+    {
+      "type": "nurseStation",
+      "x": 95,
+      "y": 165,
+      "width": 50,
+      "height": 30,
+      "label": "NS-A"
+    },
+    {
+      "type": "nurseStation",
+      "x": 295,
+      "y": 165,
+      "width": 50,
+      "height": 30,
+      "label": "NS-B"
+    },
+    {
+      "type": "nurseStation",
+      "x": 515,
+      "y": 165,
+      "width": 50,
+      "height": 30,
+      "label": "NS-C"
+    },
+    {
+      "type": "nurseStation",
+      "x": 695,
+      "y": 165,
+      "width": 50,
+      "height": 30,
+      "label": "NS-D"
+    },
+    {
+      "type": "nurseStation",
+      "x": 115,
+      "y": 345,
+      "width": 50,
+      "height": 30,
+      "label": "NS-E"
+    },
+    {
+      "type": "nurseStation",
+      "x": 325,
+      "y": 345,
+      "width": 50,
+      "height": 30,
+      "label": "NS-F"
+    },
+    {
+      "type": "nurseStation",
+      "x": 515,
+      "y": 345,
+      "width": 50,
+      "height": 30,
+      "label": "NS-G"
+    },
+    {
+      "type": "nurseStation",
+      "x": 695,
+      "y": 345,
+      "width": 50,
+      "height": 30,
+      "label": "NS-H"
+    },
+    {
+      "type": "landmark",
+      "x": 380,
+      "y": 40,
+      "width": 160,
+      "height": 100,
+      "label": "Main Lobby"
+    },
+    {
+      "type": "landmark",
+      "x": 40,
+      "y": 40,
+      "width": 140,
+      "height": 100,
+      "label": "Imaging"
+    },
+    {
+      "type": "landmark",
+      "x": 740,
+      "y": 40,
+      "width": 140,
+      "height": 100,
+      "label": "Pharmacy"
+    }
   ]
 }

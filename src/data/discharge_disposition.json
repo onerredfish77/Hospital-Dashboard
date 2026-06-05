@@ -1,32 +1,124 @@
 {
   "summary": {
-    "totalPendingDischarges": 21,
-    "targetDischargesByNoon": 14,
-    "dischargedToday": 21
+    "totalPendingDischarges": 63,
+    "targetDischargesByNoon": 42,
+    "dischargedToday": 63
   },
   "byDisposition": [
-    { "disposition": "Home", "count": 7, "avgDelayHours": 1.2 },
-    { "disposition": "Home Health", "count": 3, "avgDelayHours": 2.4 },
-    { "disposition": "SNF", "count": 8, "avgDelayHours": 6.5 },
-    { "disposition": "Rehab", "count": 2, "avgDelayHours": 3.8 },
-    { "disposition": "Transfer", "count": 1, "avgDelayHours": 2.0 },
-    { "disposition": "AMA", "count": 0, "avgDelayHours": 0 }
+    {
+      "disposition": "Home",
+      "count": 21,
+      "avgDelayHours": 1.2
+    },
+    {
+      "disposition": "Home Health",
+      "count": 9,
+      "avgDelayHours": 2.4
+    },
+    {
+      "disposition": "SNF",
+      "count": 24,
+      "avgDelayHours": 6.5
+    },
+    {
+      "disposition": "Rehab",
+      "count": 6,
+      "avgDelayHours": 3.8
+    },
+    {
+      "disposition": "Transfer",
+      "count": 3,
+      "avgDelayHours": 2
+    },
+    {
+      "disposition": "AMA",
+      "count": 0,
+      "avgDelayHours": 0
+    }
   ],
   "barriers": [
-    { "barrierType": "SNF Placement", "affectedPatients": 8, "avgDelayHours": 6.5 },
-    { "barrierType": "Transportation", "affectedPatients": 5, "avgDelayHours": 2.8 },
-    { "barrierType": "Medication Reconciliation", "affectedPatients": 4, "avgDelayHours": 1.6 },
-    { "barrierType": "Family Meeting Pending", "affectedPatients": 3, "avgDelayHours": 4.2 },
-    { "barrierType": "Insurance Authorization", "affectedPatients": 2, "avgDelayHours": 5.5 }
+    {
+      "barrierType": "SNF Placement",
+      "affectedPatients": 24,
+      "avgDelayHours": 6.5
+    },
+    {
+      "barrierType": "Transportation",
+      "affectedPatients": 15,
+      "avgDelayHours": 2.8
+    },
+    {
+      "barrierType": "Medication Reconciliation",
+      "affectedPatients": 12,
+      "avgDelayHours": 1.6
+    },
+    {
+      "barrierType": "Family Meeting Pending",
+      "affectedPatients": 9,
+      "avgDelayHours": 4.2
+    },
+    {
+      "barrierType": "Insurance Authorization",
+      "affectedPatients": 6,
+      "avgDelayHours": 5.5
+    }
   ],
   "byUnit": [
-    { "unitId": "ED", "unitName": "Emergency Department", "pendingDischarges": 0, "ordersPlaced": 0, "notYetExecuted": 0 },
-    { "unitId": "ICU", "unitName": "Intensive Care Unit", "pendingDischarges": 2, "ordersPlaced": 2, "notYetExecuted": 1 },
-    { "unitId": "MED1", "unitName": "Medical Unit 1", "pendingDischarges": 5, "ordersPlaced": 5, "notYetExecuted": 4 },
-    { "unitId": "MED2", "unitName": "Medical Unit 2", "pendingDischarges": 4, "ordersPlaced": 4, "notYetExecuted": 2 },
-    { "unitId": "SURG1", "unitName": "Surgical Unit 1", "pendingDischarges": 3, "ordersPlaced": 3, "notYetExecuted": 2 },
-    { "unitId": "SURG2", "unitName": "Surgical Unit 2", "pendingDischarges": 2, "ordersPlaced": 2, "notYetExecuted": 2 },
-    { "unitId": "PEDS", "unitName": "Pediatrics", "pendingDischarges": 2, "ordersPlaced": 2, "notYetExecuted": 1 },
-    { "unitId": "OB", "unitName": "Obstetrics", "pendingDischarges": 3, "ordersPlaced": 3, "notYetExecuted": 1 }
+    {
+      "unitId": "ED",
+      "unitName": "Emergency Department",
+      "pendingDischarges": 0,
+      "ordersPlaced": 0,
+      "notYetExecuted": 0
+    },
+    {
+      "unitId": "ICU",
+      "unitName": "Intensive Care Unit",
+      "pendingDischarges": 6,
+      "ordersPlaced": 6,
+      "notYetExecuted": 3
+    },
+    {
+      "unitId": "MED1",
+      "unitName": "Medical Unit 1",
+      "pendingDischarges": 15,
+      "ordersPlaced": 15,
+      "notYetExecuted": 12
+    },
+    {
+      "unitId": "MED2",
+      "unitName": "Medical Unit 2",
+      "pendingDischarges": 12,
+      "ordersPlaced": 12,
+      "notYetExecuted": 6
+    },
+    {
+      "unitId": "SURG1",
+      "unitName": "Surgical Unit 1",
+      "pendingDischarges": 9,
+      "ordersPlaced": 9,
+      "notYetExecuted": 6
+    },
+    {
+      "unitId": "SURG2",
+      "unitName": "Surgical Unit 2",
+      "pendingDischarges": 6,
+      "ordersPlaced": 6,
+      "notYetExecuted": 6
+    },
+    {
+      "unitId": "PEDS",
+      "unitName": "Pediatrics",
+      "pendingDischarges": 6,
+      "ordersPlaced": 6,
+      "notYetExecuted": 3
+    },
+    {
+      "unitId": "OB",
+      "unitName": "Obstetrics",
+      "pendingDischarges": 9,
+      "ordersPlaced": 9,
+      "notYetExecuted": 3
+    }
   ]
 }
